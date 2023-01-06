@@ -1,5 +1,5 @@
 # ** Note: 
-## Projects of Big Data for Healthcare in Private of Github.
+## Projects of Big Data for Healthcare in Private repository (github).
 ## (please contact me if interested)
 
 ### 1. Spark (Scala)
