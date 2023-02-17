@@ -1,6 +1,5 @@
 # ** Note: 
 ## Projects of Big Data for Healthcare are in Private repository (github).
-## (please contact me if interested)
 
 ### 1. Spark (Scala)
 ### 2. Hadoop (Pig/Hive)
