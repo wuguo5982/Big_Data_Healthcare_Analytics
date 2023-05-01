@@ -1,5 +1,5 @@
 # ** Note: 
-## Big Projects of large Dataset for Healthcare are in Private repository (github).
+## Big Projects of large Dataset for Healthcare Analytics are in Private repository (github).
 
 ### 1. Spark (Scala);
 ### 2. Hadoop (Pig/Hive);
