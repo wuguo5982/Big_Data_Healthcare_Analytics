@@ -1,5 +1,5 @@
 # ** Note: 
-## Big projects of big Data for advanced Healthcare Analytics are in Private repository (github).
+## Another several projects of big Data for advanced Healthcare Analytics are in Private repository (github).
 
 ### 1. Built various Machine Learning models for large EHR/EMR datasets analytics;
 ### 2. Used Hadoop (Pig/Hive) methods;
