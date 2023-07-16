@@ -3,8 +3,8 @@
     The Contents of Big Data for Healthcare (from Georgia Tech course BD4H) are belows:
     
     1. Pandas for models (Logitic/SVM/Decision Tree/AdaBoost) <br />
-    **2. Hadoop for models (Mapper and Reducer, pig/hive for ETL)**  <br />
-    **3. Spark for models (RDD/scala for K-Means/GMM, MLLib/GraphX)** <br />
+    2. **Hadoop for models (Mapper and Reducer, pig/hive for ETL)<br />**
+    3. **Spark for models (RDD/scala for K-Means/GMM, MLLib/GraphX)** <br />
     4. Deep Learning for models (DNN/CNN/RNN).
 <br>
 <br>
