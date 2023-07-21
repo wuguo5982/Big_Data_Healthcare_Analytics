@@ -1,5 +1,5 @@
 # **Note:** 
-### Another several projects (big Data for advanced Healthcare Analytics) are in Private repository (github).
+### Another several projects (Big data for advanced Healthcare Analytics) are in Private repository (github).
     The Contents of Big Data for Healthcare (from Georgia Tech course BD4H) are belows:
     
         1. Pandas for models (Logitic/SVM/Decision Tree/AdaBoost)
