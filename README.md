@@ -1,6 +1,6 @@
 # **Note:** 
 ### Another several projects (Big data for advanced Healthcare Analytics) are in Private repository (github).
-    The Contents of Big Data for Healthcare (from Georgia Tech course BD4H) are belows:
+    The Contents of Big Data for Healthcare (BD4H) are belows:
     
         1. Pandas for models (Logitic/SVM/Decision Tree/AdaBoost)
         2. Hadoop for models (Mapper/Reducer, pig/hive for ETL)
