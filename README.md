@@ -1,7 +1,7 @@
 ## Applied ML/DL/NLP/LLMs for clinical healthcare data analysis. 
         1. Machine Learning
         2. Deep Learning
-        3. NLP and LLMs 
+        3. NLP and LLMs (medical)
 
 <br>
 
