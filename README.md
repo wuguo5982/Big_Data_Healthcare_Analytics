@@ -2,6 +2,7 @@
         1. Machine Learning
         2. Deep Learning
         3. NLP and LLMs (medical)
+        4. YOLOv8 Instant Segmentation (medical tissues)
 
 <br>
 
