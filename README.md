@@ -1,8 +1,8 @@
 ## Applied ML/DL/NLP/LLMs for clinical healthcare data analysis. 
-        1. Machine Learning
-        2. Deep Learning & Compute Vision (medical images)
-        3. NLP and LLMs (medical textual)
-        4. YOLOv8 Instant Segmentation (medical images of tissues)
+        #### 1. Machine Learning
+        #### 2. Deep Learning & Compute Vision (medical images)
+        #### 3. NLP and LLMs (medical textual)
+        #### 4. YOLOv8 Instant Segmentation (medical images of tissues)
 
 <br>
 
