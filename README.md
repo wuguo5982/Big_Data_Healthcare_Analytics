@@ -4,5 +4,9 @@
 3. Computer vision
 4. NLP and LLMs
 5. MLOps
-<br />
-## Note: For details of several important projects related to large Healthcare datasets, please see private github.
+
+### Note: For details of several important projects related to large Healthcare datasets, please see my private github.
+1. Hadoop (MapReduce/HIVE/Pig)
+2. Spark
+3. MLlib
+4. And more...
