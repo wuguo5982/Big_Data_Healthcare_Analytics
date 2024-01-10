@@ -5,7 +5,7 @@
 4. NLP and LLMs
 5. MLOps
 
-### Note: For details of several important projects related to large Healthcare datasets, please see my private github.
+### Note: For details of important projects related to large Healthcare datasets, please see my private github.
 Datasets: Electronic Health Record (EHR), Elentronic Medical Record (EMR), and others
 1. Hadoop (MapReduce/HIVE/Pig)
 2. Spark
