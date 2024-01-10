@@ -5,4 +5,4 @@
 4. NLP and LLMs
 5. MLOps
 <br />
-##**Note**: For big projects related to Healthcare, see private github.
+**Note**: For big projects related to Healthcare, see private github.
