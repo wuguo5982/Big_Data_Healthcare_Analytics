@@ -5,8 +5,8 @@
 4. NLP and LLMs
 5. MLOps
 
-### Note: If you're interested in the details of important projects involving large Healthcare datasets, 
-### please refer to my private github repository (Big Data for Healthcare).
+### Note: If you're interested in the details of important projects involving large Healthcare
+### datasets, please refer to my private github repository (Big Data for Healthcare).
 1. Data sources: <br>
    Include Electronic Health Record (EHR), Electronic Medical Record (EMR), and others relevant sources.
 3. Project objectives:    
