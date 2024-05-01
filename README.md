@@ -8,7 +8,7 @@
 ### Note: If you're interested in the details of important projects involving large Healthcare
 ### datasets, please refer to my private github repository (Big Data for Healthcare).
 1. Data sources: <br>
-   Include Electronic Health Record (EHR), Electronic Medical Record (EMR), and others relevant sources.
+   Include Electronic Health Record (EHR), clinical dataset, and others relevant sources.
 3. Project objectives:    
    a). Predict mortality risk using various methods. <br> 
    b). Identify diseases, incluing different types of Diabetes. <br>
