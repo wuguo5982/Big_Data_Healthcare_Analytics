@@ -1,4 +1,4 @@
-## Projects of Healthcare areas and related ML/AI:
+## Projects of Healthcare and related ML/AI:
 1. Machine learning models
 2. Deep Learning
 3. Computer vision
