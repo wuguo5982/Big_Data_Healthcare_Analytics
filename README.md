@@ -11,7 +11,7 @@
    Include Electronic Health Record (EHR), clinical dataset, and others relevant sources.
 3. Project objectives:    
    a). Predict mortality risk using various methods. <br> 
-   b). Identify diseases, incluing different types of Diabetes. <br>
+   b). Identify diseases, including different types of Diabetes. <br>
 4. Data engineering: <br>
    (a). Utilize Hadoop (including MapReduce, HIVE, and Pig). <br>
    (b). Leverage Apache Spark (Scala, RDD). <br>
