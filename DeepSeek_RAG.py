@@ -2,14 +2,15 @@
 # Visit: https://ollama.com/download
 # Choose the version for your OS (Windows), Install it locally
 # ollama pull deepseek-r1:1.5b
+# Need install streamlit, langchain_core, langchain_community, langchain_ollama, pdfplumber
 
 import os
 import streamlit as st
 from langchain_community.document_loaders import PDFPlumberLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.vectorstores import InMemoryVectorStore
-from langchain_ollama import OllamaEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_ollama import OllamaEmbeddings
 from langchain_ollama.llms import OllamaLLM
 
 # --- Patient-Friendly Styling ---
