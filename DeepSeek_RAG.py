@@ -1,4 +1,6 @@
-## 1. Download and Install Ollama
+## Project: AI-Powered Medical Assistant with DeepSeek and RAG 
+
+## 1. Download and Ollama
 # Visit: https://ollama.com/download
 # Choose the version for your OS (Windows), Install it locally
 # ollama pull deepseek-r1:1.5b
