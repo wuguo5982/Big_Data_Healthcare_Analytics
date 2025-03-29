@@ -58,7 +58,7 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 
 ---
 
-#### 5. End-to-End MLOps Pipelines (see CI/CD parts)
+#### 5. End-to-End MLOps Pipelines (see CI/CD section)
 - Automated ML lifecycle with CI/CD integration  
 - Model tracking, versioning, and reproducibility with tools like MLflow  
 - Scalable deployment using containerization and cloud orchestration
