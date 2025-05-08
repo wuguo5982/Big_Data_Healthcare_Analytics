@@ -16,7 +16,7 @@ It supports CI/CD with GitHub Actions and can be containerized via Docker.
 
 ### Project Structure
 
-![image](https://github.com/user-attachments/assets/2de726ac-f744-4710-aedf-7b170357cb42)
+<img src="https://github.com/user-attachments/assets/e5afa402-cb61-4002-a62a-373ab847860a" width="75%"/>
 
 
 ### Environment Setup
