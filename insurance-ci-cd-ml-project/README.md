@@ -16,24 +16,7 @@ It supports CI/CD with GitHub Actions and can be containerized via Docker.
 
 ### Project Structure
 
-
-insurance-ci-cd-ml-project/
-├── main.py                      # Entry point for FastAPI + Flask
-├── Dockerfile                   # Docker image configuration
-├── requirements.txt             # Required Python packages
-├── insurance.csv                # Training dataset
-├── prediction_model/
-│   ├── pipeline.py              # ML pipeline definition
-│   ├── training_pipeline.py     # Script to train and save model
-│   └── trained_model.joblib     # Saved trained pipeline
-├── templates/
-│   └── index.html               # HTML interface for user input
-├── tests/
-│   └── test_prediction.py       # Unit tests
-└── .github/
-    └── workflows/
-        └── docker-ci.yml        # GitHub Actions for CI/CD
-
+![image](https://github.com/user-attachments/assets/2de726ac-f744-4710-aedf-7b170357cb42)
 
 
 ### Environment Setup
