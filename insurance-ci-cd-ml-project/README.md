@@ -37,7 +37,7 @@ Access the application:
 - **API POST endpoint: http://localhost:8000/fastapi/predict
 
 ### Web Input Fields (HTML Form)
-![alt text](image.png)
+<img src="image.png" alt="alt text" width="50%">
 
 ### Unit Testing
 pytest
