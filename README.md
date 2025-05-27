@@ -1,10 +1,10 @@
-## ☘️ Projects in Healthcare and Applied ML/AI
+## Projects in Healthcare and Applied ML/AI
 
-This repository showcases a diverse set of machine learning and AI projects applied to the healthcare domain. The focus is on leveraging real-world datasets for predictive analytics, disease diagnosis, medical imaging, and scalable deployment through modern MLOps practices.
+This repository showcases a diverse set of machine learning and AI projects applied to the healthcare domain. The focus is on leveraging real-world datasets for predictive analytics, disease diagnosis, medical imaging, insurance cost estimation, and scalable deployment through modern MLOps practices.
 
 ---
 
-### 🤖 Domain Coverage
+### Domain Coverage
 
 These projects span a wide range of healthcare challenges, including:
 
@@ -16,7 +16,7 @@ These projects span a wide range of healthcare challenges, including:
 
 ---
 
-### 🗂️ Data Sources
+### Data Sources
 
 Projects utilize a blend of structured and unstructured healthcare datasets, such as:
 
@@ -28,7 +28,7 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 
 ---
 
-### 🔍 Key Project Areas
+### Key Project Areas
 
 #### 1. Classical Machine Learning Applications
 - **Cancer Classification** – Binary classification for malignant vs. benign tumors  
@@ -63,13 +63,13 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 <img src="https://github.com/user-attachments/assets/e5afa402-cb61-4002-a62a-373ab847860a" width="75%"/>
 
 
-- Automated ML lifecycle with CI/CD integration  
+- Automated ML lifecycle with CI/CD pipelines and airflow  
 - Model tracking, versioning, and reproducibility with tools like MLflow  
 - Scalable deployment using containerization and cloud orchestration
 
 ---
 
-### 🎯 Project Objectives
+### Project Objectives
 
 - **Mortality Risk Prediction**  
   Building and evaluating ensemble models to predict short- and long-term patient outcomes
@@ -83,13 +83,13 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 ---
 
 
-### 📌 Access Note
+### Access Note
 
 For detailed, large-scale projects involving sensitive or proprietary healthcare datasets, access is available upon request via the private repository:  
 **`Big Data for Healthcare`**
 
 ---
-#### 🏗️ Data Engineering & Scalable Processing
+#### Data Engineering & Scalable Processing
 
 - **Hadoop Ecosystem**  
   - Tools: MapReduce, Hive, Pig  
