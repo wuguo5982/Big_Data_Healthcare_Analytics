@@ -16,7 +16,7 @@ These projects span a wide range of healthcare challenges, including:
 
 ---
 
-### Data Sources
+### Data Sources Used:
 
 Projects utilize a blend of structured and unstructured healthcare datasets, such as:
 
@@ -28,7 +28,7 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 
 ---
 
-### Key Project Areas
+### Key Project Areas Involved:
 
 #### 1. Classical Machine Learning Applications
 - **Cancer Classification** – Binary classification for malignant vs. benign tumors  
