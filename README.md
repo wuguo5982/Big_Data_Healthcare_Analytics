@@ -37,28 +37,17 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 
 ---
 
-#### 2. Regression Modeling
-- **Insurance Cost Prediction** – Multivariate Linear regression models for estimating medical expenses  
-- **BMI & Health Risk Estimation** – Predictive modeling from public health surveys
 
----
-
-#### 3. Deep Learning & Medical Imaging
-- **COVID-19 X-ray Diagnosis** – CNN-based classification using VGG, DenseNet, Inception  
-- **Medical Image Segmentation** – Semantic/instance segmentation with U-Net (2D/3D)  
-- **Brain Tumor Detection (MRI)** – Region detection using ResNet  
-- **Tissue Segmentation** – Object detection and instance segmentation via YOLOv8
-
----
-
-#### 4. NLP & Large Language Models (LLMs)
-- **Information Retrieval (RAG)** – Semantic search across medical content using vector databases and transformer-based embeddings  
+#### 2. NLP & Large Language Models (LLMs)
+- **Information Retrieval (RAG)** – Semantic search across medical content using vector databases and transformer-based embeddings
+- **FineTuning** - PEFT(LoRA), RoLA, and OpenAI fine-Tuning for clinical note classification   
 - **Medical Transcription Processing** – Text summarization and translation using T5 and `AutoModelForSeq2SeqLM`  
-- **Symptom-based Consultation** – Conversational agents for medical Q&A 
+- **Symptom-based Consultation** – Conversational agents for medical Q&A
+- **Agentic AI** - Build healthcare assistant with multimodal (Gradio)  
 
 ---
 
-#### 5. End-to-End MLOps Pipelines (Medical Insurance Cost Prediction)
+#### 3. End-to-End MLOps Pipelines (Medical Insurance Cost Prediction)
 
 <img src="https://github.com/user-attachments/assets/e5afa402-cb61-4002-a62a-373ab847860a" width="60%"/>
 
@@ -68,6 +57,22 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 - Scalable deployment using containerization and cloud orchestration
 
 ---
+
+#### 4. Deep Learning & Medical Imaging
+- **COVID-19 X-ray Diagnosis** – CNN-based classification using VGG, DenseNet, Inception  
+- **Medical Image Segmentation** – Semantic/instance segmentation with U-Net (2D/3D)  
+- **Brain Tumor Detection (MRI)** – Region detection using ResNet  
+- **Tissue Segmentation** – Object detection and instance segmentation via YOLOv8
+
+---
+
+
+#### 5. Regression Modeling
+- **Insurance Cost Prediction** – Multivariate Linear regression models for estimating medical expenses  
+- **BMI & Health Risk Estimation** – Predictive modeling from public health surveys
+
+---
+
 
 ### Project Objectives
 
