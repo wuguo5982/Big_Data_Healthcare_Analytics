@@ -43,7 +43,7 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 - **FineTuning** - PEFT(LoRA), RoLA, and OpenAI fine-Tuning for clinical note classification   
 - **Medical Transcription Processing** – Text summarization and translation using T5 and `AutoModelForSeq2SeqLM`  
 - **Symptom-based Consultation** – Conversational agents for medical Q&A
-- **Agentic AI** - Build healthcare assistant with multimodal (Gradio)  
+- **Agentic AI** - Build healthcare assistant with multimodal (text/image/chatbot)  
 
 ---
 
