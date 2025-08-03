@@ -182,5 +182,7 @@ Output Artifacts:
 The final model is lightweight, memory-efficient, and production-ready for clinical NLP applications.
 
 Note:
-While leveraging a larger foundation model like **LLaMA 3.1** would potentially yield superior performance and generalization, this project uses `bert-base-uncased` as the base model due to constraints in local hardware resources.
+While leveraging a larger foundation model like **LLaMA 3.1** would potentially yield superior performance and generalization, 
+this project uses `bert-base-uncased` as the base model due to constraints in local hardware resources.
 """
+
