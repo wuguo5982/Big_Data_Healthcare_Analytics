@@ -120,7 +120,7 @@ Does the doctor note support this billed procedure?
 
 This project is for education, portfolio, and prototype development. It does **not** make legal or final fraud determinations. A real production system must use approved data governance, HIPAA controls, model validation, audit logging, access control, human review, and compliance sign-off.
 
-## Level 2 Interview Demo UI
+## Improvement
 
 This final version includes a stronger Flask demo interface:
 
