@@ -11,7 +11,7 @@ The system integrates:
 - Basic model explainability using coefficient analysis
 - A Streamlit-based interactive user interface
 - A FastAPI service for API access
-- A multi-agent framework (Agno) for structured reasoning and orchestration
+- A **multi-agent framework (Agno)** for structured reasoning and orchestration
 
 
 Important
