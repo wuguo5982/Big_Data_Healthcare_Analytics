@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+    <title>CMS FWA Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<main class="app">
+    <section class="sidebar">
+        <h2>CMS FWA AI</h2>
+        <p>Multi-Agent RAG + Claims Anomaly Detection</p>
+
+        <button onclick="quickAsk('Which providers are most suspicious?')">Top suspicious providers</button>
+        <button onclick="quickAsk('Show duplicate billing risks')">Duplicate billing</button>
+        <button onclick="quickAsk('Show DME fraud risks')">DME risks</button>
+        <button onclick="quickAsk('Explain CMS FWA policy')">FWA policy</button>
+
+        <hr>
+        <p class="small">This system flags potential FWA risk only. Human review is required.</p>
+    </section>
+
+    <section class="chat-panel">
+        <h1>CMS FWA Multi-Agent RAG Chatbot</h1>
+        <p class="subtitle">ChatGPT-style investigation assistant with structured provider ranking, risk chart, and drill-down review.</p>
+
+        <div id="chatBox" class="chat-box"></div>
+
+        <div class="input-row">
+            <textarea id="msg" rows="3" placeholder="Ask about suspicious providers, claim review, duplicate billing, DME risks, or FWA policy...">Which providers are most suspicious?</textarea>
+            <button onclick="send()">Analyze</button>
+        </div>
+    </section>
+</main>
+
+<script>
+function escapeHtml(value) {
+    if (value === null || value === undefined) return "";
+    return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+}
+
+function addMessage(role, content) {
+    const chatBox = document.getElementById("chatBox");
+    const bubble = document.createElement("div");
+    bubble.className = role === "user" ? "bubble user" : "bubble assistant";
+    bubble.innerHTML = content;
+    chatBox.appendChild(bubble);
+    chatBox.scrollTop = chatBox.scrollHeight;
+    return bubble;
+}
+
+function quickAsk(text) {
+    document.getElementById("msg").value = text;
+    send();
+}
+
+function renderProviderTable(providers) {
+    if (!providers || providers.length === 0) return "";
+
+    let html = `
+        <h3>High-Risk Provider Ranking</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Provider</th>
+                    <th>Risk Level</th>
+                    <th>Score</th>
+                    <th>Claims</th>
+                    <th>Paid Amount</th>
+                    <th>Top Reasons</th>
+                    <th>Drill Down</th>
+                </tr>
+            </thead>
+            <tbody>
+    `;
+
+    providers.forEach(p => {
+        const riskClass = escapeHtml((p.risk_level || "medium").toLowerCase());
+        html += `
+            <tr>
+                <td>${escapeHtml(p.provider_id)}</td>
+                <td><span class="risk ${riskClass}">${escapeHtml(p.risk_level)}</span></td>
+                <td>${escapeHtml(p.score)}</td>
+                <td>${escapeHtml(p.claims)}</td>
+                <td>$${escapeHtml(p.paid_amount)}</td>
+                <td>${escapeHtml(p.reasons)}</td>
+                <td><button class="small-btn" onclick="drillDown('${escapeHtml(p.provider_id)}')">View</button></td>
+            </tr>
+        `;
+    });
+
+    html += "</tbody></table>";
+    return html;
+}
+
+function renderChart(providers) {
+    if (!providers || providers.length === 0) return "";
+
+    const chartId = "chart_" + Date.now();
+
+    setTimeout(() => {
+        const ctx = document.getElementById(chartId);
+        if (!ctx || typeof Chart === "undefined") return;
+        new Chart(ctx, {
+            type: "bar",
+            data: {
+                labels: providers.map(p => p.provider_id),
+                datasets: [{
+                    label: "FWA Risk Score",
+                    data: providers.map(p => Number(p.score))
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { display: true } },
+                scales: { y: { beginAtZero: true, max: 1 } }
+            }
+        });
+    }, 100);
+
+    return `<h3>Risk Score Chart</h3><canvas id="${chartId}"></canvas>`;
+}
+
+async function send() {
+    const message = document.getElementById("msg").value;
+    if (!message.trim()) return;
+
+    addMessage("user", escapeHtml(message));
+    const loadingBubble = addMessage("assistant", "Analyzing CMS claims, RAG evidence, and provider risk signals...");
+
+    try {
+        const response = await fetch("/chat", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({message: message})
+        });
+
+        const j = await response.json();
+        if (!response.ok) {
+            loadingBubble.innerHTML = "Error: " + escapeHtml(j.error || response.statusText);
+            return;
+        }
+
+        let html = `
+            <div class="summary">
+                <h3>AI Investigation Summary</h3>
+                <pre class="answer-text">${escapeHtml(j.answer || "No answer returned.")}</pre>
+                <p><b>Confidence:</b> ${escapeHtml(j.confidence ?? "N/A")}</p>
+                <p><b>Grounding:</b> ${escapeHtml(j.grounding_status ?? "N/A")}</p>
+                <p><b>Citations:</b> ${escapeHtml(j.citations ?? "N/A")}</p>
+            </div>
+        `;
+
+        html += renderProviderTable(j.providers);
+        html += renderChart(j.providers);
+
+        loadingBubble.innerHTML = html;
+
+    } catch (error) {
+        loadingBubble.innerHTML = "Frontend error: " + escapeHtml(error);
+        console.error(error);
+    }
+}
+
+async function drillDown(providerId) {
+    addMessage("user", "Drill down provider " + escapeHtml(providerId));
+    const loadingBubble = addMessage("assistant", "Loading provider-level evidence...");
+
+    try {
+        const response = await fetch("/provider/" + encodeURIComponent(providerId));
+        const j = await response.json();
+
+        if (!response.ok) {
+            loadingBubble.innerHTML = "Drill-down error: " + escapeHtml(j.error || response.statusText);
+            return;
+        }
+
+        let html = `
+            <h3>Provider Drill-Down: ${escapeHtml(providerId)}</h3>
+            <p><b>Risk Level:</b> ${escapeHtml(j.risk_level)}</p>
+            <p><b>Risk Score:</b> ${escapeHtml(j.score)}</p>
+            <p><b>Total Claims:</b> ${escapeHtml(j.claims)}</p>
+            <p><b>Total Paid:</b> $${escapeHtml(j.paid_amount)}</p>
+            <p><b>Main Risk Drivers:</b> ${escapeHtml(j.reasons)}</p>
+
+            <h4>Suspicious Claim Examples</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Claim ID</th>
+                        <th>Beneficiary</th>
+                        <th>Code</th>
+                        <th>Paid</th>
+                        <th>Flag</th>
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+
+        (j.claim_examples || []).forEach(c => {
+            html += `
+                <tr>
+                    <td>${escapeHtml(c.claim_id)}</td>
+                    <td>${escapeHtml(c.beneficiary_id)}</td>
+                    <td>${escapeHtml(c.procedure_code)}</td>
+                    <td>$${escapeHtml(c.paid_amount)}</td>
+                    <td>${escapeHtml(c.flag)}</td>
+                </tr>
+            `;
+        });
+
+        html += `
+                </tbody>
+            </table>
+            <p class="note">Compliance note: This is not a final fraud determination. It is a prioritized review signal.</p>
+        `;
+
+        loadingBubble.innerHTML = html;
+
+    } catch (error) {
+        loadingBubble.innerHTML = "Drill-down error: " + escapeHtml(error);
+    }
+}
+</script>
+</body>
+</html>

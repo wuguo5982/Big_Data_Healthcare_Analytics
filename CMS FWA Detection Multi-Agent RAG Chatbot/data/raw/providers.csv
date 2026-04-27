@@ -1,0 +1,61 @@
+provider_id,npi,provider_name,specialty,state,risk_region
+P0001,1999100000,Provider Group 1,Oncology,GA,high
+P0002,1999100001,Provider Group 2,Home Health,FL,low
+P0003,1999100002,Provider Group 3,Primary Care,OH,low
+P0004,1999100003,Provider Group 4,Oncology,CA,medium
+P0005,1999100004,Provider Group 5,Cardiology,GA,low
+P0006,1999100005,Provider Group 6,DME Supplier,FL,high
+P0007,1999100006,Provider Group 7,Cardiology,CA,low
+P0008,1999100007,Provider Group 8,Lab,FL,medium
+P0009,1999100008,Provider Group 9,Home Health,NC,low
+P0010,1999100009,Provider Group 10,Primary Care,OH,medium
+P0011,1999100010,Provider Group 11,Hospice,TX,low
+P0012,1999100011,Provider Group 12,DME Supplier,NC,medium
+P0013,1999100012,Provider Group 13,Oncology,GA,medium
+P0014,1999100013,Provider Group 14,Oncology,TX,medium
+P0015,1999100014,Provider Group 15,Home Health,NC,low
+P0016,1999100015,Provider Group 16,Pain Management,CA,low
+P0017,1999100016,Provider Group 17,Lab,GA,high
+P0018,1999100017,Provider Group 18,Home Health,NC,high
+P0019,1999100018,Provider Group 19,Hospice,CA,low
+P0020,1999100019,Provider Group 20,Oncology,GA,high
+P0021,1999100020,Provider Group 21,DME Supplier,NC,medium
+P0022,1999100021,Provider Group 22,Oncology,NC,low
+P0023,1999100022,Provider Group 23,Oncology,NY,medium
+P0024,1999100023,Provider Group 24,Pain Management,OH,medium
+P0025,1999100024,Provider Group 25,Primary Care,TX,medium
+P0026,1999100025,Provider Group 26,DME Supplier,OH,medium
+P0027,1999100026,Provider Group 27,Oncology,CA,high
+P0028,1999100027,Provider Group 28,Primary Care,CA,high
+P0029,1999100028,Provider Group 29,DME Supplier,FL,medium
+P0030,1999100029,Provider Group 30,Lab,TX,high
+P0031,1999100030,Provider Group 31,DME Supplier,OH,medium
+P0032,1999100031,Provider Group 32,Cardiology,FL,low
+P0033,1999100032,Provider Group 33,Hospice,NY,medium
+P0034,1999100033,Provider Group 34,Oncology,FL,high
+P0035,1999100034,Provider Group 35,Hospice,FL,high
+P0036,1999100035,Provider Group 36,Pain Management,NY,high
+P0037,1999100036,Provider Group 37,Pain Management,FL,medium
+P0038,1999100037,Provider Group 38,Primary Care,FL,high
+P0039,1999100038,Provider Group 39,Home Health,OH,high
+P0040,1999100039,Provider Group 40,Lab,CA,medium
+P0041,1999100040,Provider Group 41,Hospice,FL,low
+P0042,1999100041,Provider Group 42,Pain Management,GA,low
+P0043,1999100042,Provider Group 43,Oncology,FL,high
+P0044,1999100043,Provider Group 44,Primary Care,NC,high
+P0045,1999100044,Provider Group 45,Lab,CA,low
+P0046,1999100045,Provider Group 46,Lab,NY,high
+P0047,1999100046,Provider Group 47,Pain Management,CA,medium
+P0048,1999100047,Provider Group 48,Cardiology,OH,high
+P0049,1999100048,Provider Group 49,Oncology,OH,high
+P0050,1999100049,Provider Group 50,Home Health,NC,high
+P0051,1999100050,Provider Group 51,Hospice,GA,medium
+P0052,1999100051,Provider Group 52,Lab,FL,medium
+P0053,1999100052,Provider Group 53,Cardiology,OH,high
+P0054,1999100053,Provider Group 54,Home Health,CA,low
+P0055,1999100054,Provider Group 55,Oncology,NC,high
+P0056,1999100055,Provider Group 56,Home Health,NC,high
+P0057,1999100056,Provider Group 57,DME Supplier,FL,medium
+P0058,1999100057,Provider Group 58,Primary Care,CA,high
+P0059,1999100058,Provider Group 59,Cardiology,CA,medium
+P0060,1999100059,Provider Group 60,Pain Management,GA,low

@@ -1,0 +1,8 @@
+code,description
+99213,"Established patient office visit, low/moderate complexity"
+99214,"Established patient office visit, moderate complexity"
+99215,"Established patient office visit, high complexity"
+E0260,"Hospital bed, semi-electric, durable medical equipment"
+E1390,"Oxygen concentrator, durable medical equipment"
+Q5001,Hospice or home health service location
+A0428,"Ambulance service, basic life support, non-emergency"
