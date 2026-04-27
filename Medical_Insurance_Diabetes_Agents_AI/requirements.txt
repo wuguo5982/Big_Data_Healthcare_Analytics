@@ -1,0 +1,15 @@
+agno
+pandas>=2.0
+numpy>=1.24
+streamlit>=1.32
+fastapi>=0.110
+uvicorn>=0.27
+python-dotenv>=1.0
+agno>=1.0
+openai>=1.0
+groq>=0.9
+lancedb>=0.6
+duckduckgo-search>=5.0
+pytest>=8.0
+scikit-learn
+# ddgs

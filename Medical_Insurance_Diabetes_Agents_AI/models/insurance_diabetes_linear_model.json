@@ -1,0 +1,69 @@
+{
+  "model_type": "RidgeLinearRegressionFromScratch",
+  "target": "annual_claim_cost",
+  "numeric_features": [
+    "age",
+    "bmi",
+    "children",
+    "hba1c"
+  ],
+  "categorical_features": [
+    "sex",
+    "smoker",
+    "region",
+    "diabetes",
+    "hypertension"
+  ],
+  "category_levels": {
+    "sex": [
+      "male",
+      "female"
+    ],
+    "smoker": [
+      "yes",
+      "no"
+    ],
+    "region": [
+      "northeast",
+      "northwest",
+      "southeast",
+      "southwest"
+    ],
+    "diabetes": [
+      "yes",
+      "no"
+    ],
+    "hypertension": [
+      "yes",
+      "no"
+    ]
+  },
+  "feature_names": [
+    "intercept",
+    "age",
+    "bmi",
+    "children",
+    "hba1c",
+    "sex__male",
+    "smoker__yes",
+    "region__northeast",
+    "region__northwest",
+    "region__southeast",
+    "diabetes__yes",
+    "hypertension__yes"
+  ],
+  "coefficients": [
+    -4479.605304470197,
+    86.6903612832742,
+    220.97785611076176,
+    526.9337313503381,
+    1368.809699652101,
+    -170.2454413240932,
+    10814.283929818544,
+    181.65489809380114,
+    -141.59862143472216,
+    512.7608035832053,
+    6446.528444030661,
+    4520.125661650082
+  ]
+}

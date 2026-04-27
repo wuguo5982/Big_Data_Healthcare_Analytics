@@ -1,0 +1,9 @@
+{
+  "model_type": "RidgeLinearRegressionFromScratch",
+  "rows": 1200,
+  "train_rows": 960,
+  "test_rows": 240,
+  "mae": 1655.72,
+  "rmse": 2119.32,
+  "r2": 0.9364
+}
