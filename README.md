@@ -8,7 +8,7 @@ This repository showcases a diverse set of machine learning and AI projects appl
 
 These projects span a wide range of healthcare challenges, including:
 
-- Prediction and risk modeling for chronic diseases (e.g., cardiovascular conditions, diabetes, cancer)
+- Prediction and risk modeling for chronic diseases (e.g., cardiovascular conditions, diabetes, cancer, and Medicare/Medicaid (CMS))
 - Medical insurance cost prediction and health survey analytics
 - NLP/LLMs applications for clinical documentation, medical transcription, patient interaction, and medical Q&A
 - Deep learning in medical imaging for classification, segmentation, and anomaly detection
