@@ -1,0 +1,81 @@
+provider_id,provider_specialty,region,avg_claim_amount,monthly_claim_volume,high_complexity_rate,synthetic_provider_risk_score,peer_group_percentile
+P0001,Cardiology,Southwest,321.9,109,0.318,0.354,59.11
+P0002,Home Health,Southwest,36.49,162,0.415,0.22,28.81
+P0003,Emergency Medicine,Northeast,284.67,124,0.062,0.51,67.77
+P0004,Oncology,Southwest,527.41,232,0.497,0.475,76.44
+P0005,Durable Medical Equipment,Southeast,738.62,247,0.586,0.902,85.58
+P0006,Orthopedics,West,419.85,159,0.238,0.133,12.53
+P0007,Pain Management,Midwest,217.24,66,0.196,0.231,12.77
+P0008,Orthopedics,Northeast,754.68,78,0.138,0.331,46.37
+P0009,Pain Management,Southeast,527.35,96,0.115,0.535,46.17
+P0010,Internal Medicine,West,514.62,127,0.118,0.273,32.76
+P0011,Internal Medicine,Midwest,180.16,101,0.183,0.284,38.72
+P0012,Pain Management,Southwest,647.77,164,0.566,0.429,67.65
+P0013,Durable Medical Equipment,Southeast,487.14,153,0.35,0.211,46.18
+P0014,Oncology,Southwest,854.79,279,0.609,0.487,49.59
+P0015,Internal Medicine,West,556.01,225,0.789,0.427,69.13
+P0016,Internal Medicine,Southwest,177.2,173,0.419,0.232,55.69
+P0017,Durable Medical Equipment,Southwest,385.17,87,0.375,0.153,51.29
+P0018,Pain Management,Southwest,700.94,282,0.434,0.599,53.42
+P0019,Home Health,Southeast,351.56,185,0.07,0.224,23.25
+P0020,Cardiology,Northeast,335.1,153,0.103,0.282,25.6
+P0021,Durable Medical Equipment,Southeast,243.94,126,0.262,0.443,50.31
+P0022,Home Health,Southeast,386.53,131,0.141,0.078,47.25
+P0023,Emergency Medicine,Midwest,257.26,109,0.124,0.342,23.63
+P0024,Oncology,Midwest,242.83,104,0.364,0.197,10.55
+P0025,Orthopedics,Midwest,106.98,128,0.085,0.337,6.65
+P0026,Pain Management,Northeast,388.13,47,0.215,0.085,52.96
+P0027,Durable Medical Equipment,Southeast,502.03,88,0.187,0.46,36.96
+P0028,Orthopedics,Southwest,835.17,299,0.607,0.45,87.11
+P0029,Home Health,Northeast,658.38,222,0.491,0.458,65.2
+P0030,Oncology,West,591.63,249,0.706,0.711,55.5
+P0031,Durable Medical Equipment,Southwest,447.54,148,0.115,0.395,69.38
+P0032,Home Health,Midwest,836.34,220,0.478,0.444,85.46
+P0033,Cardiology,Northeast,388.9,114,0.16,0.402,24.06
+P0034,Cardiology,Midwest,266.1,119,0.352,0.598,10.47
+P0035,Emergency Medicine,Midwest,377.85,171,0.161,0.525,41.3
+P0036,Internal Medicine,Northeast,649.45,254,0.398,0.608,55.71
+P0037,Pain Management,Northeast,351.51,141,0.123,0.257,45.79
+P0038,Oncology,West,467.16,82,0.085,0.422,68.34
+P0039,Oncology,Northeast,242.19,142,0.033,0.177,7.94
+P0040,Durable Medical Equipment,Northeast,385.46,70,0.224,0.278,35.47
+P0041,Home Health,Southwest,350.63,122,0.108,0.089,67.01
+P0042,Durable Medical Equipment,Southwest,250.65,106,0.119,0.071,60.39
+P0043,Emergency Medicine,Southwest,427.45,181,0.068,0.385,27.79
+P0044,Emergency Medicine,Midwest,374.02,22,0.085,0.032,66.72
+P0045,Home Health,Northeast,101.91,115,0.048,0.061,13.32
+P0046,Oncology,Southeast,596.61,105,0.152,0.095,23.11
+P0047,Cardiology,Southeast,585.77,121,0.1,0.356,8.97
+P0048,Orthopedics,Northeast,284.33,64,0.506,0.467,53.59
+P0049,Emergency Medicine,Southwest,334.65,77,0.039,0.32,6.3
+P0050,Internal Medicine,West,376.19,160,0.263,0.158,39.91
+P0051,Emergency Medicine,Southwest,244.93,57,0.182,0.432,44.38
+P0052,Oncology,Southwest,304.17,101,0.115,0.23,39.09
+P0053,Durable Medical Equipment,Southwest,280.79,153,0.313,0.309,42.15
+P0054,Cardiology,Southeast,383.57,5,0.143,0.498,42.78
+P0055,Durable Medical Equipment,Midwest,546.75,222,0.729,0.737,81.81
+P0056,Internal Medicine,Midwest,370.37,124,0.155,0.069,56.69
+P0057,Emergency Medicine,Northeast,384.77,213,0.311,0.227,33.54
+P0058,Oncology,Southeast,160.37,120,0.119,0.416,45.58
+P0059,Durable Medical Equipment,Southwest,425.93,222,0.186,0.049,21.15
+P0060,Orthopedics,Southwest,504.44,99,0.158,0.445,46.67
+P0061,Internal Medicine,Midwest,136.55,187,0.262,0.184,37.88
+P0062,Home Health,Northeast,563.86,146,0.18,0.229,44.44
+P0063,Pain Management,Northeast,231.25,114,0.135,0.562,8.56
+P0064,Cardiology,Southwest,452.27,15,0.127,0.496,34.39
+P0065,Pain Management,West,326.37,237,0.447,0.74,40.72
+P0066,Cardiology,Southeast,254.11,112,0.17,0.102,53.75
+P0067,Pain Management,Midwest,346.07,95,0.102,0.307,39.09
+P0068,Home Health,Southeast,384.78,108,0.138,0.063,31.57
+P0069,Home Health,Southwest,436.6,69,0.106,0.285,11.46
+P0070,Internal Medicine,Southeast,847.57,194,0.612,0.853,44.7
+P0071,Oncology,Southeast,287.27,167,0.172,0.464,45.57
+P0072,Orthopedics,Northeast,766.62,238,0.366,0.99,69.79
+P0073,Oncology,Southwest,352.21,135,0.157,0.067,12.65
+P0074,Orthopedics,Midwest,293.7,143,0.27,0.052,64.44
+P0075,Emergency Medicine,Northeast,412.12,87,0.25,0.091,23.77
+P0076,Home Health,Midwest,599.76,106,0.18,0.575,22.05
+P0077,Emergency Medicine,Midwest,487.91,88,0.106,0.172,21.02
+P0078,Oncology,Southwest,138.46,171,0.063,0.289,52.59
+P0079,Oncology,Southeast,641.58,165,0.581,0.602,90.35
+P0080,Home Health,Northeast,485.49,116,0.098,0.354,43.76

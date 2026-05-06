@@ -1,0 +1,38 @@
+[
+  {
+    "rule_id": "R001",
+    "name": "High amount above benchmark",
+    "description": "Claims above the expected procedure benchmark should be reviewed for documentation and pricing support.",
+    "severity": "high"
+  },
+  {
+    "rule_id": "R002",
+    "name": "Rapid repeat billing",
+    "description": "Repeated claims within seven days may indicate duplicate billing, unbundling, or unnecessary utilization.",
+    "severity": "medium"
+  },
+  {
+    "rule_id": "R003",
+    "name": "High prior claim frequency",
+    "description": "Unusually high prior claim volume can indicate waste, abuse, or operational billing errors.",
+    "severity": "medium"
+  },
+  {
+    "rule_id": "R004",
+    "name": "High-risk provider history",
+    "description": "Provider-level outlier history should increase audit priority but must not be treated as final fraud proof.",
+    "severity": "high"
+  },
+  {
+    "rule_id": "R005",
+    "name": "Diagnosis-procedure mismatch",
+    "description": "Procedure and diagnosis combinations should be clinically plausible and supported by documentation.",
+    "severity": "high"
+  },
+  {
+    "rule_id": "R006",
+    "name": "DME necessity",
+    "description": "Durable medical equipment claims require diagnosis support, physician order, and documentation of medical necessity.",
+    "severity": "medium"
+  }
+]

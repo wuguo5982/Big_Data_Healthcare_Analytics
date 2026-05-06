@@ -1,0 +1,17 @@
+# AWS App Runner service configuration reference.
+# This file documents the recommended runtime configuration.
+# App Runner can deploy from the ECR image pushed by GitHub Actions.
+
+version: 1.0
+runtime: docker
+build:
+  commands:
+    build:
+      - echo "Docker image is built in GitHub Actions and pushed to Amazon ECR."
+run:
+  command: streamlit run app/streamlit_app.py --server.address=0.0.0.0 --server.port=8501
+  network:
+    port: 8501
+  env:
+    - name: OPENAI_API_KEY
+      value: "configure-as-secret-in-aws"

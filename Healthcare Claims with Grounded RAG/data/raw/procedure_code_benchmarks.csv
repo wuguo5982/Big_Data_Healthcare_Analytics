@@ -1,0 +1,11 @@
+procedure_code,description,expected_min_amount,expected_max_amount,risk_note
+99213,Office/outpatient established patient visit,80,180,Watch for excessive frequency and diagnosis mismatch.
+99214,Moderate complexity office visit,120,260,Watch for upcoding when documentation does not support complexity.
+99215,High complexity office visit,180,420,High-complexity services require strong documentation and medical necessity.
+G0299,Home health skilled nursing visit,90,240,Repeated home health episodes can require utilization review.
+E1390,Oxygen concentrator equipment,250,850,DME billing requires medical necessity and supporting diagnosis.
+97110,Therapeutic exercises,60,220,High utilization or duplicate therapy billing can trigger review.
+93000,Routine ECG with interpretation,25,120,Repeated ECGs require clinical justification.
+36415,Venipuncture collection,5,45,Low-cost procedure; bundling and repeated billing should be checked.
+J3490,Unclassified drug,50,900,Unclassified drug codes require documentation and pricing support.
+A0428,Non-emergency ambulance transport,150,600,Transport claims require necessity and origin/destination documentation.

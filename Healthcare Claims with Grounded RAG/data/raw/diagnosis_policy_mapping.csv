@@ -1,0 +1,9 @@
+diagnosis_code,diagnosis_description,review_note
+E11.9,Type 2 diabetes mellitus without complications,Check routine chronic-care billing and duplicate visits.
+I10,Essential hypertension,Check office-visit frequency and procedure relevance.
+M54.5,Low back pain,Review therapy/utilization frequency and medical necessity.
+R07.9,"Chest pain, unspecified",ECG or emergency evaluation may be relevant with documentation.
+J44.9,"COPD, unspecified",Oxygen/DME may be relevant if severity documentation supports it.
+Z00.00,General adult medical exam,High complexity or expensive procedures may require additional support.
+C50.919,"Breast cancer, unspecified",Specialty oncology services require diagnosis-treatment alignment.
+N18.9,"Chronic kidney disease, unspecified","Medication, labs, and visit complexity should match documentation."

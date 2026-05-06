@@ -1,0 +1,83 @@
+CMS FWA review principle
+Fraud, waste, and abuse review should combine claim facts, provider history, coding policy, medical necessity documentation, and human compliance review. AI output is a screening aid, not a final fraud determination.
+
+Medical necessity
+Services must be reasonable and necessary for diagnosis or treatment. When documentation does not support medical necessity, the claim should be escalated for manual review rather than automatically denied by an AI system.
+
+Upcoding
+High-complexity evaluation and management codes require documentation supporting complexity, time, decision-making, and patient condition. Upcoding risk increases when a high-complexity code is paired with routine diagnosis context.
+
+Duplicate or rapid repeat billing
+Multiple claims for the same patient, provider, and service in a short time window may indicate duplicate billing, fragmented billing, or unnecessary utilization.
+
+Provider outlier review
+Providers with unusual utilization, high-cost patterns, or high peer percentile should be reviewed using peer benchmarks, specialty context, and documentation evidence.
+
+DME billing support
+Durable medical equipment claims require diagnosis support, physician order, and proof that the equipment is reasonable and necessary.
+
+Ambulance transport
+Non-emergency ambulance transport requires medical necessity, origin and destination support, and evidence that other transportation was contraindicated.
+
+Unclassified drug codes
+Unclassified drug codes require supporting documentation, pricing evidence, dosage details, and clinical rationale.
+
+Human review escalation
+High-risk model scores, anomaly flags, unsupported evidence, safety risks, or weak retrieval should trigger human review. The system should abstain from final accusations.
+
+RAG grounding
+Generated explanations should cite retrieved policy, audit rules, benchmark tables, or clinical-note evidence. Unsupported high-risk claims should be removed or replaced with uncertainty language.
+
+Procedure policy 99213
+Procedure 99213 means Office/outpatient established patient visit. Expected synthetic payment range is 80 to 180. Review note: Watch for excessive frequency and diagnosis mismatch.
+
+Procedure policy 99214
+Procedure 99214 means Moderate complexity office visit. Expected synthetic payment range is 120 to 260. Review note: Watch for upcoding when documentation does not support complexity.
+
+Procedure policy 99215
+Procedure 99215 means High complexity office visit. Expected synthetic payment range is 180 to 420. Review note: High-complexity services require strong documentation and medical necessity.
+
+Procedure policy G0299
+Procedure G0299 means Home health skilled nursing visit. Expected synthetic payment range is 90 to 240. Review note: Repeated home health episodes can require utilization review.
+
+Procedure policy E1390
+Procedure E1390 means Oxygen concentrator equipment. Expected synthetic payment range is 250 to 850. Review note: DME billing requires medical necessity and supporting diagnosis.
+
+Procedure policy 97110
+Procedure 97110 means Therapeutic exercises. Expected synthetic payment range is 60 to 220. Review note: High utilization or duplicate therapy billing can trigger review.
+
+Procedure policy 93000
+Procedure 93000 means Routine ECG with interpretation. Expected synthetic payment range is 25 to 120. Review note: Repeated ECGs require clinical justification.
+
+Procedure policy 36415
+Procedure 36415 means Venipuncture collection. Expected synthetic payment range is 5 to 45. Review note: Low-cost procedure; bundling and repeated billing should be checked.
+
+Procedure policy J3490
+Procedure J3490 means Unclassified drug. Expected synthetic payment range is 50 to 900. Review note: Unclassified drug codes require documentation and pricing support.
+
+Procedure policy A0428
+Procedure A0428 means Non-emergency ambulance transport. Expected synthetic payment range is 150 to 600. Review note: Transport claims require necessity and origin/destination documentation.
+
+Diagnosis policy E11.9
+Diagnosis E11.9 means Type 2 diabetes mellitus without complications. Review note: Check routine chronic-care billing and duplicate visits.
+
+Diagnosis policy I10
+Diagnosis I10 means Essential hypertension. Review note: Check office-visit frequency and procedure relevance.
+
+Diagnosis policy M54.5
+Diagnosis M54.5 means Low back pain. Review note: Review therapy/utilization frequency and medical necessity.
+
+Diagnosis policy R07.9
+Diagnosis R07.9 means Chest pain, unspecified. Review note: ECG or emergency evaluation may be relevant with documentation.
+
+Diagnosis policy J44.9
+Diagnosis J44.9 means COPD, unspecified. Review note: Oxygen/DME may be relevant if severity documentation supports it.
+
+Diagnosis policy Z00.00
+Diagnosis Z00.00 means General adult medical exam. Review note: High complexity or expensive procedures may require additional support.
+
+Diagnosis policy C50.919
+Diagnosis C50.919 means Breast cancer, unspecified. Review note: Specialty oncology services require diagnosis-treatment alignment.
+
+Diagnosis policy N18.9
+Diagnosis N18.9 means Chronic kidney disease, unspecified. Review note: Medication, labs, and visit complexity should match documentation.
