@@ -1,9 +1,5 @@
 
-# Improved Healthcare FWA with Grounded RAG
-
-A final merged, enterprise-style healthcare Fraud, Waste, and Abuse (FWA) analytics project.
-
-This version combines the earlier Streamlit analytics dashboard with the newer production-ready Production interactive API workflow.
+# Improved Healthcare FWA with Grounded RAG (End_to_End)
 
 ---
 
@@ -20,6 +16,7 @@ This project demonstrates how to build an AI-assisted healthcare FWA review-prio
 - hallucination reduction
 - LLM-as-judge evaluation
 - production-style Streamlit UI
+- CI/CD Pipelines 
 
 Important: this project is for educational and analytics demonstration only. It is not a medical diagnosis tool, not a claims denial engine, and not a final fraud determination system.
 
