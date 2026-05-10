@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+vectorstore/*.joblib
+models/*.joblib
+.cache/
+.DS_Store
+
+fwa-env/
+.pytest_cache/
+*.zip

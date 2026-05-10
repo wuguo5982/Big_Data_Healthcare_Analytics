@@ -1,0 +1,17 @@
+.git
+.github
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+fwa-env/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.zip
+.cache/
+mlruns/
+reports/*.html

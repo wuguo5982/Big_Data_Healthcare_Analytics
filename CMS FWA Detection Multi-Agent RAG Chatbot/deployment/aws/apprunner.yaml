@@ -1,0 +1,12 @@
+# AWS App Runner reference configuration.
+# Use this when deploying the ECR image pushed by GitHub Actions.
+
+version: 1.0
+runtime: docker
+run:
+  command: streamlit run streamlit_app.py --server.address=0.0.0.0 --server.port=8501
+  network:
+    port: 8501
+  env:
+    - name: OPENAI_API_KEY
+      value: "configure-as-secret-in-aws"
