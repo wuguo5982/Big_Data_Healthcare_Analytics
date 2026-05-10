@@ -4,15 +4,14 @@ A comprehensive AI/ML + LLM/RAG project for detecting potential **Fraud, Waste, 
 
 This project is adapted from a medical chatbot template, but redesigned for healthcare claims analytics, CMS policy retrieval, doctor-note review, anomaly detection, graph-based risk scoring, and multi-agent AI orchestration.
 
-## Resume / GitHub Positioning
 
 **Project Title:** CMS Fraud, Waste, and Abuse Detection Using Multi-Agent RAG, Claims Analytics, and Explainable AI
 
-**Resume Bullet:**
+**Project Bullet:**
 
 > Developed a multi-agent RAG-based AI chatbot for CMS Medicare and Medicaid FWA detection, integrating claims analytics, provider anomaly detection, doctor-note NLP, vector search, graph-based risk scoring, and explainable ML to flag suspicious billing, duplicate claims, DME risk, upcoding, and unsupported medical necessity with evidence-grounded responses and human-review guardrails.
 
-## Why This Project Is Strong
+## Advanrages of this Project
 
 - Uses CMS-style claims, provider, beneficiary, and doctor-note data.
 - Includes policy PDFs in `data/cms_policy/` for RAG.
@@ -152,3 +151,84 @@ Show DME fraud risks
 Explain CMS FWA policy
 Drill down provider P0004
 ```
+
+
+## CI/CD Deployment Guide: GitHub Actions + AWS
+
+This project now includes a complete CI/CD layer for testing, Docker build, and AWS deployment preparation.
+
+### Added files
+
+```text
+.github/workflows/ci-cd.yml
+.github/workflows/ci.yml
+Dockerfile
+.dockerignore
+scripts/check_imports.py
+scripts/validate_data.py
+tests/test_ci_smoke.py
+deployment/aws/apprunner.yaml
+deployment/aws/ecs-task-definition.json
+deployment/aws/README_AWS_DEPLOYMENT.md
+```
+
+### What the CI/CD pipeline does
+
+On push or pull request, GitHub Actions will:
+
+1. install Python dependencies
+2. generate synthetic CMS-style data
+3. build the RAG/vector index
+4. run import smoke tests
+5. validate raw data files
+6. compile Streamlit and Flask apps
+7. run pytest tests
+8. build a Docker image
+9. push Docker image to Amazon ECR on main/master branch
+
+### Local validation before GitHub push
+
+```bash
+python -m src.generate_sample_data
+python store_index.py
+python scripts/check_imports.py
+python scripts/validate_data.py
+pytest -q
+python -m py_compile streamlit_app.py
+python -m py_compile app.py
+```
+
+### Build Docker locally
+
+```bash
+docker build -t cms-fwa-rag-chatbot .
+```
+
+### Run Docker locally
+
+```bash
+docker run -p 8501:8501 cms-fwa-rag-chatbot
+```
+
+Open:
+
+```text
+http://localhost:8501
+```
+
+### Run Docker with OpenAI API key
+
+```bash
+docker run -p 8501:8501 -e OPENAI_API_KEY=your_key cms-fwa-rag-chatbot
+```
+
+### GitHub secrets for AWS
+
+In GitHub repository settings, add:
+
+```text
+AWS_ROLE_TO_ASSUME
+AWS_ACCOUNT_ID
+```
+
+Do not commit `.env` or API keys.
