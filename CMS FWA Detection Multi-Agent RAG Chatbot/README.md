@@ -43,6 +43,8 @@ ML anomaly detection + rules + graph risk
 Multi-agent orchestration
         ↓
 Grounded chatbot + citations + audit-style report
+        ↓
+CI/CD Deployment: GitHub Actions + AWS
 ```
 
 ## Streamlit UI (Interactive Dashboard)
