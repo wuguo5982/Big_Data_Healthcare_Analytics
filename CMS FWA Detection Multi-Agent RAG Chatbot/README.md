@@ -217,7 +217,7 @@ python -m py_compile app.py
 
 ##### specific access
 1. EC2 access : It is virtual machine
-2. ECR: Elastic Container registry to save your docker image in aws
+2. ECR: Elastic Container registry to save docker image in AWS
 
 
 #### Description: Docker/EC2
@@ -227,24 +227,24 @@ python -m py_compile app.py
 4. Pull Your image from ECR in EC2
 5. Lauch your docker image in EC2
 
-#### Policy:
+#### Policies:
 1. AmazonEC2ContainerRegistryFullAccess
 2. AmazonEC2FullAccess
 
 ### 3. Create ECR repo to store/save docker image
-- Save the URI: 315865595366.dkr.ecr.us-east-1.amazonaws.com/medicalbot
+Save the URI: XXX.ecr.us-east-1.amazonaws.com/XXX
 
 ### 4. Create EC2 machine (Ubuntu)
 
 ### 5. Open EC2 and Install docker in EC2 Machine:
 
-#### optinal:
+#### Optional:
 
 #> sudo apt-get update -y
 
 #> sudo apt-get upgrade
 
-#### required:
+#### Required:
 
 #> curl -fsSL https://get.docker.com -o get-docker.sh
 
@@ -255,7 +255,7 @@ python -m py_compile app.py
 #> newgrp docker
 
 ### 6. Configure EC2 as self-hosted runner:
-setting > actions > runner > new self hosted runner > choose os > then run command one by one
+setting > actions > runner > new self hosted runner > choose os > then run command
 
 ### 7. Setup github secrets:
 In GitHub repository settings, add:
