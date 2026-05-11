@@ -4,7 +4,15 @@ Import smoke test for CI/CD.
 This test confirms the core modules can be imported without launching Streamlit/Flask.
 """
 
+
+from pathlib import Path
+import sys
 import importlib
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+
 
 MODULES = [
     "src.config",
