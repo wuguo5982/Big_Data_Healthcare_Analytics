@@ -109,7 +109,9 @@ def generate(base_dir: str = "data/raw", n_claims: int = 1800) -> None:
     claims.to_csv(out / "claims.csv", index=False)
 
     note_rows = []
-    for _, r in claims.sample(420, random_state=42).iterrows():
+    sample_size = min(n_claims, len(claims))
+    # for _, r in claims.sample(420, random_state=42).iterrows():
+    for _, r in claims.sample(sample_size, random_state=42, replace=False).iterrows():
         supports = not (r["cpt_hcpcs_code"] in ["E0260", "E1390"] and r["icd10_code"] not in ["J44.9", "R26.2", "Z51.5"])
         if supports:
             note = f"Patient evaluated for diagnosis {r['icd10_code']}. Documentation supports service {r['cpt_hcpcs_code']} based on symptoms, assessment, and care plan."
