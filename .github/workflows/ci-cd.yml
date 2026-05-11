@@ -7,6 +7,10 @@ on:
     branches: [ main, master ]
   workflow_dispatch:
 
+defaults:
+  run:
+    working-directory: "CMS FWA Detection Multi-Agent RAG Chatbot"
+
 env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: cms-fwa-rag-chatbot
@@ -69,7 +73,7 @@ jobs:
           docker build -t $IMAGE_NAME:ci .
 
   aws-ecr:
-    name: Build and Push Image to AWS ECR
+    name: Build and Push Docker Image to AWS ECR
     runs-on: ubuntu-latest
     needs: test
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
@@ -82,11 +86,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Recommended production method: GitHub OIDC -> AWS IAM Role
-      # Required GitHub repository secrets:
-      # AWS_ROLE_TO_ASSUME
-      # AWS_ACCOUNT_ID
-      - name: Configure AWS credentials
+      - name: Configure AWS credentials with OIDC
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
@@ -97,7 +97,8 @@ jobs:
 
       - name: Create ECR repository if needed
         run: |
-          aws ecr describe-repositories --repository-names $ECR_REPOSITORY ||           aws ecr create-repository --repository-name $ECR_REPOSITORY
+          aws ecr describe-repositories --repository-names $ECR_REPOSITORY || \
+          aws ecr create-repository --repository-name $ECR_REPOSITORY
 
       - name: Build, tag, and push Docker image
         run: |
@@ -114,4 +115,4 @@ jobs:
       - name: Deployment note
         run: |
           echo "Docker image pushed to Amazon ECR."
-          echo "Deploy latest image using AWS App Runner or ECS Fargate."
+          echo "Deploy latest image using AWS App Runner, ECS Fargate, or EC2 Docker."
