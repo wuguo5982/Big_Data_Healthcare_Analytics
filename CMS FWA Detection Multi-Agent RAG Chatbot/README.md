@@ -233,4 +233,4 @@ AWS_ROLE_TO_ASSUME
 AWS_ACCOUNT_ID
 ```
 
-Do not commit `.env` or API keys.
+
