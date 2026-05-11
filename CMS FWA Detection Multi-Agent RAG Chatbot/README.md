@@ -215,7 +215,7 @@ python -m py_compile app.py
 ### 1. Login to AWS console.
 ### 2. Create IAM user for deployment
 
-##### specific access
+#### Specific access:
 1. EC2 access : It is virtual machine
 2. ECR: Elastic Container registry to save docker image in AWS
 
