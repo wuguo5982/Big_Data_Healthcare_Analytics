@@ -185,7 +185,7 @@ deployment/aws/ecs-task-definition.json
 deployment/aws/README_AWS_DEPLOYMENT.md
 ```
 
-### What the CI/CD pipeline does
+### CI/CD pipelines
 
 On push or pull request, GitHub Actions will:
 
