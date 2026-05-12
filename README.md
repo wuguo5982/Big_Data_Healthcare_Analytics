@@ -1,4 +1,4 @@
-## Projects in Healthcare and Applied ML/AI
+## Healthcare AI, LLMs & MLOps Projects
 
 This repository showcases a diverse set of machine learning and AI projects applied to the healthcare domain. The focus is on leveraging real-world datasets for predictive analytics, disease diagnosis, medical imaging, insurance cost estimation, and scalable deployment through modern MLOps practices.
 
