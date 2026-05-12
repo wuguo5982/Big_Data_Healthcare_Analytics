@@ -40,15 +40,16 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 
 
 #### 2. NLP & Large Language Models (LLMs)
-- **Information Retrieval (RAG)** – Semantic search across medical content using vector databases and transformer-based embeddings
-- **FineTuning** - PEFT(LoRA), RoLA, and OpenAI fine-Tuning for clinical note classification   
-- **Medical Transcription Processing** – Text summarization and translation using T5 and `AutoModelForSeq2SeqLM`  
-- **Symptom-based Consultation** – Conversational agents for medical Q&A
-- **Agentic AI** - Build healthcare assistant with multimodal (text/image/chatbot)  
-
+- **RAG & Information Retrieval** – Semantic search and question answering using vector databases and transformer embeddings
+- **LLM FineTuning** - PEFT (LoRA/QLoRA), RoLA, and OpenAI/Hugging Face fine-tuning for clinical text analytics  
+- **Clinical Text Processing** – Medical text summarization, translation, and entity extraction using T5, BioBERT, ClinicalBERT, and AutoModelForSeq2SeqLM 
+- **Conversational AI** – Symptom-based healthcare chatbots and medical Q&A assistants
+- **Agentic AI** - Multi-agent healthcare assistants with reasoning, tool use, and multimodal capabilities (text/image/chatbot) 
+- **LLM Deployment & MLOps** - FastAPI, Streamlit, Docker, MLflow, GitHub Actions, and AWS/Azure-based deployment pipelines
+  
 ---
 
-#### 3. End-to-End MLOps Pipelines (Medical Insurance Cost Prediction)
+#### 3. End-to-End MLOps Pipelines (One Sample: Medical Insurance Cost Prediction)
 
 <img src="https://github.com/user-attachments/assets/e5afa402-cb61-4002-a62a-373ab847860a" width="60%"/>
 
