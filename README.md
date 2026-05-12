@@ -78,13 +78,28 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 ### Project Objectives
 
 - **Mortality Risk Prediction**  
-  Building and evaluating ensemble models to predict short- and long-term patient outcomes
+  Building and evaluating machine learning and ensemble models to predict short- and long-term patient outcomes using EHR, claims, and clinical data, enabling early intervention and risk stratification.
 
 - **Chronic Disease Identification**  
-  Early diagnosis using both supervised models and unsupervised clustering techniques
+  Detecting chronic conditions and high-risk patient populations through supervised learning, anomaly detection, and unsupervised clustering techniques for proactive healthcare management.
 
 - **Healthcare Cost Forecasting**  
-  Estimating medical costs and insurance premiums based on lifestyle and demographic indicators
+  Estimating healthcare utilization, medical costs, and insurance premiums based on demographic, lifestyle, claims, and clinical indicators to support financial planning and payment optimization.
+
+ - **Fraud, Waste, and Abuse (FWA) Detection**  
+  Developing AI/ML and anomaly detection models to identify suspicious claims, billing irregularities, provider outliers, and potentially fraudulent healthcare activities using CMS and insurance claims data.
+
+- **Patient Segmentation and Risk Stratification**  
+  Applying clustering, statistical modeling, and predictive analytics to group patients by utilization patterns, disease severity, and treatment risks for personalized healthcare strategies.
+
+- **Clinical Text Analytics and NLP/LLM Applications**  
+  Leveraging NLP, RAG pipelines, and LLM-based solutions to analyze clinical notes, insurance documents, and unstructured healthcare text for information retrieval, summarization, and conversational AI applications.
+
+- **MLOps and CI/CD Automation**  
+  Designing scalable end-to-end MLOps workflows with GitHub Actions, Docker, AWS, MLflow, and automated testing pipelines for reproducible model training, deployment, and monitoring.
+
+- **Explainable AI and Model Interpretability**  
+  Integrating explainability techniques such as SHAP, feature importance analysis, and interpretable statistical modeling to support transparent and trustworthy healthcare AI systems.
 
 ---
 
@@ -92,7 +107,7 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 ### Access Note
 
 For detailed, large-scale projects involving sensitive or proprietary healthcare datasets, access is available upon request via the private repository:  
-**`Big Data for Healthcare`**
+**`Projects of Big Data for Healthcare`**
 
 ---
 #### Data Engineering & Scalable Processing
