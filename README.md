@@ -46,6 +46,8 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 - **Conversational AI** – Symptom-based healthcare chatbots and medical Q&A assistants
 - **Agentic AI** - Multi-agent healthcare assistants with reasoning, tool use, and multimodal capabilities (text/image/chatbot) 
 - **LLM Deployment & MLOps** - FastAPI, Streamlit, Docker, MLflow, GitHub Actions, and AWS/Azure-based deployment pipelines
+- **Multimodal AI** - Integration of medical imaging, clinical text, and EHR data using ClinicalBERT, CNN/ResNet, and multimodal fusion models
+- **LLM Deployment & MLOps** - FastAPI, Streamlit, Docker, MLflow, GitHub Actions, and AWS/Azure deployment pipelines
   
 ---
 
