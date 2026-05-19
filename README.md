@@ -38,7 +38,6 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 
 ---
 
-
 #### 2. NLP & Large Language Models (LLMs)
 - **RAG & Information Retrieval** – Semantic search and question answering using vector databases and transformer embeddings
 - **LLM FineTuning** - PEFT (LoRA/QLoRA), RoLA, and OpenAI/Hugging Face fine-tuning for clinical text analytics  
