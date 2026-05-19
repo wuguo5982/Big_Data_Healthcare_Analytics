@@ -23,6 +23,12 @@ The system combines:
 
 to generate explainable patient-level risk predictions and multimodal clinical reasoning.
 
+## AI Models
+- **ClinicalBERT** is used to process unstructured clinical text such as clinical notes and radiology reports.
+  It generates semantic embeddings that capture medical context and supports multimodal patient risk prediction and explainable AI.
+- The pretrained **ResNet18** CNN for chest X-ray image feature extraction.
+  The final classification layer is removed so the CNN acts as an image embedding encoder within the multimodal fusion architecture.
+
 ---
 ## Output of Streamlit
 
