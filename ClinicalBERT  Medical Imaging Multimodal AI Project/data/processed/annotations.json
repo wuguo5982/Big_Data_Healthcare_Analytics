@@ -1,0 +1,7 @@
+{
+  "project_title": "NIH ChestX-ray14 + ClinicalBERT",
+  "ehr_rows": 1000,
+  "documents": 3000,
+  "images": 1000,
+  "target": "high_risk_label"
+}
