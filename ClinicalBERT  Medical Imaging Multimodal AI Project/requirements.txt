@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+torch
+torchvision
+pillow
+tqdm
+joblib
+pyyaml
+transformers
+sentencepiece
+fastapi
+uvicorn
+streamlit
+openai
+matplotlib

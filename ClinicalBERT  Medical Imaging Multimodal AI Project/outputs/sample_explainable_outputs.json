@@ -1,0 +1,1127 @@
+[
+  {
+    "patient_id": "P00001",
+    "encounter_id": "E000001",
+    "image_id": "nih_000001.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Cardiomegaly",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00001 is a 57-year-old Unknown. Vitals BP 144/58, HR 67, SpO2 95, RR 21. Labs BNP 203, troponin 0.104, WBC 8.8, creatinine 0.78. Concern for Cardiomegaly.",
+      "Chest radiograph report. Findings: enlarged cardiac silhouette. Impression: Cardiomegaly.",
+      "Discharge summary: primary phenotype Cardiomegaly. Risk score 1.73. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00002",
+    "encounter_id": "E000002",
+    "image_id": "nih_000002.png",
+    "risk_level": "High",
+    "primary_condition": "Cardiomegaly",
+    "supporting_evidence": [
+      "LVEF reduced at 43%.",
+      "WBC elevated at 11.7.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00002 is a 58-year-old Unknown. Vitals BP 129/76, HR 68, SpO2 96, RR 21. Labs BNP 235, troponin 0.07, WBC 11.7, creatinine 0.93. Concern for Cardiomegaly.",
+      "Chest radiograph report. Findings: enlarged cardiac silhouette. Impression: Cardiomegaly.",
+      "Discharge summary: primary phenotype Cardiomegaly. Risk score 2.35. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00003",
+    "encounter_id": "E000003",
+    "image_id": "nih_000003.png",
+    "risk_level": "High",
+    "primary_condition": "Cardiomegaly",
+    "supporting_evidence": [
+      "BNP elevated at 485.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00003 is a 58-year-old Unknown. Vitals BP 148/76, HR 70, SpO2 93, RR 20. Labs BNP 485, troponin 0.062, WBC 6.4, creatinine 1.27. Concern for Cardiomegaly.",
+      "Chest radiograph report. Findings: enlarged cardiac silhouette; small pleural effusion. Impression: Cardiomegaly.",
+      "Discharge summary: primary phenotype Cardiomegaly. Risk score 2.35. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00004",
+    "encounter_id": "E000004",
+    "image_id": "nih_000004.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "No major high-risk evidence identified."
+    ],
+    "representative_documents": [
+      "Patient P00004 is a 81-year-old Unknown. Vitals BP 145/63, HR 82, SpO2 97, RR 19. Labs BNP 92, troponin 0.093, WBC 7.3, creatinine 1.77. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.73. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00005",
+    "encounter_id": "E000005",
+    "image_id": "nih_000005.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "No major high-risk evidence identified."
+    ],
+    "representative_documents": [
+      "Patient P00005 is a 74-year-old Unknown. Vitals BP 126/86, HR 93, SpO2 97, RR 16. Labs BNP 59, troponin 0.071, WBC 5.2, creatinine 1.25. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.41. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00006",
+    "encounter_id": "E000006",
+    "image_id": "nih_000006.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "No major high-risk evidence identified."
+    ],
+    "representative_documents": [
+      "Patient P00006 is a 75-year-old Unknown. Vitals BP 128/66, HR 72, SpO2 96, RR 16. Labs BNP 165, troponin 0.034, WBC 7.3, creatinine 1.23. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.15. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00007",
+    "encounter_id": "E000007",
+    "image_id": "nih_000007.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "Low oxygen saturation at 91%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00007 is a 76-year-old Unknown. Vitals BP 120/74, HR 68, SpO2 91, RR 19. Labs BNP 318, troponin 0.027, WBC 7.6, creatinine 0.98. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.88. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00008",
+    "encounter_id": "E000008",
+    "image_id": "nih_000008.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "WBC elevated at 12.7."
+    ],
+    "representative_documents": [
+      "Patient P00008 is a 77-year-old Unknown. Vitals BP 126/80, HR 61, SpO2 93, RR 18. Labs BNP 132, troponin 0.134, WBC 12.7, creatinine 1.12. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.56. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00009",
+    "encounter_id": "E000009",
+    "image_id": "nih_000009.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "No major high-risk evidence identified."
+    ],
+    "representative_documents": [
+      "Patient P00009 is a 78-year-old Unknown. Vitals BP 112/84, HR 69, SpO2 93, RR 16. Labs BNP 65, troponin 0.588, WBC 4.7, creatinine 1.41. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.15. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00010",
+    "encounter_id": "E000010",
+    "image_id": "nih_000010.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "LVEF reduced at 40%."
+    ],
+    "representative_documents": [
+      "Patient P00010 is a 79-year-old Unknown. Vitals BP 132/88, HR 76, SpO2 92, RR 15. Labs BNP 64, troponin 0.198, WBC 8.1, creatinine 0.89. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.76. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00011",
+    "encounter_id": "E000011",
+    "image_id": "nih_000011.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "No major high-risk evidence identified."
+    ],
+    "representative_documents": [
+      "Patient P00011 is a 80-year-old Unknown. Vitals BP 122/86, HR 71, SpO2 92, RR 26. Labs BNP 231, troponin 0.056, WBC 10.9, creatinine 1.04. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.29. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00012",
+    "encounter_id": "E000012",
+    "image_id": "nih_000012.png",
+    "risk_level": "High",
+    "primary_condition": "Mass",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00012 is a 82-year-old Unknown. Vitals BP 140/91, HR 84, SpO2 99, RR 17. Labs BNP 443, troponin 0.012, WBC 7.4, creatinine 1.8. Concern for Mass.",
+      "Chest radiograph report. Findings: mass-like opacity; nodular opacity. Impression: Mass.",
+      "Discharge summary: primary phenotype Mass. Risk score 1.98. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00013",
+    "encounter_id": "E000013",
+    "image_id": "nih_000013.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00013 is a 70-year-old Unknown. Vitals BP 118/84, HR 102, SpO2 93, RR 13. Labs BNP 141, troponin 0.068, WBC 8.5, creatinine 1.72. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.41. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00014",
+    "encounter_id": "E000014",
+    "image_id": "nih_000014.png",
+    "risk_level": "High",
+    "primary_condition": "Pleural Effusion",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00014 is a 70-year-old Unknown. Vitals BP 111/78, HR 77, SpO2 92, RR 21. Labs BNP 404, troponin 0.019, WBC 7.6, creatinine 1.68. Concern for Pleural Effusion.",
+      "Chest radiograph report. Findings: small pleural effusion. Impression: Pleural Effusion.",
+      "Discharge summary: primary phenotype Pleural Effusion. Risk score 2.06. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00015",
+    "encounter_id": "E000015",
+    "image_id": "nih_000015.png",
+    "risk_level": "High",
+    "primary_condition": "Cardiomegaly",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00015 is a 68-year-old Unknown. Vitals BP 162/69, HR 85, SpO2 95, RR 28. Labs BNP 158, troponin 0.027, WBC 4.7, creatinine 1.6. Concern for Cardiomegaly.",
+      "Chest radiograph report. Findings: enlarged cardiac silhouette. Impression: Cardiomegaly.",
+      "Discharge summary: primary phenotype Cardiomegaly. Risk score 2.00. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00016",
+    "encounter_id": "E000016",
+    "image_id": "nih_000016.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Nodule",
+    "supporting_evidence": [
+      "BNP elevated at 856.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00016 is a 72-year-old Unknown. Vitals BP 110/99, HR 80, SpO2 92, RR 10. Labs BNP 856, troponin 0.051, WBC 5.6, creatinine 0.7. Concern for Nodule.",
+      "Chest radiograph report. Findings: nodular opacity. Impression: Nodule.",
+      "Discharge summary: primary phenotype Nodule. Risk score 1.43. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00017",
+    "encounter_id": "E000017",
+    "image_id": "nih_000017.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "No major high-risk evidence identified."
+    ],
+    "representative_documents": [
+      "Patient P00017 is a 72-year-old Unknown. Vitals BP 111/75, HR 76, SpO2 96, RR 17. Labs BNP 99, troponin 0.052, WBC 9.1, creatinine 1.5. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.21. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00018",
+    "encounter_id": "E000018",
+    "image_id": "nih_000018.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "WBC elevated at 11.6.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00018 is a 84-year-old Unknown. Vitals BP 142/70, HR 111, SpO2 94, RR 24. Labs BNP 207, troponin 0.057, WBC 11.6, creatinine 0.57. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.54. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00019",
+    "encounter_id": "E000019",
+    "image_id": "nih_000019.png",
+    "risk_level": "High",
+    "primary_condition": "Pleural Effusion",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00019 is a 74-year-old Unknown. Vitals BP 136/92, HR 80, SpO2 94, RR 16. Labs BNP 192, troponin 0.05, WBC 7.9, creatinine 0.92. Concern for Pleural Effusion.",
+      "Chest radiograph report. Findings: small pleural effusion. Impression: Pleural Effusion.",
+      "Discharge summary: primary phenotype Pleural Effusion. Risk score 1.94. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00020",
+    "encounter_id": "E000020",
+    "image_id": "nih_000020.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "WBC elevated at 11.6.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00020 is a 75-year-old Unknown. Vitals BP 155/83, HR 67, SpO2 94, RR 16. Labs BNP 243, troponin 0.028, WBC 11.6, creatinine 1.23. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.47. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00021",
+    "encounter_id": "E000021",
+    "image_id": "nih_000021.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Atelectasis",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00021 is a 75-year-old Unknown. Vitals BP 146/96, HR 79, SpO2 97, RR 22. Labs BNP 154, troponin 0.068, WBC 4.4, creatinine 0.88. Concern for Atelectasis.",
+      "Chest radiograph report. Findings: linear basilar atelectasis. Impression: Atelectasis.",
+      "Discharge summary: primary phenotype Atelectasis. Risk score 1.70. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00022",
+    "encounter_id": "E000022",
+    "image_id": "nih_000022.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00022 is a 75-year-old Unknown. Vitals BP 143/55, HR 86, SpO2 92, RR 22. Labs BNP 238, troponin 0.065, WBC 8.7, creatinine 0.51. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.39. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00023",
+    "encounter_id": "E000023",
+    "image_id": "nih_000023.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pleural Effusion",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00023 is a 76-year-old Unknown. Vitals BP 138/80, HR 93, SpO2 93, RR 22. Labs BNP 143, troponin 0.013, WBC 6.3, creatinine 1.2. Concern for Pleural Effusion.",
+      "Chest radiograph report. Findings: small pleural effusion; mass-like opacity. Impression: Pleural Effusion.",
+      "Discharge summary: primary phenotype Pleural Effusion. Risk score 1.78. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00024",
+    "encounter_id": "E000024",
+    "image_id": "nih_000024.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pneumothorax",
+    "supporting_evidence": [
+      "BNP elevated at 1332.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00024 is a 60-year-old Unknown. Vitals BP 151/86, HR 93, SpO2 95, RR 18. Labs BNP 1332, troponin 0.024, WBC 9.9, creatinine 0.52. Concern for Pneumothorax.",
+      "Chest radiograph report. Findings: pleural line suspicious for pneumothorax. Impression: Pneumothorax.",
+      "Discharge summary: primary phenotype Pneumothorax. Risk score 1.20. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00025",
+    "encounter_id": "E000025",
+    "image_id": "nih_000025.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pneumothorax",
+    "supporting_evidence": [
+      "Low oxygen saturation at 90%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00025 is a 60-year-old Unknown. Vitals BP 138/80, HR 70, SpO2 90, RR 19. Labs BNP 172, troponin 0.042, WBC 2.5, creatinine 1.23. Concern for Pneumothorax.",
+      "Chest radiograph report. Findings: pleural line suspicious for pneumothorax. Impression: Pneumothorax.",
+      "Discharge summary: primary phenotype Pneumothorax. Risk score 1.59. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00026",
+    "encounter_id": "E000026",
+    "image_id": "nih_000026.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "LVEF reduced at 37%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00026 is a 60-year-old Unknown. Vitals BP 124/83, HR 84, SpO2 94, RR 21. Labs BNP 346, troponin 0.004, WBC 8.2, creatinine 0.67. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.46. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00027",
+    "encounter_id": "E000027",
+    "image_id": "nih_000027.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pleural Effusion",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00027 is a 60-year-old Unknown. Vitals BP 152/78, HR 100, SpO2 98, RR 17. Labs BNP 43, troponin 0.189, WBC 7.0, creatinine 0.93. Concern for Pleural Effusion.",
+      "Chest radiograph report. Findings: small pleural effusion; pleural line suspicious for pneumothorax. Impression: Pleural Effusion.",
+      "Discharge summary: primary phenotype Pleural Effusion. Risk score 1.46. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00028",
+    "encounter_id": "E000028",
+    "image_id": "nih_000028.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pneumothorax",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00028 is a 60-year-old Unknown. Vitals BP 120/72, HR 56, SpO2 94, RR 21. Labs BNP 241, troponin 0.129, WBC 6.8, creatinine 1.18. Concern for Pneumothorax.",
+      "Chest radiograph report. Findings: pleural line suspicious for pneumothorax. Impression: Pneumothorax.",
+      "Discharge summary: primary phenotype Pneumothorax. Risk score 1.21. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00029",
+    "encounter_id": "E000029",
+    "image_id": "nih_000029.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pleural Effusion",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00029 is a 60-year-old Unknown. Vitals BP 136/97, HR 87, SpO2 98, RR 17. Labs BNP 189, troponin 0.036, WBC 8.7, creatinine 0.78. Concern for Pleural Effusion.",
+      "Chest radiograph report. Findings: small pleural effusion. Impression: Pleural Effusion.",
+      "Discharge summary: primary phenotype Pleural Effusion. Risk score 1.39. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00030",
+    "encounter_id": "E000030",
+    "image_id": "nih_000030.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "Low oxygen saturation at 91%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00030 is a 60-year-old Unknown. Vitals BP 161/89, HR 75, SpO2 91, RR 16. Labs BNP 113, troponin 0.027, WBC 9.4, creatinine 1.12. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.53. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00031",
+    "encounter_id": "E000031",
+    "image_id": "nih_000031.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "No Acute Finding",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00031 is a 60-year-old Unknown. Vitals BP 139/77, HR 102, SpO2 95, RR 18. Labs BNP 241, troponin 0.052, WBC 6.5, creatinine 1.33. Concern for No Acute Finding.",
+      "Chest radiograph report. Findings: no acute cardiopulmonary abnormality. Impression: No Acute Finding.",
+      "Discharge summary: primary phenotype No Acute Finding. Risk score 1.04. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00032",
+    "encounter_id": "E000032",
+    "image_id": "nih_000032.png",
+    "risk_level": "High",
+    "primary_condition": "Pneumonia",
+    "supporting_evidence": [
+      "LVEF reduced at 27%.",
+      "Low oxygen saturation at 86%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00032 is a 60-year-old Unknown. Vitals BP 106/91, HR 85, SpO2 86, RR 14. Labs BNP 42, troponin 0.056, WBC 10.6, creatinine 0.87. Concern for Pneumonia.",
+      "Chest radiograph report. Findings: opacity concerning for pneumonia; small pleural effusion; pleural line suspicious for pneumothorax. Impression: Pneumonia.",
+      "Discharge summary: primary phenotype Pneumonia. Risk score 3.04. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00033",
+    "encounter_id": "E000033",
+    "image_id": "nih_000033.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pneumothorax",
+    "supporting_evidence": [
+      "BNP elevated at 710.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00033 is a 60-year-old Unknown. Vitals BP 136/84, HR 80, SpO2 95, RR 21. Labs BNP 710, troponin 0.031, WBC 10.8, creatinine 0.77. Concern for Pneumothorax.",
+      "Chest radiograph report. Findings: pleural line suspicious for pneumothorax. Impression: Pneumothorax.",
+      "Discharge summary: primary phenotype Pneumothorax. Risk score 1.38. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00034",
+    "encounter_id": "E000034",
+    "image_id": "nih_000034.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pneumothorax",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00034 is a 60-year-old Unknown. Vitals BP 115/73, HR 103, SpO2 95, RR 16. Labs BNP 291, troponin 0.017, WBC 4.4, creatinine 1.57. Concern for Pneumothorax.",
+      "Chest radiograph report. Findings: pleural line suspicious for pneumothorax. Impression: Pneumothorax.",
+      "Discharge summary: primary phenotype Pneumothorax. Risk score 1.36. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00035",
+    "encounter_id": "E000035",
+    "image_id": "nih_000035.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pneumothorax",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00035 is a 60-year-old Unknown. Vitals BP 114/85, HR 79, SpO2 94, RR 18. Labs BNP 270, troponin 0.028, WBC 9.5, creatinine 2.14. Concern for Pneumothorax.",
+      "Chest radiograph report. Findings: pleural line suspicious for pneumothorax. Impression: Pneumothorax.",
+      "Discharge summary: primary phenotype Pneumothorax. Risk score 1.18. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00036",
+    "encounter_id": "E000036",
+    "image_id": "nih_000036.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pleural Effusion",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00036 is a 60-year-old Unknown. Vitals BP 118/87, HR 86, SpO2 94, RR 18. Labs BNP 91, troponin 0.035, WBC 8.1, creatinine 1.12. Concern for Pleural Effusion.",
+      "Chest radiograph report. Findings: small pleural effusion; pleural line suspicious for pneumothorax. Impression: Pleural Effusion.",
+      "Discharge summary: primary phenotype Pleural Effusion. Risk score 1.60. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00037",
+    "encounter_id": "E000037",
+    "image_id": "nih_000037.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pneumothorax",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00037 is a 61-year-old Unknown. Vitals BP 136/53, HR 99, SpO2 99, RR 16. Labs BNP 62, troponin 0.017, WBC 7.7, creatinine 2.11. Concern for Pneumothorax.",
+      "Chest radiograph report. Findings: pleural line suspicious for pneumothorax. Impression: Pneumothorax.",
+      "Discharge summary: primary phenotype Pneumothorax. Risk score 1.20. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00038",
+    "encounter_id": "E000038",
+    "image_id": "nih_000038.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pleural Effusion",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00038 is a 61-year-old Unknown. Vitals BP 123/72, HR 58, SpO2 100, RR 12. Labs BNP 33, troponin 0.02, WBC 9.1, creatinine 0.86. Concern for Pleural Effusion.",
+      "Chest radiograph report. Findings: small pleural effusion. Impression: Pleural Effusion.",
+      "Discharge summary: primary phenotype Pleural Effusion. Risk score 1.69. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00039",
+    "encounter_id": "E000039",
+    "image_id": "nih_000039.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Mass",
+    "supporting_evidence": [
+      "Low oxygen saturation at 89%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00039 is a 56-year-old Unknown. Vitals BP 133/63, HR 89, SpO2 89, RR 13. Labs BNP 51, troponin 0.146, WBC 6.4, creatinine 1.14. Concern for Mass.",
+      "Chest radiograph report. Findings: mass-like opacity. Impression: Mass.",
+      "Discharge summary: primary phenotype Mass. Risk score 1.49. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00040",
+    "encounter_id": "E000040",
+    "image_id": "nih_000040.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Mass",
+    "supporting_evidence": [
+      "BNP elevated at 1626.",
+      "WBC elevated at 12.7.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00040 is a 56-year-old Unknown. Vitals BP 151/67, HR 74, SpO2 96, RR 16. Labs BNP 1626, troponin 0.028, WBC 12.7, creatinine 0.53. Concern for Mass.",
+      "Chest radiograph report. Findings: pleural line suspicious for pneumothorax; mass-like opacity. Impression: Mass.",
+      "Discharge summary: primary phenotype Mass. Risk score 1.48. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00041",
+    "encounter_id": "E000041",
+    "image_id": "nih_000041.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Mass",
+    "supporting_evidence": [
+      "Low oxygen saturation at 90%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00041 is a 56-year-old Unknown. Vitals BP 132/74, HR 91, SpO2 90, RR 26. Labs BNP 34, troponin 0.031, WBC 10.1, creatinine 0.92. Concern for Mass.",
+      "Chest radiograph report. Findings: mass-like opacity. Impression: Mass.",
+      "Discharge summary: primary phenotype Mass. Risk score 1.53. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00042",
+    "encounter_id": "E000042",
+    "image_id": "nih_000042.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Cardiomegaly",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00042 is a 56-year-old Unknown. Vitals BP 124/61, HR 84, SpO2 92, RR 22. Labs BNP 198, troponin 0.079, WBC 6.2, creatinine 0.58. Concern for Cardiomegaly.",
+      "Chest radiograph report. Findings: enlarged cardiac silhouette; mass-like opacity; nodular opacity. Impression: Cardiomegaly.",
+      "Discharge summary: primary phenotype Cardiomegaly. Risk score 1.75. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00043",
+    "encounter_id": "E000043",
+    "image_id": "nih_000043.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Cardiomegaly",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00043 is a 56-year-old Unknown. Vitals BP 135/101, HR 63, SpO2 92, RR 21. Labs BNP 232, troponin 0.03, WBC 9.5, creatinine 1.31. Concern for Cardiomegaly.",
+      "Chest radiograph report. Findings: enlarged cardiac silhouette. Impression: Cardiomegaly.",
+      "Discharge summary: primary phenotype Cardiomegaly. Risk score 1.75. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00044",
+    "encounter_id": "E000044",
+    "image_id": "nih_000044.png",
+    "risk_level": "High",
+    "primary_condition": "Cardiomegaly",
+    "supporting_evidence": [
+      "LVEF reduced at 24%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00044 is a 56-year-old Unknown. Vitals BP 125/87, HR 76, SpO2 93, RR 19. Labs BNP 133, troponin 0.041, WBC 6.4, creatinine 0.75. Concern for Cardiomegaly.",
+      "Chest radiograph report. Findings: enlarged cardiac silhouette; small pleural effusion; mass-like opacity. Impression: Cardiomegaly.",
+      "Discharge summary: primary phenotype Cardiomegaly. Risk score 2.43. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00045",
+    "encounter_id": "E000045",
+    "image_id": "nih_000045.png",
+    "risk_level": "High",
+    "primary_condition": "Cardiomegaly",
+    "supporting_evidence": [
+      "BNP elevated at 508.",
+      "LVEF reduced at 37%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00045 is a 56-year-old Unknown. Vitals BP 138/75, HR 68, SpO2 98, RR 14. Labs BNP 508, troponin 0.016, WBC 8.5, creatinine 1.05. Concern for Cardiomegaly.",
+      "Chest radiograph report. Findings: enlarged cardiac silhouette; small pleural effusion; mass-like opacity. Impression: Cardiomegaly.",
+      "Discharge summary: primary phenotype Cardiomegaly. Risk score 2.58. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00046",
+    "encounter_id": "E000046",
+    "image_id": "nih_000046.png",
+    "risk_level": "High",
+    "primary_condition": "Cardiomegaly",
+    "supporting_evidence": [
+      "BNP elevated at 539.",
+      "LVEF reduced at 36%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00046 is a 56-year-old Unknown. Vitals BP 105/68, HR 97, SpO2 94, RR 10. Labs BNP 539, troponin 0.053, WBC 9.2, creatinine 0.71. Concern for Cardiomegaly.",
+      "Chest radiograph report. Findings: enlarged cardiac silhouette; small pleural effusion; mass-like opacity. Impression: Cardiomegaly.",
+      "Discharge summary: primary phenotype Cardiomegaly. Risk score 2.66. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00047",
+    "encounter_id": "E000047",
+    "image_id": "nih_000047.png",
+    "risk_level": "High",
+    "primary_condition": "Cardiomegaly",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00047 is a 56-year-old Unknown. Vitals BP 93/88, HR 93, SpO2 97, RR 11. Labs BNP 50, troponin 0.081, WBC 5.8, creatinine 1.46. Concern for Cardiomegaly.",
+      "Chest radiograph report. Findings: enlarged cardiac silhouette; linear basilar atelectasis; pleural line suspicious for pneumothorax; mass-like opacity. Impression: Cardiomegaly.",
+      "Discharge summary: primary phenotype Cardiomegaly. Risk score 2.01. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00048",
+    "encounter_id": "E000048",
+    "image_id": "nih_000048.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Mass",
+    "supporting_evidence": [
+      "Low oxygen saturation at 91%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00048 is a 56-year-old Unknown. Vitals BP 147/68, HR 110, SpO2 91, RR 25. Labs BNP 244, troponin 0.068, WBC 10.2, creatinine 1.31. Concern for Mass.",
+      "Chest radiograph report. Findings: mass-like opacity. Impression: Mass.",
+      "Discharge summary: primary phenotype Mass. Risk score 1.47. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00049",
+    "encounter_id": "E000049",
+    "image_id": "nih_000049.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Mass",
+    "supporting_evidence": [
+      "Low oxygen saturation at 91%.",
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00049 is a 56-year-old Unknown. Vitals BP 151/80, HR 105, SpO2 91, RR 24. Labs BNP 196, troponin 0.011, WBC 8.5, creatinine 1.21. Concern for Mass.",
+      "Chest radiograph report. Findings: pleural line suspicious for pneumothorax; mass-like opacity. Impression: Mass.",
+      "Discharge summary: primary phenotype Mass. Risk score 1.67. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  },
+  {
+    "patient_id": "P00050",
+    "encounter_id": "E000050",
+    "image_id": "nih_000050.png",
+    "risk_level": "Low-to-Moderate",
+    "primary_condition": "Pneumothorax",
+    "supporting_evidence": [
+      "NIH ChestX-ray14 label indicates abnormal imaging."
+    ],
+    "representative_documents": [
+      "Patient P00050 is a 56-year-old Unknown. Vitals BP 126/67, HR 85, SpO2 95, RR 18. Labs BNP 53, troponin 0.033, WBC 6.6, creatinine 1.21. Concern for Pneumothorax.",
+      "Chest radiograph report. Findings: pleural line suspicious for pneumothorax. Impression: Pneumothorax.",
+      "Discharge summary: primary phenotype Pneumothorax. Risk score 1.13. Follow-up should consider imaging, vitals, and labs."
+    ],
+    "clinical_interpretation": "Combines NIH ChestX-ray14 labels, EHR-style features, and ClinicalBERT-ready clinical text.",
+    "recommended_next_steps": [
+      "Review image findings with clinician.",
+      "Correlate with vitals, labs, and report.",
+      "Research decision support only."
+    ],
+    "disclaimer": "Research demo only. Not for clinical use."
+  }
+]

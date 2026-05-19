@@ -1,0 +1,29 @@
+project:
+  name: nih_clinicalbert_multimodal_project
+  target: high_risk_label
+  sample_size: 1000
+
+nih:
+  raw_dir: data/nih_raw
+  data_entry_csv: data/nih_raw/Data_Entry_2017.csv
+  selected_images_dir: data/raw/images
+
+data:
+  structured_ehr: data/processed/structured_ehr_1000.csv
+  clinical_documents: data/processed/clinical_documents_3000.csv
+  image_labels: data/processed/nih_image_labels_1000.csv
+  annotations: data/processed/annotations.json
+  clinicalbert_embeddings: data/features/clinicalbert_embeddings.npy
+  patient_index: data/features/patient_index.csv
+
+clinicalbert:
+  model_name: emilyalsentzer/Bio_ClinicalBERT
+  max_length: 256
+  batch_size: 8
+
+model:
+  image_size: 224
+  batch_size: 8
+  epochs: 3
+  learning_rate: 0.0002
+  random_state: 42
