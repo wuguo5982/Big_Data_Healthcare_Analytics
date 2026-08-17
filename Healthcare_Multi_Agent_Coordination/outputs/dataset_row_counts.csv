@@ -1,0 +1,8 @@
+dataset,rows,columns
+patients.csv,5000,7
+claims.csv,5000,5
+labs.csv,5000,4
+encounters.csv,5000,6
+clinical_notes.csv,5000,4
+labels.csv,5000,2
+guidelines.csv,5000,3

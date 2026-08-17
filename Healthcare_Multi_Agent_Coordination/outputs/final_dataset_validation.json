@@ -1,0 +1,9 @@
+{
+  "patients.csv": 5000,
+  "claims.csv": 5000,
+  "labs.csv": 5000,
+  "encounters.csv": 5000,
+  "clinical_notes.csv": 5000,
+  "labels.csv": 5000,
+  "guidelines.csv": 5000
+}

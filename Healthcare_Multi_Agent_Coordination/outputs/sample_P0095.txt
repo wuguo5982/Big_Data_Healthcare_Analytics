@@ -1,0 +1,63 @@
+
+=== MULTI-AGENT PLAN ===
+patient_data_agent -> clinical_nlp_agent -> claims_agent -> risk_agent -> evidence_agent -> synthesis_agent -> safety_agent
+
+=== RISK ===
+{
+  "readmission_probability": 0.431,
+  "risk_level": "MODERATE",
+  "top_model_features": [
+    {
+      "feature": "inpatient_admits_6m",
+      "global_importance": 0.1772
+    },
+    {
+      "feature": "creatinine_mg_dl",
+      "global_importance": 0.1593
+    },
+    {
+      "feature": "allowed_amount_6m",
+      "global_importance": 0.1442
+    },
+    {
+      "feature": "ed_visits_6m",
+      "global_importance": 0.0909
+    },
+    {
+      "feature": "heart_failure",
+      "global_importance": 0.0848
+    }
+  ],
+  "validation_auc": 0.753
+}
+
+=== EVIDENCE ===
+[
+  {
+    "guideline_id": "G00001",
+    "topic": "post-discharge follow-up",
+    "text": "Demo evidence record 1. Recent hospitalization and repeated acute-care use are important signals for care-coordination follow-up. Context: care management. Use approved local policy and qualified clinical judgment. Synthetic portfolio evidence only.",
+    "score": 0.2121
+  },
+  {
+    "guideline_id": "G00007",
+    "topic": "readmission risk",
+    "text": "Demo evidence record 7. Readmission-risk models should support, not replace, clinical judgment and should be monitored for calibration and drift. Context: hospital discharge. Use approved local policy and qualified clinical judgment. Synthetic portfolio evidence only.",
+    "score": 0.1995
+  },
+  {
+    "guideline_id": "G00009",
+    "topic": "post-discharge follow-up",
+    "text": "Demo evidence record 9. Recent hospitalization and repeated acute-care use are important signals for care-coordination follow-up. Context: population health. Use approved local policy and qualified clinical judgment. Synthetic portfolio evidence only.",
+    "score": 0.1918
+  }
+]
+
+=== SAFETY ===
+{
+  "passed": true,
+  "issues": []
+}
+
+=== FINAL REPORT ===
+Patient P0095 has a MODERATE estimated 30-day readmission risk (43.1%). Detected clinical conditions: heart failure, diabetes. Recent utilization includes 2 ED visit(s) and 0 inpatient admission(s) in 6 months. Latest creatinine is 0.91 mg/dL. Care-coordination review should focus on recent utilization, transition-of-care needs, and the organization's approved follow-up pathway. Evidence references: G00001, G00007, G00009. This output is decision support only and is not a diagnosis or prescription.

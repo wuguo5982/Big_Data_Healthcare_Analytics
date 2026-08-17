@@ -1,0 +1,5001 @@
+encounter_id,patient_id,encounter_type,days_since_discharge,length_of_stay_days,discharge_disposition
+E00001,P0001,Outpatient,17,3,Home
+E00002,P0002,Inpatient,5,4,Home
+E00003,P0003,Inpatient,24,1,Home
+E00004,P0004,Inpatient,3,5,Home
+E00005,P0005,Outpatient,29,4,Home
+E00006,P0006,Inpatient,11,4,Home
+E00007,P0007,Inpatient,14,4,Home Health
+E00008,P0008,Inpatient,6,5,Home
+E00009,P0009,Outpatient,10,2,Home Health
+E00010,P0010,Outpatient,6,4,Home
+E00011,P0011,Outpatient,11,3,Home
+E00012,P0012,Inpatient,10,6,Home Health
+E00013,P0013,Outpatient,22,6,Home
+E00014,P0014,Outpatient,18,3,Home
+E00015,P0015,Outpatient,23,5,Home
+E00016,P0016,Outpatient,23,5,Skilled Nursing
+E00017,P0017,Inpatient,26,4,Home
+E00018,P0018,Outpatient,7,4,Home
+E00019,P0019,Outpatient,11,4,Home
+E00020,P0020,Outpatient,14,2,Home
+E00021,P0021,Inpatient,14,1,Skilled Nursing
+E00022,P0022,Outpatient,22,4,Home Health
+E00023,P0023,Inpatient,3,7,Home
+E00024,P0024,Outpatient,26,5,Home
+E00025,P0025,Inpatient,17,3,Home
+E00026,P0026,Outpatient,7,3,Home
+E00027,P0027,Inpatient,11,5,Home
+E00028,P0028,Outpatient,25,8,Home
+E00029,P0029,Inpatient,18,2,Home
+E00030,P0030,Outpatient,14,3,Home
+E00031,P0031,Outpatient,27,1,Home Health
+E00032,P0032,Outpatient,20,5,Home
+E00033,P0033,Outpatient,6,2,Home
+E00034,P0034,Inpatient,15,3,Home
+E00035,P0035,Inpatient,29,2,Home Health
+E00036,P0036,Inpatient,22,4,Home
+E00037,P0037,Outpatient,20,3,Home
+E00038,P0038,Outpatient,22,6,Home
+E00039,P0039,Outpatient,14,7,Home Health
+E00040,P0040,Outpatient,16,3,Skilled Nursing
+E00041,P0041,Inpatient,4,6,Home
+E00042,P0042,Outpatient,28,1,Home
+E00043,P0043,Inpatient,6,5,Home
+E00044,P0044,Inpatient,27,1,Skilled Nursing
+E00045,P0045,Outpatient,27,7,Home
+E00046,P0046,Outpatient,11,4,Home Health
+E00047,P0047,Outpatient,29,3,Home
+E00048,P0048,Outpatient,5,3,Home
+E00049,P0049,Inpatient,4,1,Home
+E00050,P0050,Inpatient,6,4,Home Health
+E00051,P0051,Outpatient,26,6,Home
+E00052,P0052,Inpatient,9,4,Home
+E00053,P0053,Outpatient,29,5,Home
+E00054,P0054,Outpatient,20,2,Home Health
+E00055,P0055,Inpatient,9,4,Home
+E00056,P0056,Inpatient,7,3,Home Health
+E00057,P0057,Outpatient,22,2,Home
+E00058,P0058,Outpatient,17,1,Home
+E00059,P0059,Inpatient,5,4,Home
+E00060,P0060,Outpatient,22,2,Home
+E00061,P0061,Outpatient,26,2,Home
+E00062,P0062,Outpatient,7,5,Home
+E00063,P0063,Outpatient,16,4,Home
+E00064,P0064,Inpatient,10,6,Home
+E00065,P0065,Outpatient,8,1,Home Health
+E00066,P0066,Outpatient,3,2,Home
+E00067,P0067,Outpatient,29,2,Home Health
+E00068,P0068,Outpatient,5,3,Home
+E00069,P0069,Outpatient,11,5,Home
+E00070,P0070,Inpatient,12,2,Home
+E00071,P0071,Outpatient,24,3,Home
+E00072,P0072,Inpatient,9,3,Home
+E00073,P0073,Inpatient,27,5,Home
+E00074,P0074,Outpatient,7,2,Home
+E00075,P0075,Inpatient,24,2,Skilled Nursing
+E00076,P0076,Outpatient,11,5,Home
+E00077,P0077,Outpatient,5,3,Home
+E00078,P0078,Inpatient,5,2,Home
+E00079,P0079,Outpatient,19,1,Home Health
+E00080,P0080,Inpatient,22,6,Home Health
+E00081,P0081,Outpatient,19,2,Home
+E00082,P0082,Outpatient,18,2,Home Health
+E00083,P0083,Outpatient,16,3,Home
+E00084,P0084,Outpatient,9,7,Home
+E00085,P0085,Outpatient,23,5,Home
+E00086,P0086,Inpatient,5,9,Home
+E00087,P0087,Inpatient,6,3,Home
+E00088,P0088,Outpatient,3,2,Home Health
+E00089,P0089,Inpatient,19,9,Skilled Nursing
+E00090,P0090,Outpatient,21,6,Home
+E00091,P0091,Outpatient,25,2,Home
+E00092,P0092,Outpatient,7,3,Home
+E00093,P0093,Outpatient,17,2,Home
+E00094,P0094,Inpatient,14,6,Home
+E00095,P0095,Outpatient,29,3,Home
+E00096,P0096,Outpatient,18,5,Home
+E00097,P0097,Outpatient,20,6,Home
+E00098,P0098,Outpatient,11,6,Home
+E00099,P0099,Outpatient,22,4,Home
+E00100,P0100,Outpatient,3,7,Home
+E00101,P0101,Outpatient,26,2,Home
+E00102,P0102,Inpatient,16,4,Home
+E00103,P0103,Outpatient,18,3,Home
+E00104,P0104,Inpatient,28,2,Home
+E00105,P0105,Inpatient,6,4,Home
+E00106,P0106,Outpatient,5,5,Home
+E00107,P0107,Outpatient,19,3,Home Health
+E00108,P0108,Inpatient,12,2,Skilled Nursing
+E00109,P0109,Inpatient,18,3,Home
+E00110,P0110,Inpatient,10,3,Home
+E00111,P0111,Outpatient,13,6,Home
+E00112,P0112,Outpatient,8,3,Home
+E00113,P0113,Inpatient,19,5,Home
+E00114,P0114,Outpatient,19,3,Home
+E00115,P0115,Outpatient,20,4,Home
+E00116,P0116,Outpatient,12,5,Home
+E00117,P0117,Inpatient,14,2,Skilled Nursing
+E00118,P0118,Inpatient,10,3,Skilled Nursing
+E00119,P0119,Outpatient,19,1,Home
+E00120,P0120,Inpatient,6,3,Skilled Nursing
+E00121,P0121,Outpatient,4,5,Home Health
+E00122,P0122,Inpatient,12,3,Home Health
+E00123,P0123,Outpatient,20,3,Home
+E00124,P0124,Outpatient,29,5,Skilled Nursing
+E00125,P0125,Outpatient,8,1,Home
+E00126,P0126,Outpatient,26,6,Home
+E00127,P0127,Inpatient,8,4,Home Health
+E00128,P0128,Outpatient,4,2,Home
+E00129,P0129,Inpatient,6,5,Home
+E00130,P0130,Outpatient,19,5,Home
+E00131,P0131,Inpatient,12,3,Skilled Nursing
+E00132,P0132,Outpatient,15,3,Home
+E00133,P0133,Inpatient,9,4,Home
+E00134,P0134,Outpatient,21,4,Home
+E00135,P0135,Outpatient,17,7,Home
+E00136,P0136,Outpatient,28,1,Home
+E00137,P0137,Inpatient,15,2,Home
+E00138,P0138,Outpatient,4,3,Home
+E00139,P0139,Outpatient,24,1,Home
+E00140,P0140,Inpatient,17,3,Home
+E00141,P0141,Inpatient,9,3,Home
+E00142,P0142,Inpatient,3,4,Home Health
+E00143,P0143,Inpatient,10,4,Home
+E00144,P0144,Inpatient,12,5,Skilled Nursing
+E00145,P0145,Outpatient,6,1,Home Health
+E00146,P0146,Inpatient,14,2,Home Health
+E00147,P0147,Outpatient,18,4,Home
+E00148,P0148,Inpatient,4,4,Skilled Nursing
+E00149,P0149,Outpatient,2,3,Home Health
+E00150,P0150,Outpatient,8,5,Home
+E00151,P0151,Inpatient,26,3,Home
+E00152,P0152,Inpatient,18,2,Skilled Nursing
+E00153,P0153,Outpatient,15,4,Home Health
+E00154,P0154,Inpatient,8,3,Home
+E00155,P0155,Outpatient,18,4,Home Health
+E00156,P0156,Inpatient,22,3,Home
+E00157,P0157,Outpatient,9,1,Skilled Nursing
+E00158,P0158,Outpatient,20,5,Home
+E00159,P0159,Inpatient,5,4,Skilled Nursing
+E00160,P0160,Outpatient,15,4,Home
+E00161,P0161,Outpatient,21,6,Skilled Nursing
+E00162,P0162,Inpatient,17,1,Home
+E00163,P0163,Outpatient,29,1,Home Health
+E00164,P0164,Inpatient,11,1,Home
+E00165,P0165,Outpatient,3,6,Skilled Nursing
+E00166,P0166,Outpatient,17,4,Home
+E00167,P0167,Inpatient,29,5,Home
+E00168,P0168,Outpatient,10,2,Home Health
+E00169,P0169,Outpatient,24,4,Home Health
+E00170,P0170,Inpatient,27,7,Skilled Nursing
+E00171,P0171,Inpatient,7,4,Home
+E00172,P0172,Outpatient,4,2,Home
+E00173,P0173,Inpatient,10,3,Home
+E00174,P0174,Inpatient,7,2,Home
+E00175,P0175,Outpatient,29,2,Home
+E00176,P0176,Outpatient,9,1,Home
+E00177,P0177,Inpatient,27,3,Home
+E00178,P0178,Outpatient,24,4,Home Health
+E00179,P0179,Outpatient,27,5,Home
+E00180,P0180,Inpatient,14,2,Home
+E00181,P0181,Outpatient,20,3,Home
+E00182,P0182,Inpatient,17,2,Home
+E00183,P0183,Outpatient,15,5,Home
+E00184,P0184,Inpatient,10,1,Home
+E00185,P0185,Inpatient,7,3,Home
+E00186,P0186,Inpatient,9,6,Home
+E00187,P0187,Inpatient,10,4,Home Health
+E00188,P0188,Outpatient,20,2,Home
+E00189,P0189,Inpatient,4,5,Home
+E00190,P0190,Outpatient,21,5,Home Health
+E00191,P0191,Outpatient,21,5,Home Health
+E00192,P0192,Outpatient,16,4,Home Health
+E00193,P0193,Outpatient,26,3,Home
+E00194,P0194,Inpatient,21,4,Home
+E00195,P0195,Outpatient,19,6,Home
+E00196,P0196,Inpatient,23,1,Home
+E00197,P0197,Inpatient,17,3,Home
+E00198,P0198,Outpatient,4,2,Home
+E00199,P0199,Outpatient,21,2,Home Health
+E00200,P0200,Outpatient,8,2,Home
+E00201,P0201,Outpatient,3,2,Home Health
+E00202,P0202,Outpatient,19,2,Home Health
+E00203,P0203,Inpatient,10,1,Home
+E00204,P0204,Inpatient,26,1,Home
+E00205,P0205,Inpatient,12,2,Home
+E00206,P0206,Outpatient,24,3,Home
+E00207,P0207,Inpatient,25,4,Home
+E00208,P0208,Inpatient,18,1,Home
+E00209,P0209,Inpatient,9,3,Home
+E00210,P0210,Inpatient,14,5,Home
+E00211,P0211,Outpatient,4,5,Home
+E00212,P0212,Outpatient,2,3,Home Health
+E00213,P0213,Outpatient,3,2,Home
+E00214,P0214,Inpatient,27,7,Home
+E00215,P0215,Outpatient,5,1,Home
+E00216,P0216,Inpatient,22,3,Home Health
+E00217,P0217,Inpatient,28,6,Home
+E00218,P0218,Outpatient,9,4,Home
+E00219,P0219,Outpatient,7,4,Home
+E00220,P0220,Outpatient,16,7,Home Health
+E00221,P0221,Outpatient,18,4,Home
+E00222,P0222,Inpatient,8,4,Home
+E00223,P0223,Outpatient,14,1,Home
+E00224,P0224,Inpatient,27,1,Home Health
+E00225,P0225,Outpatient,14,3,Home
+E00226,P0226,Inpatient,14,2,Skilled Nursing
+E00227,P0227,Outpatient,10,1,Home
+E00228,P0228,Outpatient,25,5,Home
+E00229,P0229,Outpatient,28,2,Home
+E00230,P0230,Inpatient,19,1,Home
+E00231,P0231,Outpatient,8,5,Skilled Nursing
+E00232,P0232,Inpatient,16,4,Home Health
+E00233,P0233,Inpatient,6,7,Home Health
+E00234,P0234,Inpatient,27,1,Home
+E00235,P0235,Inpatient,27,4,Home
+E00236,P0236,Outpatient,5,3,Home
+E00237,P0237,Outpatient,15,4,Home
+E00238,P0238,Outpatient,3,3,Home Health
+E00239,P0239,Outpatient,16,7,Home
+E00240,P0240,Outpatient,20,2,Home Health
+E00241,P0241,Outpatient,22,5,Home
+E00242,P0242,Outpatient,27,3,Home Health
+E00243,P0243,Outpatient,29,3,Home
+E00244,P0244,Outpatient,5,3,Skilled Nursing
+E00245,P0245,Outpatient,22,1,Home
+E00246,P0246,Inpatient,8,4,Home
+E00247,P0247,Outpatient,23,4,Home
+E00248,P0248,Outpatient,13,6,Home
+E00249,P0249,Outpatient,18,4,Home Health
+E00250,P0250,Outpatient,28,5,Skilled Nursing
+E00251,P0251,Inpatient,27,4,Home
+E00252,P0252,Outpatient,25,4,Home
+E00253,P0253,Inpatient,14,3,Home
+E00254,P0254,Outpatient,29,2,Home
+E00255,P0255,Outpatient,2,3,Home Health
+E00256,P0256,Outpatient,23,4,Home
+E00257,P0257,Outpatient,8,3,Home
+E00258,P0258,Outpatient,11,2,Home
+E00259,P0259,Outpatient,28,1,Home
+E00260,P0260,Inpatient,3,2,Home
+E00261,P0261,Outpatient,7,6,Home Health
+E00262,P0262,Inpatient,19,3,Home
+E00263,P0263,Outpatient,29,4,Home Health
+E00264,P0264,Outpatient,27,6,Home
+E00265,P0265,Outpatient,17,1,Home Health
+E00266,P0266,Outpatient,14,1,Home
+E00267,P0267,Outpatient,13,6,Home
+E00268,P0268,Outpatient,12,6,Home
+E00269,P0269,Outpatient,24,6,Home
+E00270,P0270,Outpatient,24,2,Home Health
+E00271,P0271,Outpatient,10,4,Skilled Nursing
+E00272,P0272,Outpatient,13,4,Home
+E00273,P0273,Inpatient,25,1,Home
+E00274,P0274,Outpatient,22,5,Home
+E00275,P0275,Inpatient,16,1,Skilled Nursing
+E00276,P0276,Outpatient,7,7,Home
+E00277,P0277,Inpatient,8,3,Skilled Nursing
+E00278,P0278,Inpatient,19,3,Home
+E00279,P0279,Inpatient,21,5,Home
+E00280,P0280,Inpatient,17,5,Home
+E00281,P0281,Inpatient,17,8,Home Health
+E00282,P0282,Outpatient,14,5,Home
+E00283,P0283,Inpatient,23,3,Home Health
+E00284,P0284,Inpatient,11,1,Home
+E00285,P0285,Outpatient,20,2,Home
+E00286,P0286,Outpatient,19,5,Home
+E00287,P0287,Inpatient,8,3,Home
+E00288,P0288,Outpatient,28,5,Home
+E00289,P0289,Inpatient,22,4,Skilled Nursing
+E00290,P0290,Outpatient,10,5,Home
+E00291,P0291,Inpatient,9,3,Skilled Nursing
+E00292,P0292,Outpatient,3,3,Home
+E00293,P0293,Inpatient,14,1,Home
+E00294,P0294,Outpatient,26,6,Home Health
+E00295,P0295,Inpatient,9,5,Home
+E00296,P0296,Outpatient,2,3,Home
+E00297,P0297,Inpatient,14,1,Home
+E00298,P0298,Outpatient,3,7,Home
+E00299,P0299,Outpatient,24,3,Home
+E00300,P0300,Inpatient,6,2,Home
+E00301,P0301,Outpatient,13,4,Home
+E00302,P0302,Outpatient,22,2,Home
+E00303,P0303,Inpatient,9,4,Home
+E00304,P0304,Outpatient,3,3,Home
+E00305,P0305,Inpatient,24,4,Home
+E00306,P0306,Outpatient,15,2,Home
+E00307,P0307,Outpatient,4,3,Home Health
+E00308,P0308,Outpatient,5,2,Home
+E00309,P0309,Outpatient,27,5,Home Health
+E00310,P0310,Inpatient,17,1,Home
+E00311,P0311,Outpatient,9,2,Home
+E00312,P0312,Outpatient,15,3,Home Health
+E00313,P0313,Outpatient,29,1,Home
+E00314,P0314,Outpatient,10,5,Home Health
+E00315,P0315,Inpatient,7,3,Home Health
+E00316,P0316,Outpatient,18,4,Home
+E00317,P0317,Outpatient,25,1,Home Health
+E00318,P0318,Outpatient,10,4,Home
+E00319,P0319,Outpatient,4,3,Home Health
+E00320,P0320,Outpatient,25,2,Skilled Nursing
+E00321,P0321,Outpatient,25,5,Home
+E00322,P0322,Outpatient,27,5,Home
+E00323,P0323,Inpatient,11,5,Skilled Nursing
+E00324,P0324,Inpatient,16,8,Home
+E00325,P0325,Inpatient,15,4,Home
+E00326,P0326,Inpatient,5,4,Home
+E00327,P0327,Outpatient,19,2,Home
+E00328,P0328,Inpatient,11,2,Home
+E00329,P0329,Inpatient,27,1,Skilled Nursing
+E00330,P0330,Inpatient,24,5,Home
+E00331,P0331,Outpatient,8,8,Home Health
+E00332,P0332,Inpatient,7,3,Skilled Nursing
+E00333,P0333,Outpatient,5,3,Home
+E00334,P0334,Outpatient,5,1,Home
+E00335,P0335,Inpatient,14,3,Home Health
+E00336,P0336,Outpatient,28,3,Home
+E00337,P0337,Outpatient,16,5,Home
+E00338,P0338,Inpatient,17,1,Skilled Nursing
+E00339,P0339,Inpatient,13,1,Home
+E00340,P0340,Outpatient,14,6,Home
+E00341,P0341,Inpatient,15,1,Skilled Nursing
+E00342,P0342,Inpatient,27,2,Skilled Nursing
+E00343,P0343,Inpatient,3,4,Home
+E00344,P0344,Inpatient,17,1,Home
+E00345,P0345,Outpatient,18,2,Home
+E00346,P0346,Inpatient,15,2,Home
+E00347,P0347,Outpatient,13,5,Home Health
+E00348,P0348,Outpatient,10,2,Home
+E00349,P0349,Outpatient,14,4,Home Health
+E00350,P0350,Inpatient,20,6,Home
+E00351,P0351,Outpatient,10,3,Home
+E00352,P0352,Inpatient,21,3,Home
+E00353,P0353,Inpatient,24,4,Home
+E00354,P0354,Outpatient,5,1,Home
+E00355,P0355,Outpatient,20,2,Home Health
+E00356,P0356,Outpatient,23,3,Skilled Nursing
+E00357,P0357,Inpatient,23,2,Skilled Nursing
+E00358,P0358,Outpatient,14,2,Home Health
+E00359,P0359,Inpatient,10,6,Skilled Nursing
+E00360,P0360,Outpatient,13,3,Home
+E00361,P0361,Inpatient,23,4,Home
+E00362,P0362,Outpatient,27,2,Home Health
+E00363,P0363,Outpatient,17,1,Home
+E00364,P0364,Inpatient,6,3,Home
+E00365,P0365,Outpatient,4,3,Home
+E00366,P0366,Inpatient,15,3,Home
+E00367,P0367,Inpatient,16,2,Home Health
+E00368,P0368,Outpatient,14,6,Home
+E00369,P0369,Inpatient,23,7,Home
+E00370,P0370,Inpatient,18,6,Home
+E00371,P0371,Outpatient,16,7,Home
+E00372,P0372,Inpatient,8,3,Home
+E00373,P0373,Inpatient,20,2,Home Health
+E00374,P0374,Outpatient,8,4,Home
+E00375,P0375,Outpatient,28,1,Skilled Nursing
+E00376,P0376,Inpatient,3,5,Home
+E00377,P0377,Inpatient,6,1,Home
+E00378,P0378,Outpatient,24,3,Home
+E00379,P0379,Inpatient,29,3,Home
+E00380,P0380,Inpatient,4,5,Home
+E00381,P0381,Outpatient,6,1,Skilled Nursing
+E00382,P0382,Inpatient,19,5,Home
+E00383,P0383,Inpatient,29,5,Skilled Nursing
+E00384,P0384,Inpatient,2,7,Home
+E00385,P0385,Outpatient,13,4,Home
+E00386,P0386,Outpatient,18,4,Home
+E00387,P0387,Inpatient,19,2,Home
+E00388,P0388,Outpatient,8,3,Home
+E00389,P0389,Outpatient,2,1,Home
+E00390,P0390,Inpatient,20,2,Home Health
+E00391,P0391,Outpatient,29,2,Home
+E00392,P0392,Inpatient,23,2,Skilled Nursing
+E00393,P0393,Outpatient,27,7,Home
+E00394,P0394,Outpatient,29,2,Home Health
+E00395,P0395,Outpatient,20,6,Home
+E00396,P0396,Inpatient,22,5,Home
+E00397,P0397,Outpatient,6,2,Home
+E00398,P0398,Inpatient,28,4,Home
+E00399,P0399,Outpatient,18,4,Home Health
+E00400,P0400,Inpatient,28,2,Home
+E00401,P0401,Inpatient,29,4,Home
+E00402,P0402,Inpatient,9,2,Home
+E00403,P0403,Outpatient,23,3,Home
+E00404,P0404,Outpatient,13,3,Home
+E00405,P0405,Inpatient,4,1,Home
+E00406,P0406,Outpatient,13,5,Home Health
+E00407,P0407,Inpatient,15,6,Home
+E00408,P0408,Outpatient,11,1,Home Health
+E00409,P0409,Inpatient,13,4,Home
+E00410,P0410,Outpatient,22,6,Home Health
+E00411,P0411,Outpatient,22,2,Home
+E00412,P0412,Outpatient,12,1,Home
+E00413,P0413,Outpatient,21,4,Home Health
+E00414,P0414,Inpatient,27,2,Home
+E00415,P0415,Outpatient,27,3,Home
+E00416,P0416,Inpatient,17,5,Home
+E00417,P0417,Inpatient,25,2,Home
+E00418,P0418,Inpatient,10,2,Home
+E00419,P0419,Outpatient,6,5,Home
+E00420,P0420,Inpatient,25,3,Home
+E00421,P0421,Outpatient,22,2,Home
+E00422,P0422,Inpatient,21,2,Home
+E00423,P0423,Outpatient,23,6,Home
+E00424,P0424,Outpatient,10,3,Home Health
+E00425,P0425,Outpatient,9,1,Home
+E00426,P0426,Outpatient,27,1,Home Health
+E00427,P0427,Inpatient,23,5,Home Health
+E00428,P0428,Inpatient,14,3,Home
+E00429,P0429,Outpatient,13,5,Home
+E00430,P0430,Inpatient,4,3,Home
+E00431,P0431,Outpatient,3,3,Home Health
+E00432,P0432,Inpatient,24,4,Home
+E00433,P0433,Outpatient,11,6,Home
+E00434,P0434,Outpatient,21,3,Home Health
+E00435,P0435,Inpatient,27,1,Home Health
+E00436,P0436,Inpatient,3,2,Home
+E00437,P0437,Inpatient,9,4,Home Health
+E00438,P0438,Outpatient,5,3,Home
+E00439,P0439,Inpatient,16,2,Home
+E00440,P0440,Outpatient,27,3,Skilled Nursing
+E00441,P0441,Inpatient,7,1,Home
+E00442,P0442,Inpatient,3,3,Home
+E00443,P0443,Inpatient,20,2,Home
+E00444,P0444,Outpatient,17,2,Skilled Nursing
+E00445,P0445,Outpatient,22,3,Home
+E00446,P0446,Outpatient,3,2,Home
+E00447,P0447,Inpatient,8,3,Home
+E00448,P0448,Inpatient,25,2,Home
+E00449,P0449,Outpatient,10,4,Home
+E00450,P0450,Outpatient,6,2,Home
+E00451,P0451,Outpatient,28,3,Home Health
+E00452,P0452,Inpatient,18,5,Home
+E00453,P0453,Inpatient,29,3,Home Health
+E00454,P0454,Outpatient,29,5,Home
+E00455,P0455,Inpatient,6,1,Home
+E00456,P0456,Outpatient,20,4,Home
+E00457,P0457,Inpatient,21,5,Home
+E00458,P0458,Outpatient,13,1,Home
+E00459,P0459,Outpatient,25,3,Skilled Nursing
+E00460,P0460,Inpatient,12,7,Home
+E00461,P0461,Inpatient,3,2,Home
+E00462,P0462,Outpatient,28,5,Home
+E00463,P0463,Outpatient,17,1,Home
+E00464,P0464,Inpatient,18,3,Home
+E00465,P0465,Outpatient,22,4,Skilled Nursing
+E00466,P0466,Inpatient,29,2,Home
+E00467,P0467,Outpatient,20,1,Home
+E00468,P0468,Outpatient,3,3,Home
+E00469,P0469,Outpatient,12,1,Home
+E00470,P0470,Outpatient,24,6,Home
+E00471,P0471,Inpatient,23,2,Home Health
+E00472,P0472,Inpatient,7,3,Skilled Nursing
+E00473,P0473,Outpatient,6,1,Home Health
+E00474,P0474,Inpatient,11,6,Home
+E00475,P0475,Inpatient,25,5,Home
+E00476,P0476,Inpatient,20,5,Home
+E00477,P0477,Inpatient,20,4,Home Health
+E00478,P0478,Outpatient,24,2,Home
+E00479,P0479,Inpatient,10,4,Home
+E00480,P0480,Inpatient,17,2,Home
+E00481,P0481,Outpatient,16,2,Home
+E00482,P0482,Outpatient,4,2,Home Health
+E00483,P0483,Outpatient,11,6,Home
+E00484,P0484,Inpatient,2,3,Home
+E00485,P0485,Inpatient,10,3,Home
+E00486,P0486,Inpatient,26,5,Home
+E00487,P0487,Outpatient,4,3,Skilled Nursing
+E00488,P0488,Outpatient,9,1,Home
+E00489,P0489,Inpatient,16,5,Home Health
+E00490,P0490,Outpatient,20,3,Home Health
+E00491,P0491,Outpatient,4,1,Home Health
+E00492,P0492,Outpatient,23,6,Home
+E00493,P0493,Outpatient,15,4,Home
+E00494,P0494,Outpatient,21,5,Home Health
+E00495,P0495,Outpatient,18,1,Home
+E00496,P0496,Inpatient,4,5,Home
+E00497,P0497,Outpatient,11,2,Skilled Nursing
+E00498,P0498,Outpatient,23,3,Home
+E00499,P0499,Outpatient,15,2,Home Health
+E00500,P0500,Outpatient,27,4,Home
+E00501,P0501,Inpatient,21,5,Home
+E00502,P0502,Inpatient,24,3,Home
+E00503,P0503,Inpatient,16,3,Home
+E00504,P0504,Outpatient,16,4,Home
+E00505,P0505,Outpatient,17,6,Home
+E00506,P0506,Outpatient,7,3,Home
+E00507,P0507,Inpatient,18,3,Home Health
+E00508,P0508,Inpatient,19,3,Skilled Nursing
+E00509,P0509,Inpatient,2,4,Home
+E00510,P0510,Inpatient,21,3,Home
+E00511,P0511,Outpatient,12,2,Home
+E00512,P0512,Outpatient,9,4,Home
+E00513,P0513,Outpatient,20,6,Home
+E00514,P0514,Inpatient,19,1,Home
+E00515,P0515,Inpatient,6,5,Home Health
+E00516,P0516,Inpatient,26,2,Home
+E00517,P0517,Inpatient,23,4,Home
+E00518,P0518,Outpatient,12,2,Home Health
+E00519,P0519,Outpatient,3,3,Skilled Nursing
+E00520,P0520,Outpatient,16,2,Home
+E00521,P0521,Outpatient,29,2,Home
+E00522,P0522,Outpatient,22,4,Home Health
+E00523,P0523,Outpatient,11,3,Home Health
+E00524,P0524,Inpatient,22,2,Home
+E00525,P0525,Outpatient,24,2,Home
+E00526,P0526,Outpatient,20,3,Home Health
+E00527,P0527,Outpatient,7,3,Home
+E00528,P0528,Inpatient,16,1,Home Health
+E00529,P0529,Inpatient,8,5,Home
+E00530,P0530,Inpatient,21,5,Skilled Nursing
+E00531,P0531,Outpatient,2,3,Home
+E00532,P0532,Inpatient,25,5,Home
+E00533,P0533,Outpatient,15,5,Home Health
+E00534,P0534,Inpatient,27,4,Home Health
+E00535,P0535,Inpatient,28,5,Home
+E00536,P0536,Outpatient,14,4,Home
+E00537,P0537,Outpatient,27,4,Home
+E00538,P0538,Outpatient,21,2,Skilled Nursing
+E00539,P0539,Outpatient,15,3,Home
+E00540,P0540,Inpatient,13,5,Home
+E00541,P0541,Outpatient,26,6,Skilled Nursing
+E00542,P0542,Inpatient,26,2,Home Health
+E00543,P0543,Outpatient,26,5,Home
+E00544,P0544,Outpatient,25,1,Home
+E00545,P0545,Inpatient,28,3,Home Health
+E00546,P0546,Inpatient,23,6,Home
+E00547,P0547,Outpatient,10,2,Home
+E00548,P0548,Outpatient,15,6,Skilled Nursing
+E00549,P0549,Inpatient,2,7,Home
+E00550,P0550,Inpatient,17,4,Home
+E00551,P0551,Inpatient,8,4,Home
+E00552,P0552,Outpatient,24,2,Home
+E00553,P0553,Inpatient,26,5,Home
+E00554,P0554,Outpatient,3,1,Skilled Nursing
+E00555,P0555,Outpatient,17,5,Home Health
+E00556,P0556,Inpatient,17,1,Home
+E00557,P0557,Outpatient,21,4,Skilled Nursing
+E00558,P0558,Inpatient,8,1,Home
+E00559,P0559,Inpatient,2,4,Home
+E00560,P0560,Inpatient,18,2,Home
+E00561,P0561,Outpatient,8,1,Home
+E00562,P0562,Inpatient,15,3,Home
+E00563,P0563,Inpatient,23,6,Home Health
+E00564,P0564,Outpatient,19,7,Home
+E00565,P0565,Inpatient,27,5,Home
+E00566,P0566,Outpatient,4,3,Home Health
+E00567,P0567,Outpatient,2,4,Home
+E00568,P0568,Outpatient,27,1,Home
+E00569,P0569,Outpatient,26,1,Home
+E00570,P0570,Inpatient,18,3,Home
+E00571,P0571,Outpatient,26,4,Home
+E00572,P0572,Outpatient,10,3,Home
+E00573,P0573,Outpatient,28,2,Home
+E00574,P0574,Inpatient,24,4,Home
+E00575,P0575,Inpatient,12,4,Home
+E00576,P0576,Outpatient,21,3,Home
+E00577,P0577,Outpatient,8,5,Home Health
+E00578,P0578,Inpatient,14,3,Home Health
+E00579,P0579,Outpatient,15,2,Home
+E00580,P0580,Outpatient,9,5,Skilled Nursing
+E00581,P0581,Outpatient,9,3,Home Health
+E00582,P0582,Outpatient,10,2,Home
+E00583,P0583,Outpatient,20,3,Home Health
+E00584,P0584,Outpatient,3,10,Home
+E00585,P0585,Inpatient,15,3,Home
+E00586,P0586,Inpatient,12,1,Home
+E00587,P0587,Outpatient,25,1,Home Health
+E00588,P0588,Outpatient,16,2,Home Health
+E00589,P0589,Outpatient,20,1,Home
+E00590,P0590,Inpatient,25,1,Home
+E00591,P0591,Outpatient,26,5,Home Health
+E00592,P0592,Outpatient,20,3,Home
+E00593,P0593,Outpatient,19,1,Home
+E00594,P0594,Outpatient,8,3,Home
+E00595,P0595,Inpatient,5,7,Home
+E00596,P0596,Outpatient,28,4,Home
+E00597,P0597,Inpatient,11,3,Skilled Nursing
+E00598,P0598,Outpatient,8,2,Home Health
+E00599,P0599,Outpatient,14,2,Home
+E00600,P0600,Outpatient,19,5,Home
+E00601,P0601,Outpatient,7,4,Home
+E00602,P0602,Inpatient,11,5,Home
+E00603,P0603,Inpatient,22,4,Home
+E00604,P0604,Inpatient,5,2,Home
+E00605,P0605,Outpatient,14,2,Home Health
+E00606,P0606,Outpatient,25,6,Home
+E00607,P0607,Outpatient,9,1,Home
+E00608,P0608,Outpatient,18,2,Home
+E00609,P0609,Outpatient,25,4,Home
+E00610,P0610,Inpatient,16,4,Home Health
+E00611,P0611,Inpatient,11,3,Home
+E00612,P0612,Inpatient,10,3,Home Health
+E00613,P0613,Outpatient,24,4,Home
+E00614,P0614,Outpatient,23,2,Home Health
+E00615,P0615,Outpatient,24,5,Home Health
+E00616,P0616,Outpatient,25,6,Skilled Nursing
+E00617,P0617,Outpatient,13,1,Home
+E00618,P0618,Outpatient,25,3,Home
+E00619,P0619,Outpatient,4,1,Home
+E00620,P0620,Outpatient,4,2,Home
+E00621,P0621,Outpatient,15,1,Home
+E00622,P0622,Outpatient,7,2,Home Health
+E00623,P0623,Inpatient,29,3,Home
+E00624,P0624,Outpatient,5,4,Home
+E00625,P0625,Outpatient,9,3,Home
+E00626,P0626,Outpatient,10,2,Skilled Nursing
+E00627,P0627,Inpatient,10,8,Home
+E00628,P0628,Outpatient,5,2,Home Health
+E00629,P0629,Inpatient,28,5,Home
+E00630,P0630,Inpatient,6,1,Home
+E00631,P0631,Inpatient,22,2,Home
+E00632,P0632,Inpatient,21,1,Home
+E00633,P0633,Outpatient,8,5,Home
+E00634,P0634,Inpatient,20,4,Home
+E00635,P0635,Inpatient,4,1,Home
+E00636,P0636,Outpatient,9,6,Home
+E00637,P0637,Outpatient,27,1,Home
+E00638,P0638,Inpatient,25,4,Home
+E00639,P0639,Outpatient,13,1,Home
+E00640,P0640,Outpatient,20,2,Home
+E00641,P0641,Inpatient,6,3,Home
+E00642,P0642,Outpatient,14,6,Skilled Nursing
+E00643,P0643,Inpatient,2,1,Home Health
+E00644,P0644,Inpatient,2,2,Skilled Nursing
+E00645,P0645,Outpatient,28,2,Home
+E00646,P0646,Outpatient,20,4,Home
+E00647,P0647,Inpatient,6,5,Home Health
+E00648,P0648,Inpatient,23,4,Home
+E00649,P0649,Inpatient,15,1,Home Health
+E00650,P0650,Outpatient,8,2,Home
+E00651,P0651,Outpatient,28,2,Skilled Nursing
+E00652,P0652,Inpatient,5,1,Home
+E00653,P0653,Inpatient,22,7,Home
+E00654,P0654,Inpatient,10,4,Home
+E00655,P0655,Outpatient,27,2,Skilled Nursing
+E00656,P0656,Outpatient,21,3,Home
+E00657,P0657,Outpatient,21,4,Home
+E00658,P0658,Inpatient,28,5,Home
+E00659,P0659,Outpatient,6,4,Home Health
+E00660,P0660,Inpatient,12,5,Home
+E00661,P0661,Outpatient,13,1,Home Health
+E00662,P0662,Inpatient,25,7,Home
+E00663,P0663,Inpatient,19,1,Home
+E00664,P0664,Outpatient,23,3,Home
+E00665,P0665,Outpatient,13,6,Home Health
+E00666,P0666,Outpatient,26,4,Skilled Nursing
+E00667,P0667,Inpatient,4,1,Skilled Nursing
+E00668,P0668,Inpatient,20,6,Home Health
+E00669,P0669,Outpatient,27,7,Home
+E00670,P0670,Outpatient,28,4,Home
+E00671,P0671,Inpatient,4,4,Skilled Nursing
+E00672,P0672,Inpatient,27,8,Home Health
+E00673,P0673,Inpatient,23,2,Home
+E00674,P0674,Outpatient,2,2,Home
+E00675,P0675,Outpatient,27,3,Home
+E00676,P0676,Outpatient,16,3,Home
+E00677,P0677,Inpatient,13,1,Home
+E00678,P0678,Inpatient,11,5,Skilled Nursing
+E00679,P0679,Inpatient,3,9,Home
+E00680,P0680,Inpatient,25,5,Home
+E00681,P0681,Outpatient,29,2,Home
+E00682,P0682,Inpatient,13,2,Home
+E00683,P0683,Outpatient,29,1,Home Health
+E00684,P0684,Inpatient,27,9,Home
+E00685,P0685,Inpatient,13,6,Home
+E00686,P0686,Outpatient,27,3,Home Health
+E00687,P0687,Inpatient,24,5,Home
+E00688,P0688,Inpatient,12,6,Home
+E00689,P0689,Inpatient,5,9,Home
+E00690,P0690,Inpatient,18,8,Home
+E00691,P0691,Outpatient,16,3,Home
+E00692,P0692,Inpatient,2,1,Home
+E00693,P0693,Outpatient,9,1,Home
+E00694,P0694,Outpatient,11,4,Skilled Nursing
+E00695,P0695,Inpatient,26,5,Home Health
+E00696,P0696,Outpatient,20,3,Home
+E00697,P0697,Inpatient,6,3,Home
+E00698,P0698,Outpatient,7,4,Home Health
+E00699,P0699,Inpatient,29,9,Home
+E00700,P0700,Inpatient,6,7,Home
+E00701,P0701,Inpatient,27,4,Home
+E00702,P0702,Inpatient,28,9,Home Health
+E00703,P0703,Outpatient,21,4,Home
+E00704,P0704,Inpatient,18,6,Home
+E00705,P0705,Outpatient,28,1,Home
+E00706,P0706,Outpatient,17,3,Home
+E00707,P0707,Inpatient,16,8,Home Health
+E00708,P0708,Inpatient,24,2,Home
+E00709,P0709,Outpatient,7,5,Home
+E00710,P0710,Outpatient,17,4,Skilled Nursing
+E00711,P0711,Outpatient,25,2,Home
+E00712,P0712,Outpatient,20,2,Home
+E00713,P0713,Outpatient,11,6,Home
+E00714,P0714,Outpatient,10,3,Home
+E00715,P0715,Outpatient,18,4,Home
+E00716,P0716,Outpatient,12,2,Home Health
+E00717,P0717,Inpatient,11,1,Home
+E00718,P0718,Outpatient,9,8,Home Health
+E00719,P0719,Outpatient,4,3,Home Health
+E00720,P0720,Outpatient,18,6,Home
+E00721,P0721,Outpatient,10,5,Home
+E00722,P0722,Outpatient,18,1,Home
+E00723,P0723,Outpatient,27,3,Home
+E00724,P0724,Outpatient,6,3,Home
+E00725,P0725,Outpatient,25,5,Skilled Nursing
+E00726,P0726,Inpatient,23,7,Home Health
+E00727,P0727,Outpatient,8,1,Home
+E00728,P0728,Outpatient,7,5,Home
+E00729,P0729,Inpatient,13,1,Skilled Nursing
+E00730,P0730,Inpatient,21,6,Home
+E00731,P0731,Outpatient,18,6,Home
+E00732,P0732,Inpatient,3,4,Home Health
+E00733,P0733,Outpatient,5,3,Home Health
+E00734,P0734,Outpatient,27,5,Home Health
+E00735,P0735,Inpatient,8,4,Home Health
+E00736,P0736,Outpatient,3,3,Home
+E00737,P0737,Inpatient,9,2,Home
+E00738,P0738,Outpatient,3,4,Home
+E00739,P0739,Inpatient,17,2,Home
+E00740,P0740,Inpatient,4,2,Home
+E00741,P0741,Inpatient,2,3,Home
+E00742,P0742,Inpatient,14,1,Home Health
+E00743,P0743,Inpatient,20,1,Home
+E00744,P0744,Outpatient,17,1,Home Health
+E00745,P0745,Inpatient,8,5,Home
+E00746,P0746,Inpatient,6,1,Home
+E00747,P0747,Inpatient,16,3,Skilled Nursing
+E00748,P0748,Inpatient,23,4,Home
+E00749,P0749,Outpatient,15,2,Home
+E00750,P0750,Inpatient,5,4,Home
+E00751,P0751,Outpatient,13,2,Home
+E00752,P0752,Inpatient,28,4,Home
+E00753,P0753,Outpatient,28,4,Home
+E00754,P0754,Outpatient,14,3,Home
+E00755,P0755,Inpatient,28,4,Home
+E00756,P0756,Outpatient,17,6,Home
+E00757,P0757,Inpatient,22,1,Home
+E00758,P0758,Outpatient,23,2,Home
+E00759,P0759,Outpatient,16,4,Home
+E00760,P0760,Outpatient,25,4,Home
+E00761,P0761,Inpatient,29,3,Home Health
+E00762,P0762,Outpatient,24,5,Home
+E00763,P0763,Inpatient,15,1,Home Health
+E00764,P0764,Inpatient,11,2,Home
+E00765,P0765,Inpatient,7,2,Skilled Nursing
+E00766,P0766,Inpatient,22,3,Home
+E00767,P0767,Outpatient,20,3,Home
+E00768,P0768,Inpatient,4,3,Skilled Nursing
+E00769,P0769,Outpatient,21,1,Home Health
+E00770,P0770,Inpatient,19,1,Home Health
+E00771,P0771,Inpatient,18,5,Home
+E00772,P0772,Outpatient,11,5,Home
+E00773,P0773,Outpatient,23,5,Home
+E00774,P0774,Outpatient,2,5,Home
+E00775,P0775,Inpatient,8,4,Skilled Nursing
+E00776,P0776,Inpatient,24,2,Home
+E00777,P0777,Outpatient,23,4,Home Health
+E00778,P0778,Outpatient,26,3,Home Health
+E00779,P0779,Outpatient,29,5,Home
+E00780,P0780,Outpatient,5,4,Home
+E00781,P0781,Inpatient,7,5,Home
+E00782,P0782,Inpatient,6,1,Home
+E00783,P0783,Outpatient,16,5,Home Health
+E00784,P0784,Inpatient,5,7,Home Health
+E00785,P0785,Inpatient,28,7,Home
+E00786,P0786,Outpatient,29,3,Home
+E00787,P0787,Inpatient,25,7,Skilled Nursing
+E00788,P0788,Outpatient,3,2,Home
+E00789,P0789,Inpatient,14,4,Home
+E00790,P0790,Outpatient,21,3,Home
+E00791,P0791,Outpatient,11,8,Home Health
+E00792,P0792,Inpatient,3,10,Home
+E00793,P0793,Outpatient,11,1,Home
+E00794,P0794,Outpatient,20,4,Home
+E00795,P0795,Outpatient,12,1,Home
+E00796,P0796,Inpatient,29,3,Home
+E00797,P0797,Outpatient,24,4,Home
+E00798,P0798,Inpatient,6,2,Home
+E00799,P0799,Inpatient,26,3,Home
+E00800,P0800,Inpatient,21,7,Home Health
+E00801,P0801,Outpatient,10,6,Home
+E00802,P0802,Outpatient,21,5,Home
+E00803,P0803,Inpatient,28,7,Home
+E00804,P0804,Outpatient,11,1,Home
+E00805,P0805,Outpatient,9,3,Home
+E00806,P0806,Inpatient,26,3,Home Health
+E00807,P0807,Inpatient,18,3,Home
+E00808,P0808,Outpatient,21,4,Home
+E00809,P0809,Outpatient,29,2,Home
+E00810,P0810,Inpatient,7,2,Home Health
+E00811,P0811,Outpatient,23,7,Home
+E00812,P0812,Outpatient,5,6,Home Health
+E00813,P0813,Inpatient,8,1,Home
+E00814,P0814,Inpatient,25,8,Home
+E00815,P0815,Inpatient,12,5,Home
+E00816,P0816,Inpatient,2,3,Home
+E00817,P0817,Outpatient,11,2,Home
+E00818,P0818,Inpatient,26,4,Home
+E00819,P0819,Inpatient,14,3,Home
+E00820,P0820,Inpatient,4,3,Skilled Nursing
+E00821,P0821,Inpatient,21,5,Home
+E00822,P0822,Outpatient,26,2,Home
+E00823,P0823,Outpatient,19,6,Home
+E00824,P0824,Inpatient,9,3,Home
+E00825,P0825,Inpatient,13,4,Home
+E00826,P0826,Outpatient,24,5,Home
+E00827,P0827,Outpatient,6,4,Home
+E00828,P0828,Inpatient,29,8,Home
+E00829,P0829,Outpatient,9,2,Home
+E00830,P0830,Outpatient,9,3,Home
+E00831,P0831,Outpatient,27,1,Home
+E00832,P0832,Outpatient,25,2,Home
+E00833,P0833,Inpatient,11,4,Home
+E00834,P0834,Outpatient,24,5,Home
+E00835,P0835,Outpatient,2,3,Home
+E00836,P0836,Outpatient,24,3,Home Health
+E00837,P0837,Outpatient,26,6,Home Health
+E00838,P0838,Outpatient,11,1,Home Health
+E00839,P0839,Inpatient,9,7,Home
+E00840,P0840,Outpatient,25,5,Home
+E00841,P0841,Outpatient,20,7,Home
+E00842,P0842,Outpatient,28,5,Home
+E00843,P0843,Outpatient,2,4,Home
+E00844,P0844,Inpatient,2,5,Skilled Nursing
+E00845,P0845,Outpatient,2,3,Home
+E00846,P0846,Outpatient,24,4,Home
+E00847,P0847,Inpatient,4,5,Home
+E00848,P0848,Inpatient,4,2,Home
+E00849,P0849,Outpatient,9,6,Home Health
+E00850,P0850,Inpatient,7,5,Home
+E00851,P0851,Inpatient,21,3,Home
+E00852,P0852,Outpatient,12,9,Home
+E00853,P0853,Outpatient,9,4,Home
+E00854,P0854,Outpatient,29,5,Home
+E00855,P0855,Inpatient,21,5,Home
+E00856,P0856,Outpatient,22,4,Home
+E00857,P0857,Outpatient,21,2,Home
+E00858,P0858,Outpatient,29,4,Home Health
+E00859,P0859,Outpatient,26,5,Skilled Nursing
+E00860,P0860,Outpatient,12,6,Home
+E00861,P0861,Outpatient,13,1,Home
+E00862,P0862,Outpatient,22,1,Home
+E00863,P0863,Outpatient,16,3,Home
+E00864,P0864,Inpatient,20,4,Home
+E00865,P0865,Outpatient,21,5,Skilled Nursing
+E00866,P0866,Inpatient,2,4,Home
+E00867,P0867,Inpatient,13,6,Home
+E00868,P0868,Outpatient,4,4,Home
+E00869,P0869,Outpatient,20,1,Skilled Nursing
+E00870,P0870,Outpatient,2,5,Home Health
+E00871,P0871,Outpatient,27,5,Home
+E00872,P0872,Inpatient,15,9,Home
+E00873,P0873,Outpatient,14,3,Skilled Nursing
+E00874,P0874,Outpatient,18,6,Home
+E00875,P0875,Inpatient,14,4,Skilled Nursing
+E00876,P0876,Inpatient,3,6,Home
+E00877,P0877,Outpatient,24,2,Skilled Nursing
+E00878,P0878,Outpatient,8,4,Home
+E00879,P0879,Inpatient,19,5,Skilled Nursing
+E00880,P0880,Inpatient,23,3,Home
+E00881,P0881,Outpatient,4,5,Home
+E00882,P0882,Outpatient,5,1,Home
+E00883,P0883,Outpatient,2,2,Home Health
+E00884,P0884,Inpatient,21,6,Home
+E00885,P0885,Inpatient,29,4,Home
+E00886,P0886,Outpatient,14,4,Home
+E00887,P0887,Outpatient,23,1,Home
+E00888,P0888,Outpatient,4,7,Home
+E00889,P0889,Outpatient,9,6,Home
+E00890,P0890,Outpatient,22,1,Home
+E00891,P0891,Inpatient,28,4,Home
+E00892,P0892,Inpatient,25,4,Home
+E00893,P0893,Inpatient,5,3,Home
+E00894,P0894,Inpatient,16,2,Home
+E00895,P0895,Outpatient,22,1,Home
+E00896,P0896,Inpatient,17,3,Home
+E00897,P0897,Outpatient,9,2,Home Health
+E00898,P0898,Outpatient,3,3,Home
+E00899,P0899,Inpatient,19,5,Home
+E00900,P0900,Outpatient,28,3,Skilled Nursing
+E00901,P0901,Outpatient,4,2,Home
+E00902,P0902,Outpatient,26,6,Skilled Nursing
+E00903,P0903,Outpatient,24,5,Home Health
+E00904,P0904,Outpatient,29,6,Home
+E00905,P0905,Outpatient,11,2,Home
+E00906,P0906,Inpatient,22,1,Home
+E00907,P0907,Outpatient,8,3,Skilled Nursing
+E00908,P0908,Outpatient,19,6,Home
+E00909,P0909,Outpatient,4,5,Home
+E00910,P0910,Outpatient,26,3,Home
+E00911,P0911,Inpatient,15,1,Skilled Nursing
+E00912,P0912,Outpatient,28,2,Home
+E00913,P0913,Outpatient,25,2,Home
+E00914,P0914,Inpatient,27,4,Home
+E00915,P0915,Inpatient,21,5,Skilled Nursing
+E00916,P0916,Inpatient,3,5,Home
+E00917,P0917,Inpatient,29,3,Home
+E00918,P0918,Inpatient,23,3,Home
+E00919,P0919,Outpatient,10,4,Skilled Nursing
+E00920,P0920,Outpatient,12,4,Home
+E00921,P0921,Outpatient,23,3,Home
+E00922,P0922,Inpatient,24,5,Skilled Nursing
+E00923,P0923,Inpatient,6,4,Home
+E00924,P0924,Outpatient,3,5,Home
+E00925,P0925,Inpatient,20,4,Home
+E00926,P0926,Inpatient,16,6,Home
+E00927,P0927,Inpatient,19,5,Skilled Nursing
+E00928,P0928,Outpatient,29,4,Home Health
+E00929,P0929,Inpatient,20,3,Home
+E00930,P0930,Outpatient,18,1,Home
+E00931,P0931,Outpatient,4,4,Home
+E00932,P0932,Outpatient,3,5,Home
+E00933,P0933,Outpatient,28,1,Home
+E00934,P0934,Outpatient,28,3,Home
+E00935,P0935,Outpatient,25,1,Skilled Nursing
+E00936,P0936,Outpatient,9,5,Home Health
+E00937,P0937,Inpatient,25,3,Home
+E00938,P0938,Inpatient,28,2,Home
+E00939,P0939,Outpatient,3,2,Home
+E00940,P0940,Inpatient,8,7,Home
+E00941,P0941,Outpatient,7,3,Home
+E00942,P0942,Outpatient,15,4,Home Health
+E00943,P0943,Inpatient,23,4,Home
+E00944,P0944,Inpatient,5,3,Home
+E00945,P0945,Outpatient,11,5,Home
+E00946,P0946,Outpatient,26,4,Home Health
+E00947,P0947,Inpatient,7,3,Home
+E00948,P0948,Inpatient,20,3,Home Health
+E00949,P0949,Outpatient,12,3,Home
+E00950,P0950,Inpatient,5,4,Home
+E00951,P0951,Inpatient,10,7,Home
+E00952,P0952,Inpatient,25,1,Home
+E00953,P0953,Inpatient,16,3,Home
+E00954,P0954,Inpatient,29,3,Home Health
+E00955,P0955,Outpatient,15,6,Home Health
+E00956,P0956,Inpatient,28,6,Home
+E00957,P0957,Outpatient,2,5,Home
+E00958,P0958,Outpatient,3,3,Home
+E00959,P0959,Inpatient,28,2,Home
+E00960,P0960,Outpatient,24,3,Home
+E00961,P0961,Outpatient,29,1,Home
+E00962,P0962,Outpatient,27,4,Home
+E00963,P0963,Inpatient,20,2,Home Health
+E00964,P0964,Inpatient,29,1,Home
+E00965,P0965,Inpatient,2,2,Home Health
+E00966,P0966,Inpatient,28,1,Home Health
+E00967,P0967,Inpatient,19,5,Home
+E00968,P0968,Inpatient,26,3,Home
+E00969,P0969,Outpatient,18,2,Home Health
+E00970,P0970,Inpatient,27,4,Home
+E00971,P0971,Outpatient,19,4,Home Health
+E00972,P0972,Outpatient,8,1,Home
+E00973,P0973,Inpatient,17,3,Home
+E00974,P0974,Outpatient,28,3,Home
+E00975,P0975,Inpatient,20,11,Home
+E00976,P0976,Outpatient,23,3,Home
+E00977,P0977,Inpatient,18,3,Skilled Nursing
+E00978,P0978,Outpatient,10,8,Home
+E00979,P0979,Outpatient,13,4,Home
+E00980,P0980,Inpatient,14,5,Skilled Nursing
+E00981,P0981,Inpatient,22,4,Home
+E00982,P0982,Outpatient,10,6,Home
+E00983,P0983,Inpatient,14,5,Home
+E00984,P0984,Outpatient,21,3,Home
+E00985,P0985,Outpatient,4,4,Home
+E00986,P0986,Outpatient,5,2,Home Health
+E00987,P0987,Outpatient,4,5,Home
+E00988,P0988,Outpatient,10,2,Home
+E00989,P0989,Outpatient,19,3,Home
+E00990,P0990,Inpatient,22,3,Home
+E00991,P0991,Outpatient,15,4,Home Health
+E00992,P0992,Inpatient,24,3,Home
+E00993,P0993,Outpatient,5,4,Home
+E00994,P0994,Inpatient,15,5,Home
+E00995,P0995,Inpatient,26,4,Home Health
+E00996,P0996,Outpatient,19,5,Home
+E00997,P0997,Inpatient,2,2,Home
+E00998,P0998,Outpatient,22,9,Home
+E00999,P0999,Outpatient,23,1,Home
+E01000,P1000,Inpatient,15,6,Home Health
+E01001,P1001,Outpatient,20,2,Home Health
+E01002,P1002,Inpatient,19,1,Home Health
+E01003,P1003,Outpatient,9,4,Home
+E01004,P1004,Outpatient,5,1,Home
+E01005,P1005,Outpatient,20,1,Home
+E01006,P1006,Inpatient,28,3,Home Health
+E01007,P1007,Outpatient,11,4,Home
+E01008,P1008,Outpatient,8,2,Home
+E01009,P1009,Outpatient,3,2,Home
+E01010,P1010,Inpatient,14,3,Home
+E01011,P1011,Inpatient,3,4,Home Health
+E01012,P1012,Inpatient,27,5,Home Health
+E01013,P1013,Inpatient,23,3,Home
+E01014,P1014,Outpatient,12,2,Home
+E01015,P1015,Inpatient,14,4,Home
+E01016,P1016,Outpatient,7,2,Home
+E01017,P1017,Outpatient,22,1,Home
+E01018,P1018,Inpatient,25,6,Home Health
+E01019,P1019,Outpatient,24,2,Home
+E01020,P1020,Outpatient,5,4,Home Health
+E01021,P1021,Inpatient,15,1,Home
+E01022,P1022,Outpatient,24,8,Skilled Nursing
+E01023,P1023,Inpatient,9,6,Home
+E01024,P1024,Outpatient,5,2,Home
+E01025,P1025,Outpatient,19,7,Home
+E01026,P1026,Outpatient,2,6,Home
+E01027,P1027,Outpatient,9,2,Home
+E01028,P1028,Outpatient,7,3,Home
+E01029,P1029,Outpatient,14,3,Home
+E01030,P1030,Inpatient,11,1,Home
+E01031,P1031,Inpatient,22,4,Home
+E01032,P1032,Inpatient,13,2,Home
+E01033,P1033,Outpatient,13,1,Home
+E01034,P1034,Outpatient,24,3,Home
+E01035,P1035,Outpatient,7,4,Home Health
+E01036,P1036,Outpatient,26,4,Home
+E01037,P1037,Outpatient,20,6,Home Health
+E01038,P1038,Outpatient,11,9,Home
+E01039,P1039,Outpatient,11,1,Home
+E01040,P1040,Outpatient,6,1,Home Health
+E01041,P1041,Inpatient,3,2,Home Health
+E01042,P1042,Outpatient,12,5,Skilled Nursing
+E01043,P1043,Inpatient,14,5,Home
+E01044,P1044,Inpatient,23,5,Home
+E01045,P1045,Outpatient,18,4,Home
+E01046,P1046,Inpatient,28,3,Home
+E01047,P1047,Outpatient,2,1,Home Health
+E01048,P1048,Outpatient,10,5,Home
+E01049,P1049,Inpatient,22,4,Home
+E01050,P1050,Inpatient,2,1,Home
+E01051,P1051,Inpatient,6,1,Home
+E01052,P1052,Inpatient,26,5,Home Health
+E01053,P1053,Inpatient,26,2,Skilled Nursing
+E01054,P1054,Inpatient,11,5,Home
+E01055,P1055,Outpatient,6,2,Home
+E01056,P1056,Inpatient,20,4,Home
+E01057,P1057,Inpatient,12,5,Skilled Nursing
+E01058,P1058,Inpatient,5,3,Home
+E01059,P1059,Inpatient,14,3,Home Health
+E01060,P1060,Inpatient,14,1,Home
+E01061,P1061,Inpatient,14,5,Skilled Nursing
+E01062,P1062,Outpatient,14,3,Home
+E01063,P1063,Outpatient,22,4,Home Health
+E01064,P1064,Inpatient,18,1,Home
+E01065,P1065,Outpatient,26,6,Home
+E01066,P1066,Inpatient,19,3,Home
+E01067,P1067,Outpatient,27,1,Home
+E01068,P1068,Inpatient,14,1,Home Health
+E01069,P1069,Inpatient,12,2,Skilled Nursing
+E01070,P1070,Outpatient,29,2,Home Health
+E01071,P1071,Inpatient,2,3,Home
+E01072,P1072,Outpatient,29,4,Home
+E01073,P1073,Inpatient,11,6,Home
+E01074,P1074,Outpatient,7,4,Home
+E01075,P1075,Inpatient,23,1,Home
+E01076,P1076,Outpatient,14,3,Home
+E01077,P1077,Outpatient,27,2,Home
+E01078,P1078,Outpatient,14,7,Skilled Nursing
+E01079,P1079,Outpatient,29,5,Home
+E01080,P1080,Outpatient,13,1,Skilled Nursing
+E01081,P1081,Outpatient,7,4,Home
+E01082,P1082,Outpatient,2,3,Home
+E01083,P1083,Outpatient,12,4,Home
+E01084,P1084,Inpatient,18,5,Home
+E01085,P1085,Outpatient,20,4,Home
+E01086,P1086,Inpatient,9,7,Home
+E01087,P1087,Inpatient,16,3,Skilled Nursing
+E01088,P1088,Outpatient,2,2,Home
+E01089,P1089,Outpatient,20,4,Home
+E01090,P1090,Inpatient,21,1,Home
+E01091,P1091,Inpatient,2,1,Home
+E01092,P1092,Inpatient,26,1,Home
+E01093,P1093,Outpatient,22,5,Skilled Nursing
+E01094,P1094,Outpatient,2,3,Home Health
+E01095,P1095,Inpatient,4,1,Home
+E01096,P1096,Inpatient,25,2,Home
+E01097,P1097,Inpatient,25,6,Home
+E01098,P1098,Outpatient,19,1,Home
+E01099,P1099,Outpatient,10,2,Home Health
+E01100,P1100,Inpatient,11,5,Home
+E01101,P1101,Inpatient,15,4,Home
+E01102,P1102,Inpatient,18,5,Home
+E01103,P1103,Outpatient,21,8,Home
+E01104,P1104,Outpatient,16,1,Home Health
+E01105,P1105,Inpatient,14,3,Skilled Nursing
+E01106,P1106,Inpatient,20,3,Home
+E01107,P1107,Inpatient,26,4,Home
+E01108,P1108,Inpatient,16,2,Home Health
+E01109,P1109,Outpatient,15,2,Home
+E01110,P1110,Inpatient,14,5,Home
+E01111,P1111,Inpatient,27,1,Home
+E01112,P1112,Outpatient,2,1,Home
+E01113,P1113,Outpatient,5,3,Home Health
+E01114,P1114,Inpatient,11,3,Home Health
+E01115,P1115,Outpatient,13,3,Home
+E01116,P1116,Inpatient,11,5,Home
+E01117,P1117,Outpatient,13,2,Home
+E01118,P1118,Inpatient,7,4,Home Health
+E01119,P1119,Outpatient,27,3,Home
+E01120,P1120,Outpatient,10,2,Home Health
+E01121,P1121,Outpatient,6,1,Home
+E01122,P1122,Outpatient,29,6,Skilled Nursing
+E01123,P1123,Inpatient,29,4,Home Health
+E01124,P1124,Inpatient,8,8,Home
+E01125,P1125,Outpatient,9,2,Home
+E01126,P1126,Inpatient,4,4,Home
+E01127,P1127,Inpatient,11,3,Home Health
+E01128,P1128,Outpatient,26,3,Home
+E01129,P1129,Outpatient,7,5,Home
+E01130,P1130,Inpatient,16,2,Home
+E01131,P1131,Inpatient,21,2,Home
+E01132,P1132,Inpatient,27,1,Home Health
+E01133,P1133,Outpatient,7,4,Home
+E01134,P1134,Outpatient,3,3,Home
+E01135,P1135,Inpatient,19,4,Home Health
+E01136,P1136,Inpatient,17,4,Skilled Nursing
+E01137,P1137,Outpatient,3,5,Home
+E01138,P1138,Outpatient,10,1,Home
+E01139,P1139,Outpatient,13,3,Home
+E01140,P1140,Inpatient,12,6,Home
+E01141,P1141,Outpatient,24,1,Home
+E01142,P1142,Outpatient,22,4,Home
+E01143,P1143,Outpatient,17,5,Home Health
+E01144,P1144,Inpatient,22,3,Skilled Nursing
+E01145,P1145,Outpatient,16,2,Home
+E01146,P1146,Outpatient,15,1,Home
+E01147,P1147,Inpatient,19,5,Home
+E01148,P1148,Outpatient,2,5,Home
+E01149,P1149,Inpatient,2,4,Home
+E01150,P1150,Outpatient,28,5,Home Health
+E01151,P1151,Inpatient,19,5,Skilled Nursing
+E01152,P1152,Inpatient,2,2,Home
+E01153,P1153,Outpatient,27,6,Home Health
+E01154,P1154,Inpatient,16,5,Home
+E01155,P1155,Outpatient,13,2,Skilled Nursing
+E01156,P1156,Outpatient,7,1,Home
+E01157,P1157,Inpatient,21,5,Home
+E01158,P1158,Inpatient,15,1,Home Health
+E01159,P1159,Outpatient,28,4,Home
+E01160,P1160,Inpatient,4,9,Home Health
+E01161,P1161,Outpatient,22,6,Home Health
+E01162,P1162,Outpatient,2,2,Home Health
+E01163,P1163,Outpatient,19,4,Home
+E01164,P1164,Outpatient,25,6,Home
+E01165,P1165,Inpatient,18,6,Skilled Nursing
+E01166,P1166,Outpatient,8,6,Home
+E01167,P1167,Outpatient,16,2,Home
+E01168,P1168,Inpatient,9,5,Home Health
+E01169,P1169,Inpatient,16,3,Home
+E01170,P1170,Outpatient,2,2,Home
+E01171,P1171,Outpatient,28,2,Home
+E01172,P1172,Inpatient,24,5,Home
+E01173,P1173,Outpatient,2,3,Home Health
+E01174,P1174,Inpatient,17,1,Home
+E01175,P1175,Inpatient,16,1,Home
+E01176,P1176,Outpatient,24,6,Home
+E01177,P1177,Inpatient,11,4,Home
+E01178,P1178,Inpatient,14,1,Skilled Nursing
+E01179,P1179,Outpatient,11,2,Home
+E01180,P1180,Outpatient,19,1,Home
+E01181,P1181,Inpatient,12,1,Home
+E01182,P1182,Outpatient,16,4,Skilled Nursing
+E01183,P1183,Outpatient,3,2,Home
+E01184,P1184,Inpatient,23,7,Home
+E01185,P1185,Inpatient,5,2,Skilled Nursing
+E01186,P1186,Outpatient,11,6,Home
+E01187,P1187,Outpatient,20,3,Home Health
+E01188,P1188,Outpatient,5,5,Skilled Nursing
+E01189,P1189,Inpatient,20,3,Home
+E01190,P1190,Inpatient,8,2,Skilled Nursing
+E01191,P1191,Inpatient,28,4,Home Health
+E01192,P1192,Outpatient,17,3,Home
+E01193,P1193,Outpatient,17,5,Home
+E01194,P1194,Outpatient,9,8,Home
+E01195,P1195,Inpatient,25,3,Home
+E01196,P1196,Inpatient,6,4,Home
+E01197,P1197,Outpatient,20,1,Home
+E01198,P1198,Inpatient,26,1,Home Health
+E01199,P1199,Outpatient,16,2,Home
+E01200,P1200,Inpatient,11,3,Home Health
+E01201,P1201,Outpatient,24,3,Home
+E01202,P1202,Outpatient,2,6,Home Health
+E01203,P1203,Outpatient,7,4,Home Health
+E01204,P1204,Inpatient,18,5,Home Health
+E01205,P1205,Outpatient,9,4,Home
+E01206,P1206,Outpatient,22,5,Home
+E01207,P1207,Outpatient,5,4,Home Health
+E01208,P1208,Outpatient,6,4,Home
+E01209,P1209,Outpatient,23,1,Skilled Nursing
+E01210,P1210,Inpatient,15,5,Home
+E01211,P1211,Inpatient,23,3,Home
+E01212,P1212,Inpatient,4,1,Home
+E01213,P1213,Outpatient,15,2,Home
+E01214,P1214,Outpatient,7,5,Home
+E01215,P1215,Outpatient,25,6,Home Health
+E01216,P1216,Outpatient,9,1,Home
+E01217,P1217,Inpatient,21,6,Skilled Nursing
+E01218,P1218,Outpatient,24,2,Home
+E01219,P1219,Outpatient,21,1,Home
+E01220,P1220,Outpatient,7,1,Skilled Nursing
+E01221,P1221,Outpatient,6,4,Home
+E01222,P1222,Outpatient,4,2,Skilled Nursing
+E01223,P1223,Inpatient,25,6,Home
+E01224,P1224,Inpatient,12,1,Home
+E01225,P1225,Inpatient,7,6,Home
+E01226,P1226,Outpatient,29,4,Home
+E01227,P1227,Outpatient,8,1,Home
+E01228,P1228,Outpatient,17,3,Home
+E01229,P1229,Outpatient,21,3,Home
+E01230,P1230,Inpatient,16,4,Home
+E01231,P1231,Inpatient,16,4,Home
+E01232,P1232,Outpatient,24,6,Home
+E01233,P1233,Outpatient,3,5,Home
+E01234,P1234,Outpatient,15,3,Skilled Nursing
+E01235,P1235,Inpatient,28,4,Home Health
+E01236,P1236,Outpatient,22,1,Skilled Nursing
+E01237,P1237,Inpatient,15,1,Home
+E01238,P1238,Inpatient,3,4,Skilled Nursing
+E01239,P1239,Inpatient,13,4,Home
+E01240,P1240,Inpatient,9,3,Home
+E01241,P1241,Outpatient,8,3,Home
+E01242,P1242,Inpatient,13,2,Home
+E01243,P1243,Outpatient,8,5,Home
+E01244,P1244,Outpatient,11,8,Skilled Nursing
+E01245,P1245,Outpatient,15,8,Home
+E01246,P1246,Outpatient,2,3,Home
+E01247,P1247,Outpatient,5,2,Home
+E01248,P1248,Inpatient,15,3,Home
+E01249,P1249,Outpatient,8,6,Home
+E01250,P1250,Outpatient,9,2,Home
+E01251,P1251,Outpatient,10,1,Home
+E01252,P1252,Outpatient,14,7,Home
+E01253,P1253,Outpatient,3,6,Home
+E01254,P1254,Outpatient,26,6,Home
+E01255,P1255,Outpatient,9,5,Home
+E01256,P1256,Outpatient,5,5,Home Health
+E01257,P1257,Outpatient,23,3,Home
+E01258,P1258,Outpatient,16,3,Home
+E01259,P1259,Outpatient,13,3,Home
+E01260,P1260,Inpatient,12,2,Skilled Nursing
+E01261,P1261,Outpatient,5,5,Home
+E01262,P1262,Inpatient,10,1,Home Health
+E01263,P1263,Outpatient,24,2,Skilled Nursing
+E01264,P1264,Outpatient,13,5,Home
+E01265,P1265,Outpatient,20,4,Home
+E01266,P1266,Inpatient,5,1,Home Health
+E01267,P1267,Inpatient,10,5,Home Health
+E01268,P1268,Inpatient,17,3,Home
+E01269,P1269,Outpatient,2,2,Home
+E01270,P1270,Inpatient,14,3,Home
+E01271,P1271,Inpatient,12,3,Skilled Nursing
+E01272,P1272,Outpatient,26,6,Skilled Nursing
+E01273,P1273,Inpatient,13,6,Home
+E01274,P1274,Inpatient,3,4,Home
+E01275,P1275,Outpatient,26,2,Home
+E01276,P1276,Inpatient,21,5,Home Health
+E01277,P1277,Outpatient,15,4,Skilled Nursing
+E01278,P1278,Inpatient,3,2,Home
+E01279,P1279,Inpatient,8,2,Home Health
+E01280,P1280,Outpatient,15,3,Home
+E01281,P1281,Inpatient,4,2,Home
+E01282,P1282,Inpatient,11,2,Home
+E01283,P1283,Outpatient,10,5,Home
+E01284,P1284,Outpatient,8,1,Home
+E01285,P1285,Outpatient,8,7,Home
+E01286,P1286,Inpatient,29,3,Home
+E01287,P1287,Outpatient,24,6,Skilled Nursing
+E01288,P1288,Outpatient,16,5,Home Health
+E01289,P1289,Outpatient,27,5,Home
+E01290,P1290,Inpatient,27,2,Home
+E01291,P1291,Outpatient,5,8,Home
+E01292,P1292,Inpatient,17,3,Home
+E01293,P1293,Inpatient,20,5,Home
+E01294,P1294,Inpatient,28,1,Home Health
+E01295,P1295,Outpatient,26,1,Skilled Nursing
+E01296,P1296,Outpatient,28,3,Home
+E01297,P1297,Outpatient,17,1,Home Health
+E01298,P1298,Outpatient,3,8,Home
+E01299,P1299,Inpatient,7,7,Skilled Nursing
+E01300,P1300,Inpatient,9,7,Home Health
+E01301,P1301,Outpatient,29,2,Home Health
+E01302,P1302,Outpatient,27,4,Home
+E01303,P1303,Inpatient,8,2,Home
+E01304,P1304,Inpatient,11,3,Skilled Nursing
+E01305,P1305,Inpatient,7,1,Skilled Nursing
+E01306,P1306,Inpatient,15,4,Skilled Nursing
+E01307,P1307,Inpatient,28,1,Skilled Nursing
+E01308,P1308,Outpatient,8,5,Home
+E01309,P1309,Inpatient,28,4,Home
+E01310,P1310,Outpatient,25,3,Home
+E01311,P1311,Inpatient,27,3,Home
+E01312,P1312,Outpatient,11,4,Home Health
+E01313,P1313,Outpatient,12,2,Home
+E01314,P1314,Inpatient,18,3,Home
+E01315,P1315,Outpatient,15,3,Home
+E01316,P1316,Inpatient,15,7,Home
+E01317,P1317,Outpatient,21,7,Home
+E01318,P1318,Outpatient,20,5,Skilled Nursing
+E01319,P1319,Inpatient,17,1,Skilled Nursing
+E01320,P1320,Inpatient,20,8,Home
+E01321,P1321,Inpatient,12,2,Home
+E01322,P1322,Outpatient,7,9,Home
+E01323,P1323,Inpatient,20,5,Home
+E01324,P1324,Outpatient,8,2,Home
+E01325,P1325,Inpatient,27,2,Home
+E01326,P1326,Outpatient,10,5,Home
+E01327,P1327,Inpatient,4,7,Home Health
+E01328,P1328,Outpatient,24,1,Home
+E01329,P1329,Outpatient,22,4,Home Health
+E01330,P1330,Inpatient,13,3,Skilled Nursing
+E01331,P1331,Outpatient,25,8,Home
+E01332,P1332,Inpatient,19,2,Home
+E01333,P1333,Outpatient,18,2,Home
+E01334,P1334,Inpatient,12,1,Home
+E01335,P1335,Inpatient,27,1,Home
+E01336,P1336,Inpatient,2,7,Home Health
+E01337,P1337,Outpatient,11,2,Home
+E01338,P1338,Inpatient,17,5,Home
+E01339,P1339,Inpatient,21,3,Skilled Nursing
+E01340,P1340,Outpatient,12,10,Home
+E01341,P1341,Outpatient,10,5,Home Health
+E01342,P1342,Inpatient,25,2,Home
+E01343,P1343,Outpatient,26,5,Home
+E01344,P1344,Inpatient,25,3,Home
+E01345,P1345,Inpatient,14,10,Home
+E01346,P1346,Outpatient,20,2,Home
+E01347,P1347,Inpatient,29,3,Home Health
+E01348,P1348,Inpatient,4,3,Home
+E01349,P1349,Inpatient,12,2,Home Health
+E01350,P1350,Outpatient,20,3,Skilled Nursing
+E01351,P1351,Outpatient,3,4,Home
+E01352,P1352,Inpatient,14,4,Skilled Nursing
+E01353,P1353,Outpatient,27,1,Home
+E01354,P1354,Outpatient,28,4,Home
+E01355,P1355,Inpatient,8,2,Home
+E01356,P1356,Outpatient,16,4,Home Health
+E01357,P1357,Inpatient,13,3,Home
+E01358,P1358,Inpatient,9,4,Skilled Nursing
+E01359,P1359,Outpatient,25,3,Home
+E01360,P1360,Outpatient,18,2,Home
+E01361,P1361,Outpatient,3,3,Home
+E01362,P1362,Inpatient,17,4,Home
+E01363,P1363,Inpatient,2,6,Home
+E01364,P1364,Outpatient,12,4,Home
+E01365,P1365,Inpatient,3,3,Home
+E01366,P1366,Inpatient,21,4,Home Health
+E01367,P1367,Outpatient,28,4,Home
+E01368,P1368,Inpatient,15,3,Home Health
+E01369,P1369,Outpatient,3,3,Home
+E01370,P1370,Inpatient,14,5,Home
+E01371,P1371,Outpatient,14,3,Home
+E01372,P1372,Outpatient,29,1,Home Health
+E01373,P1373,Inpatient,18,2,Home
+E01374,P1374,Outpatient,16,7,Home
+E01375,P1375,Outpatient,11,2,Home
+E01376,P1376,Outpatient,15,1,Home
+E01377,P1377,Outpatient,26,1,Home
+E01378,P1378,Inpatient,24,4,Home
+E01379,P1379,Outpatient,25,7,Home
+E01380,P1380,Inpatient,22,5,Home Health
+E01381,P1381,Inpatient,19,3,Home
+E01382,P1382,Inpatient,5,3,Home
+E01383,P1383,Outpatient,27,2,Home
+E01384,P1384,Inpatient,16,8,Home Health
+E01385,P1385,Outpatient,2,5,Home
+E01386,P1386,Outpatient,11,3,Home
+E01387,P1387,Inpatient,25,3,Home
+E01388,P1388,Outpatient,20,1,Home Health
+E01389,P1389,Inpatient,18,3,Home
+E01390,P1390,Inpatient,12,5,Home Health
+E01391,P1391,Inpatient,24,3,Skilled Nursing
+E01392,P1392,Outpatient,19,2,Home
+E01393,P1393,Outpatient,7,2,Home Health
+E01394,P1394,Inpatient,15,2,Home
+E01395,P1395,Inpatient,24,2,Home
+E01396,P1396,Inpatient,15,2,Home
+E01397,P1397,Inpatient,26,5,Skilled Nursing
+E01398,P1398,Outpatient,28,5,Home Health
+E01399,P1399,Inpatient,7,8,Home Health
+E01400,P1400,Inpatient,27,4,Home
+E01401,P1401,Inpatient,25,5,Home
+E01402,P1402,Outpatient,29,3,Home Health
+E01403,P1403,Inpatient,22,3,Home
+E01404,P1404,Outpatient,20,4,Skilled Nursing
+E01405,P1405,Inpatient,16,4,Home
+E01406,P1406,Outpatient,21,5,Home
+E01407,P1407,Inpatient,25,4,Home Health
+E01408,P1408,Outpatient,7,5,Home
+E01409,P1409,Inpatient,12,1,Home
+E01410,P1410,Outpatient,3,1,Home
+E01411,P1411,Outpatient,16,2,Home
+E01412,P1412,Inpatient,8,3,Home
+E01413,P1413,Outpatient,10,6,Home
+E01414,P1414,Inpatient,11,5,Home Health
+E01415,P1415,Outpatient,3,7,Home
+E01416,P1416,Outpatient,4,3,Home
+E01417,P1417,Outpatient,22,3,Skilled Nursing
+E01418,P1418,Outpatient,14,5,Home
+E01419,P1419,Outpatient,10,5,Home
+E01420,P1420,Inpatient,13,4,Home
+E01421,P1421,Outpatient,5,3,Home
+E01422,P1422,Outpatient,19,6,Home Health
+E01423,P1423,Outpatient,27,6,Home Health
+E01424,P1424,Inpatient,26,6,Home
+E01425,P1425,Inpatient,7,4,Home Health
+E01426,P1426,Outpatient,27,4,Home
+E01427,P1427,Outpatient,8,4,Home
+E01428,P1428,Outpatient,20,6,Home
+E01429,P1429,Inpatient,9,3,Home
+E01430,P1430,Inpatient,27,1,Home
+E01431,P1431,Outpatient,20,8,Home
+E01432,P1432,Outpatient,8,2,Home
+E01433,P1433,Outpatient,11,1,Home
+E01434,P1434,Outpatient,17,4,Home
+E01435,P1435,Outpatient,2,1,Home
+E01436,P1436,Inpatient,26,5,Home
+E01437,P1437,Inpatient,17,1,Home
+E01438,P1438,Inpatient,28,3,Home Health
+E01439,P1439,Inpatient,21,5,Home
+E01440,P1440,Outpatient,29,3,Home
+E01441,P1441,Outpatient,16,5,Home
+E01442,P1442,Inpatient,24,4,Home Health
+E01443,P1443,Outpatient,20,3,Skilled Nursing
+E01444,P1444,Outpatient,3,5,Home
+E01445,P1445,Outpatient,18,4,Home
+E01446,P1446,Outpatient,24,5,Home
+E01447,P1447,Outpatient,28,8,Home
+E01448,P1448,Inpatient,5,2,Home Health
+E01449,P1449,Outpatient,19,3,Home
+E01450,P1450,Outpatient,24,4,Home Health
+E01451,P1451,Inpatient,12,1,Home
+E01452,P1452,Outpatient,6,5,Home
+E01453,P1453,Inpatient,28,1,Home Health
+E01454,P1454,Outpatient,22,4,Home
+E01455,P1455,Inpatient,11,6,Skilled Nursing
+E01456,P1456,Outpatient,25,3,Home
+E01457,P1457,Inpatient,4,3,Home
+E01458,P1458,Outpatient,5,1,Skilled Nursing
+E01459,P1459,Outpatient,8,1,Skilled Nursing
+E01460,P1460,Outpatient,2,7,Home
+E01461,P1461,Inpatient,22,5,Home
+E01462,P1462,Inpatient,23,2,Home
+E01463,P1463,Outpatient,13,2,Home Health
+E01464,P1464,Inpatient,17,2,Skilled Nursing
+E01465,P1465,Outpatient,26,4,Home
+E01466,P1466,Outpatient,11,3,Home
+E01467,P1467,Outpatient,15,3,Home Health
+E01468,P1468,Outpatient,12,8,Home Health
+E01469,P1469,Inpatient,3,5,Home
+E01470,P1470,Outpatient,4,4,Home
+E01471,P1471,Inpatient,12,2,Home
+E01472,P1472,Outpatient,23,1,Home Health
+E01473,P1473,Outpatient,25,2,Home
+E01474,P1474,Inpatient,27,7,Home
+E01475,P1475,Outpatient,9,1,Home Health
+E01476,P1476,Outpatient,6,3,Home
+E01477,P1477,Outpatient,19,6,Home
+E01478,P1478,Inpatient,17,1,Home Health
+E01479,P1479,Outpatient,4,4,Home Health
+E01480,P1480,Outpatient,23,4,Home
+E01481,P1481,Outpatient,21,3,Home Health
+E01482,P1482,Outpatient,10,5,Home
+E01483,P1483,Outpatient,6,6,Home
+E01484,P1484,Inpatient,28,3,Home
+E01485,P1485,Outpatient,18,1,Home
+E01486,P1486,Inpatient,10,4,Home Health
+E01487,P1487,Inpatient,20,3,Home
+E01488,P1488,Inpatient,29,4,Home
+E01489,P1489,Outpatient,21,6,Home Health
+E01490,P1490,Outpatient,4,3,Skilled Nursing
+E01491,P1491,Outpatient,13,4,Home
+E01492,P1492,Inpatient,3,5,Skilled Nursing
+E01493,P1493,Inpatient,13,3,Home Health
+E01494,P1494,Inpatient,15,1,Skilled Nursing
+E01495,P1495,Inpatient,28,1,Home
+E01496,P1496,Outpatient,2,3,Skilled Nursing
+E01497,P1497,Inpatient,29,2,Home
+E01498,P1498,Inpatient,24,3,Home
+E01499,P1499,Inpatient,10,4,Home Health
+E01500,P1500,Outpatient,22,3,Home Health
+E01501,P1501,Inpatient,24,3,Home
+E01502,P1502,Outpatient,2,2,Home Health
+E01503,P1503,Outpatient,27,3,Home Health
+E01504,P1504,Inpatient,4,3,Home
+E01505,P1505,Inpatient,17,3,Home
+E01506,P1506,Inpatient,14,3,Home
+E01507,P1507,Inpatient,13,2,Home
+E01508,P1508,Outpatient,29,2,Home
+E01509,P1509,Inpatient,3,3,Home
+E01510,P1510,Outpatient,25,1,Home
+E01511,P1511,Outpatient,25,5,Skilled Nursing
+E01512,P1512,Inpatient,12,1,Home Health
+E01513,P1513,Outpatient,6,5,Home
+E01514,P1514,Inpatient,10,1,Skilled Nursing
+E01515,P1515,Inpatient,22,1,Home
+E01516,P1516,Outpatient,22,4,Home
+E01517,P1517,Outpatient,18,3,Skilled Nursing
+E01518,P1518,Outpatient,10,5,Home
+E01519,P1519,Outpatient,27,6,Home
+E01520,P1520,Outpatient,21,1,Skilled Nursing
+E01521,P1521,Inpatient,3,4,Skilled Nursing
+E01522,P1522,Outpatient,3,5,Home
+E01523,P1523,Outpatient,21,1,Home Health
+E01524,P1524,Inpatient,25,3,Home
+E01525,P1525,Inpatient,21,2,Home Health
+E01526,P1526,Outpatient,7,5,Home
+E01527,P1527,Outpatient,25,4,Home
+E01528,P1528,Inpatient,12,5,Home
+E01529,P1529,Outpatient,21,3,Home
+E01530,P1530,Outpatient,21,3,Skilled Nursing
+E01531,P1531,Inpatient,9,4,Home Health
+E01532,P1532,Inpatient,8,1,Home
+E01533,P1533,Inpatient,22,1,Home
+E01534,P1534,Inpatient,29,3,Home Health
+E01535,P1535,Inpatient,18,6,Home Health
+E01536,P1536,Outpatient,11,2,Home
+E01537,P1537,Outpatient,12,2,Home
+E01538,P1538,Inpatient,17,1,Home
+E01539,P1539,Inpatient,23,3,Home
+E01540,P1540,Outpatient,26,4,Home Health
+E01541,P1541,Inpatient,24,7,Home
+E01542,P1542,Outpatient,29,5,Home
+E01543,P1543,Outpatient,15,7,Skilled Nursing
+E01544,P1544,Outpatient,27,2,Home
+E01545,P1545,Inpatient,20,4,Home
+E01546,P1546,Outpatient,27,2,Home
+E01547,P1547,Inpatient,3,3,Home
+E01548,P1548,Outpatient,22,2,Home
+E01549,P1549,Inpatient,28,5,Home
+E01550,P1550,Outpatient,4,2,Home
+E01551,P1551,Inpatient,28,5,Home
+E01552,P1552,Inpatient,8,2,Home
+E01553,P1553,Inpatient,15,4,Home
+E01554,P1554,Outpatient,20,1,Home Health
+E01555,P1555,Outpatient,4,1,Home
+E01556,P1556,Outpatient,20,5,Home Health
+E01557,P1557,Outpatient,22,4,Home
+E01558,P1558,Inpatient,19,4,Home
+E01559,P1559,Outpatient,9,4,Home
+E01560,P1560,Inpatient,5,3,Home
+E01561,P1561,Inpatient,20,4,Home Health
+E01562,P1562,Inpatient,9,7,Home
+E01563,P1563,Outpatient,6,2,Home
+E01564,P1564,Inpatient,19,2,Home
+E01565,P1565,Outpatient,10,4,Home
+E01566,P1566,Inpatient,15,1,Home
+E01567,P1567,Outpatient,26,5,Home
+E01568,P1568,Inpatient,19,1,Home
+E01569,P1569,Outpatient,9,7,Skilled Nursing
+E01570,P1570,Outpatient,8,5,Home
+E01571,P1571,Inpatient,28,4,Skilled Nursing
+E01572,P1572,Outpatient,16,1,Skilled Nursing
+E01573,P1573,Outpatient,13,3,Skilled Nursing
+E01574,P1574,Outpatient,2,4,Skilled Nursing
+E01575,P1575,Outpatient,12,9,Home
+E01576,P1576,Outpatient,3,5,Home
+E01577,P1577,Outpatient,10,1,Home
+E01578,P1578,Inpatient,10,2,Home Health
+E01579,P1579,Outpatient,7,2,Home
+E01580,P1580,Inpatient,2,6,Home
+E01581,P1581,Outpatient,27,4,Home
+E01582,P1582,Inpatient,13,4,Skilled Nursing
+E01583,P1583,Inpatient,16,3,Home
+E01584,P1584,Outpatient,10,2,Skilled Nursing
+E01585,P1585,Outpatient,14,1,Home
+E01586,P1586,Inpatient,15,3,Home
+E01587,P1587,Inpatient,6,3,Home
+E01588,P1588,Inpatient,4,4,Home
+E01589,P1589,Outpatient,11,4,Home
+E01590,P1590,Outpatient,14,6,Home
+E01591,P1591,Outpatient,29,4,Home
+E01592,P1592,Inpatient,6,6,Home
+E01593,P1593,Outpatient,6,7,Home
+E01594,P1594,Inpatient,14,2,Home
+E01595,P1595,Inpatient,27,8,Home
+E01596,P1596,Inpatient,7,2,Home
+E01597,P1597,Outpatient,16,2,Home
+E01598,P1598,Inpatient,20,3,Home
+E01599,P1599,Outpatient,29,1,Home
+E01600,P1600,Outpatient,7,1,Home Health
+E01601,P1601,Outpatient,13,1,Home
+E01602,P1602,Inpatient,2,3,Home
+E01603,P1603,Outpatient,12,1,Skilled Nursing
+E01604,P1604,Inpatient,29,4,Home
+E01605,P1605,Outpatient,19,3,Home
+E01606,P1606,Outpatient,21,3,Home
+E01607,P1607,Inpatient,19,1,Home
+E01608,P1608,Inpatient,23,1,Home
+E01609,P1609,Inpatient,6,1,Home
+E01610,P1610,Inpatient,3,2,Skilled Nursing
+E01611,P1611,Outpatient,20,3,Home
+E01612,P1612,Outpatient,20,5,Home Health
+E01613,P1613,Outpatient,14,4,Home
+E01614,P1614,Outpatient,16,8,Home
+E01615,P1615,Outpatient,3,3,Home
+E01616,P1616,Outpatient,27,4,Home
+E01617,P1617,Outpatient,7,2,Home
+E01618,P1618,Inpatient,21,2,Home
+E01619,P1619,Outpatient,12,4,Home Health
+E01620,P1620,Outpatient,7,2,Home
+E01621,P1621,Inpatient,3,7,Home Health
+E01622,P1622,Outpatient,6,3,Home
+E01623,P1623,Outpatient,21,3,Home
+E01624,P1624,Outpatient,8,6,Home
+E01625,P1625,Outpatient,18,4,Home
+E01626,P1626,Inpatient,19,1,Home
+E01627,P1627,Outpatient,6,1,Home
+E01628,P1628,Inpatient,14,3,Home Health
+E01629,P1629,Outpatient,15,4,Home Health
+E01630,P1630,Inpatient,28,3,Home
+E01631,P1631,Inpatient,25,3,Home
+E01632,P1632,Outpatient,23,3,Home
+E01633,P1633,Inpatient,11,1,Home
+E01634,P1634,Inpatient,5,3,Home
+E01635,P1635,Inpatient,10,6,Home
+E01636,P1636,Outpatient,28,2,Home Health
+E01637,P1637,Outpatient,12,3,Home Health
+E01638,P1638,Inpatient,23,5,Home
+E01639,P1639,Inpatient,5,3,Home
+E01640,P1640,Outpatient,2,5,Home
+E01641,P1641,Outpatient,14,6,Home
+E01642,P1642,Outpatient,27,4,Home
+E01643,P1643,Inpatient,25,1,Skilled Nursing
+E01644,P1644,Outpatient,20,3,Home
+E01645,P1645,Inpatient,7,5,Skilled Nursing
+E01646,P1646,Outpatient,12,2,Home Health
+E01647,P1647,Outpatient,8,4,Home
+E01648,P1648,Inpatient,3,4,Skilled Nursing
+E01649,P1649,Outpatient,5,6,Home
+E01650,P1650,Inpatient,24,4,Home Health
+E01651,P1651,Outpatient,3,3,Home
+E01652,P1652,Outpatient,7,4,Home Health
+E01653,P1653,Outpatient,12,4,Home Health
+E01654,P1654,Inpatient,15,2,Home
+E01655,P1655,Inpatient,27,2,Home
+E01656,P1656,Outpatient,28,3,Home Health
+E01657,P1657,Outpatient,29,7,Skilled Nursing
+E01658,P1658,Outpatient,23,3,Home
+E01659,P1659,Inpatient,4,5,Home Health
+E01660,P1660,Inpatient,17,4,Home
+E01661,P1661,Inpatient,23,1,Home Health
+E01662,P1662,Outpatient,12,6,Skilled Nursing
+E01663,P1663,Inpatient,26,2,Home Health
+E01664,P1664,Inpatient,20,3,Home
+E01665,P1665,Inpatient,19,4,Home
+E01666,P1666,Inpatient,18,5,Skilled Nursing
+E01667,P1667,Outpatient,9,2,Home
+E01668,P1668,Outpatient,8,1,Home
+E01669,P1669,Inpatient,4,4,Home
+E01670,P1670,Inpatient,24,2,Skilled Nursing
+E01671,P1671,Inpatient,25,1,Home
+E01672,P1672,Inpatient,5,1,Home Health
+E01673,P1673,Inpatient,7,7,Home
+E01674,P1674,Outpatient,7,2,Home
+E01675,P1675,Outpatient,19,4,Skilled Nursing
+E01676,P1676,Outpatient,6,2,Home
+E01677,P1677,Outpatient,3,3,Home
+E01678,P1678,Inpatient,19,4,Home
+E01679,P1679,Outpatient,2,5,Home
+E01680,P1680,Outpatient,3,4,Home Health
+E01681,P1681,Outpatient,3,1,Home Health
+E01682,P1682,Outpatient,28,1,Home Health
+E01683,P1683,Inpatient,29,2,Home Health
+E01684,P1684,Inpatient,19,4,Home Health
+E01685,P1685,Outpatient,14,4,Home
+E01686,P1686,Outpatient,27,3,Home Health
+E01687,P1687,Inpatient,4,4,Home Health
+E01688,P1688,Outpatient,5,4,Home
+E01689,P1689,Outpatient,15,3,Home
+E01690,P1690,Outpatient,7,5,Home
+E01691,P1691,Outpatient,15,3,Home
+E01692,P1692,Outpatient,23,3,Home
+E01693,P1693,Outpatient,2,2,Home
+E01694,P1694,Outpatient,25,3,Home
+E01695,P1695,Inpatient,26,2,Home
+E01696,P1696,Inpatient,9,3,Home
+E01697,P1697,Outpatient,26,3,Home
+E01698,P1698,Inpatient,22,3,Home Health
+E01699,P1699,Inpatient,10,4,Skilled Nursing
+E01700,P1700,Outpatient,25,2,Home Health
+E01701,P1701,Outpatient,29,2,Home Health
+E01702,P1702,Outpatient,10,3,Home
+E01703,P1703,Inpatient,22,1,Home Health
+E01704,P1704,Inpatient,11,5,Home
+E01705,P1705,Outpatient,18,2,Home
+E01706,P1706,Outpatient,13,5,Home
+E01707,P1707,Inpatient,2,3,Home Health
+E01708,P1708,Inpatient,23,4,Home
+E01709,P1709,Inpatient,2,4,Home Health
+E01710,P1710,Inpatient,11,4,Home
+E01711,P1711,Inpatient,20,1,Home
+E01712,P1712,Outpatient,4,3,Home
+E01713,P1713,Outpatient,9,1,Home
+E01714,P1714,Outpatient,17,2,Home
+E01715,P1715,Inpatient,10,2,Home
+E01716,P1716,Outpatient,3,8,Home Health
+E01717,P1717,Inpatient,18,3,Home Health
+E01718,P1718,Outpatient,17,4,Home
+E01719,P1719,Outpatient,2,2,Home
+E01720,P1720,Outpatient,10,3,Home
+E01721,P1721,Inpatient,17,6,Home
+E01722,P1722,Outpatient,21,4,Home
+E01723,P1723,Outpatient,8,4,Home
+E01724,P1724,Inpatient,7,3,Home
+E01725,P1725,Outpatient,10,5,Home Health
+E01726,P1726,Outpatient,22,1,Home
+E01727,P1727,Inpatient,9,5,Skilled Nursing
+E01728,P1728,Outpatient,27,1,Home
+E01729,P1729,Outpatient,3,3,Home
+E01730,P1730,Outpatient,22,1,Home
+E01731,P1731,Outpatient,28,1,Home
+E01732,P1732,Outpatient,10,6,Home
+E01733,P1733,Inpatient,10,6,Home
+E01734,P1734,Inpatient,17,3,Skilled Nursing
+E01735,P1735,Outpatient,20,5,Home
+E01736,P1736,Outpatient,25,3,Home
+E01737,P1737,Outpatient,27,1,Home
+E01738,P1738,Inpatient,24,3,Home Health
+E01739,P1739,Inpatient,12,6,Skilled Nursing
+E01740,P1740,Outpatient,3,6,Home
+E01741,P1741,Outpatient,16,10,Skilled Nursing
+E01742,P1742,Outpatient,3,4,Home
+E01743,P1743,Outpatient,23,4,Home
+E01744,P1744,Inpatient,5,6,Home Health
+E01745,P1745,Outpatient,4,4,Skilled Nursing
+E01746,P1746,Outpatient,14,3,Home
+E01747,P1747,Inpatient,18,3,Home Health
+E01748,P1748,Inpatient,7,7,Home
+E01749,P1749,Outpatient,18,1,Home Health
+E01750,P1750,Inpatient,21,2,Skilled Nursing
+E01751,P1751,Inpatient,6,3,Home
+E01752,P1752,Outpatient,27,1,Skilled Nursing
+E01753,P1753,Inpatient,7,2,Home
+E01754,P1754,Outpatient,2,2,Home
+E01755,P1755,Outpatient,27,3,Home
+E01756,P1756,Inpatient,22,3,Home
+E01757,P1757,Outpatient,22,6,Home
+E01758,P1758,Inpatient,3,3,Home
+E01759,P1759,Outpatient,15,7,Home
+E01760,P1760,Inpatient,4,1,Skilled Nursing
+E01761,P1761,Inpatient,23,2,Home
+E01762,P1762,Outpatient,14,4,Home
+E01763,P1763,Inpatient,26,3,Home
+E01764,P1764,Outpatient,29,4,Home
+E01765,P1765,Outpatient,10,7,Home
+E01766,P1766,Inpatient,10,4,Home
+E01767,P1767,Outpatient,29,5,Home
+E01768,P1768,Outpatient,16,5,Home
+E01769,P1769,Inpatient,22,3,Home Health
+E01770,P1770,Inpatient,29,2,Home
+E01771,P1771,Inpatient,13,4,Home
+E01772,P1772,Outpatient,19,4,Home
+E01773,P1773,Outpatient,23,2,Home
+E01774,P1774,Inpatient,12,1,Home Health
+E01775,P1775,Outpatient,20,5,Home
+E01776,P1776,Outpatient,11,6,Home
+E01777,P1777,Outpatient,23,3,Home
+E01778,P1778,Outpatient,9,4,Home Health
+E01779,P1779,Outpatient,15,2,Home
+E01780,P1780,Inpatient,4,1,Home
+E01781,P1781,Inpatient,26,2,Home
+E01782,P1782,Outpatient,4,4,Home
+E01783,P1783,Outpatient,2,3,Home
+E01784,P1784,Inpatient,22,3,Home
+E01785,P1785,Inpatient,7,1,Skilled Nursing
+E01786,P1786,Outpatient,17,5,Home
+E01787,P1787,Outpatient,29,2,Home Health
+E01788,P1788,Outpatient,5,3,Skilled Nursing
+E01789,P1789,Inpatient,8,2,Home
+E01790,P1790,Outpatient,13,6,Home
+E01791,P1791,Outpatient,24,2,Skilled Nursing
+E01792,P1792,Inpatient,8,1,Home
+E01793,P1793,Outpatient,29,1,Home
+E01794,P1794,Outpatient,13,7,Home
+E01795,P1795,Outpatient,21,2,Skilled Nursing
+E01796,P1796,Outpatient,19,5,Home
+E01797,P1797,Inpatient,15,2,Home
+E01798,P1798,Inpatient,5,2,Home
+E01799,P1799,Outpatient,13,4,Home Health
+E01800,P1800,Inpatient,22,2,Home
+E01801,P1801,Outpatient,6,4,Home
+E01802,P1802,Outpatient,3,6,Home
+E01803,P1803,Outpatient,16,5,Home
+E01804,P1804,Outpatient,2,2,Home
+E01805,P1805,Inpatient,10,3,Home
+E01806,P1806,Inpatient,25,4,Home
+E01807,P1807,Inpatient,8,3,Home
+E01808,P1808,Inpatient,21,5,Home
+E01809,P1809,Inpatient,4,2,Home Health
+E01810,P1810,Outpatient,4,9,Home
+E01811,P1811,Outpatient,12,4,Skilled Nursing
+E01812,P1812,Inpatient,3,5,Home
+E01813,P1813,Outpatient,21,3,Home
+E01814,P1814,Outpatient,25,5,Home
+E01815,P1815,Inpatient,5,5,Home Health
+E01816,P1816,Outpatient,4,2,Home Health
+E01817,P1817,Inpatient,17,3,Home
+E01818,P1818,Inpatient,22,2,Home
+E01819,P1819,Outpatient,6,2,Home Health
+E01820,P1820,Inpatient,19,3,Home Health
+E01821,P1821,Outpatient,10,4,Home
+E01822,P1822,Outpatient,25,6,Home
+E01823,P1823,Outpatient,20,5,Home
+E01824,P1824,Outpatient,14,4,Home Health
+E01825,P1825,Outpatient,16,3,Home
+E01826,P1826,Outpatient,18,3,Home Health
+E01827,P1827,Outpatient,11,1,Skilled Nursing
+E01828,P1828,Inpatient,5,2,Home
+E01829,P1829,Outpatient,21,2,Home
+E01830,P1830,Inpatient,26,2,Home
+E01831,P1831,Inpatient,17,7,Home Health
+E01832,P1832,Inpatient,12,6,Skilled Nursing
+E01833,P1833,Outpatient,26,4,Home
+E01834,P1834,Inpatient,8,1,Home
+E01835,P1835,Inpatient,13,4,Home
+E01836,P1836,Outpatient,2,5,Home
+E01837,P1837,Outpatient,20,5,Home
+E01838,P1838,Outpatient,14,3,Home
+E01839,P1839,Outpatient,24,1,Home Health
+E01840,P1840,Inpatient,2,3,Home Health
+E01841,P1841,Inpatient,20,8,Home
+E01842,P1842,Outpatient,19,7,Home
+E01843,P1843,Inpatient,15,3,Home
+E01844,P1844,Outpatient,22,4,Home
+E01845,P1845,Outpatient,3,2,Home Health
+E01846,P1846,Outpatient,5,3,Home
+E01847,P1847,Outpatient,26,3,Home
+E01848,P1848,Outpatient,15,4,Home
+E01849,P1849,Outpatient,3,2,Skilled Nursing
+E01850,P1850,Outpatient,14,5,Home
+E01851,P1851,Outpatient,15,2,Home
+E01852,P1852,Inpatient,5,6,Home
+E01853,P1853,Inpatient,8,2,Home
+E01854,P1854,Outpatient,16,2,Home
+E01855,P1855,Outpatient,23,3,Home
+E01856,P1856,Inpatient,20,5,Home
+E01857,P1857,Inpatient,20,4,Home
+E01858,P1858,Outpatient,21,1,Home
+E01859,P1859,Inpatient,8,5,Skilled Nursing
+E01860,P1860,Outpatient,5,6,Home
+E01861,P1861,Inpatient,22,6,Home
+E01862,P1862,Inpatient,22,2,Home
+E01863,P1863,Outpatient,11,3,Home
+E01864,P1864,Inpatient,20,3,Home Health
+E01865,P1865,Outpatient,9,4,Home Health
+E01866,P1866,Outpatient,6,1,Home
+E01867,P1867,Inpatient,5,5,Home
+E01868,P1868,Inpatient,7,3,Home Health
+E01869,P1869,Outpatient,11,4,Home
+E01870,P1870,Outpatient,11,4,Home
+E01871,P1871,Inpatient,29,4,Home
+E01872,P1872,Inpatient,22,4,Home
+E01873,P1873,Outpatient,6,3,Home
+E01874,P1874,Outpatient,11,6,Home
+E01875,P1875,Inpatient,27,4,Home
+E01876,P1876,Inpatient,23,1,Home
+E01877,P1877,Inpatient,28,4,Home
+E01878,P1878,Outpatient,20,3,Skilled Nursing
+E01879,P1879,Inpatient,16,2,Home
+E01880,P1880,Inpatient,22,5,Home Health
+E01881,P1881,Outpatient,19,1,Home
+E01882,P1882,Outpatient,4,5,Home
+E01883,P1883,Outpatient,13,2,Home
+E01884,P1884,Outpatient,14,2,Home Health
+E01885,P1885,Inpatient,17,5,Home
+E01886,P1886,Inpatient,6,6,Home
+E01887,P1887,Outpatient,23,6,Home
+E01888,P1888,Outpatient,4,4,Home
+E01889,P1889,Outpatient,28,3,Skilled Nursing
+E01890,P1890,Outpatient,10,1,Home
+E01891,P1891,Outpatient,16,5,Home
+E01892,P1892,Inpatient,19,6,Home Health
+E01893,P1893,Outpatient,12,2,Home
+E01894,P1894,Outpatient,22,6,Home
+E01895,P1895,Outpatient,3,2,Home
+E01896,P1896,Outpatient,27,2,Home
+E01897,P1897,Inpatient,12,2,Home
+E01898,P1898,Outpatient,22,4,Home
+E01899,P1899,Inpatient,2,5,Home
+E01900,P1900,Outpatient,4,3,Home
+E01901,P1901,Inpatient,11,4,Home
+E01902,P1902,Inpatient,21,2,Skilled Nursing
+E01903,P1903,Inpatient,27,2,Home
+E01904,P1904,Inpatient,4,1,Home
+E01905,P1905,Inpatient,28,2,Home
+E01906,P1906,Outpatient,25,3,Home
+E01907,P1907,Outpatient,26,3,Home Health
+E01908,P1908,Outpatient,3,6,Home
+E01909,P1909,Inpatient,7,1,Home
+E01910,P1910,Outpatient,17,4,Home
+E01911,P1911,Inpatient,14,4,Home
+E01912,P1912,Inpatient,24,2,Home Health
+E01913,P1913,Inpatient,29,7,Home
+E01914,P1914,Outpatient,12,2,Home Health
+E01915,P1915,Inpatient,20,5,Home Health
+E01916,P1916,Inpatient,13,5,Home Health
+E01917,P1917,Inpatient,28,5,Home
+E01918,P1918,Outpatient,20,3,Home
+E01919,P1919,Inpatient,15,2,Skilled Nursing
+E01920,P1920,Outpatient,11,5,Skilled Nursing
+E01921,P1921,Outpatient,3,2,Home Health
+E01922,P1922,Outpatient,28,2,Skilled Nursing
+E01923,P1923,Outpatient,19,5,Home Health
+E01924,P1924,Outpatient,7,2,Home
+E01925,P1925,Outpatient,10,8,Home
+E01926,P1926,Outpatient,3,1,Home
+E01927,P1927,Outpatient,18,2,Home
+E01928,P1928,Inpatient,28,3,Home Health
+E01929,P1929,Outpatient,19,2,Home
+E01930,P1930,Outpatient,14,3,Home
+E01931,P1931,Outpatient,12,2,Home Health
+E01932,P1932,Outpatient,24,5,Home
+E01933,P1933,Outpatient,24,1,Home
+E01934,P1934,Inpatient,20,2,Home
+E01935,P1935,Inpatient,10,3,Home
+E01936,P1936,Outpatient,23,3,Home
+E01937,P1937,Inpatient,8,3,Home
+E01938,P1938,Inpatient,11,2,Home
+E01939,P1939,Inpatient,10,4,Home
+E01940,P1940,Inpatient,28,3,Home
+E01941,P1941,Outpatient,27,4,Home Health
+E01942,P1942,Outpatient,9,1,Home Health
+E01943,P1943,Outpatient,29,3,Home
+E01944,P1944,Inpatient,19,3,Home
+E01945,P1945,Outpatient,25,2,Home
+E01946,P1946,Inpatient,16,5,Home
+E01947,P1947,Outpatient,11,2,Home
+E01948,P1948,Outpatient,3,2,Home Health
+E01949,P1949,Outpatient,24,4,Home
+E01950,P1950,Outpatient,24,3,Home
+E01951,P1951,Outpatient,14,3,Home
+E01952,P1952,Inpatient,4,3,Home
+E01953,P1953,Outpatient,18,1,Home
+E01954,P1954,Inpatient,23,1,Home
+E01955,P1955,Inpatient,16,3,Home
+E01956,P1956,Inpatient,14,1,Skilled Nursing
+E01957,P1957,Outpatient,26,4,Home
+E01958,P1958,Inpatient,21,2,Home
+E01959,P1959,Inpatient,28,3,Home Health
+E01960,P1960,Outpatient,12,4,Home
+E01961,P1961,Outpatient,16,5,Home
+E01962,P1962,Inpatient,20,1,Home
+E01963,P1963,Inpatient,6,4,Home Health
+E01964,P1964,Inpatient,19,2,Home Health
+E01965,P1965,Outpatient,3,1,Home
+E01966,P1966,Inpatient,13,5,Home Health
+E01967,P1967,Outpatient,11,4,Home
+E01968,P1968,Outpatient,25,1,Home
+E01969,P1969,Outpatient,21,3,Home
+E01970,P1970,Outpatient,28,2,Home
+E01971,P1971,Outpatient,3,3,Home
+E01972,P1972,Outpatient,28,4,Home
+E01973,P1973,Outpatient,2,6,Home Health
+E01974,P1974,Inpatient,24,2,Home
+E01975,P1975,Outpatient,4,1,Home
+E01976,P1976,Inpatient,6,3,Home
+E01977,P1977,Inpatient,3,2,Home Health
+E01978,P1978,Inpatient,29,5,Home
+E01979,P1979,Inpatient,6,2,Home Health
+E01980,P1980,Inpatient,18,3,Home
+E01981,P1981,Outpatient,12,1,Home
+E01982,P1982,Outpatient,8,8,Home
+E01983,P1983,Inpatient,2,2,Home
+E01984,P1984,Inpatient,18,4,Home
+E01985,P1985,Outpatient,9,3,Home
+E01986,P1986,Outpatient,18,5,Home Health
+E01987,P1987,Outpatient,21,2,Home Health
+E01988,P1988,Outpatient,14,3,Home
+E01989,P1989,Inpatient,14,7,Home
+E01990,P1990,Outpatient,5,4,Home Health
+E01991,P1991,Inpatient,12,4,Home Health
+E01992,P1992,Inpatient,20,3,Home Health
+E01993,P1993,Outpatient,23,4,Home
+E01994,P1994,Inpatient,6,6,Home
+E01995,P1995,Inpatient,11,1,Home
+E01996,P1996,Inpatient,9,4,Home
+E01997,P1997,Inpatient,18,5,Home
+E01998,P1998,Inpatient,24,5,Home Health
+E01999,P1999,Inpatient,26,6,Home
+E02000,P2000,Inpatient,20,2,Home
+E02001,P2001,Inpatient,2,2,Home
+E02002,P2002,Inpatient,6,3,Home
+E02003,P2003,Outpatient,3,3,Home Health
+E02004,P2004,Outpatient,17,5,Home Health
+E02005,P2005,Inpatient,5,8,Home
+E02006,P2006,Inpatient,9,5,Home
+E02007,P2007,Outpatient,9,5,Home
+E02008,P2008,Inpatient,22,4,Skilled Nursing
+E02009,P2009,Inpatient,18,3,Home
+E02010,P2010,Outpatient,11,4,Home
+E02011,P2011,Outpatient,12,3,Home
+E02012,P2012,Outpatient,7,2,Home
+E02013,P2013,Inpatient,4,4,Skilled Nursing
+E02014,P2014,Inpatient,11,4,Home
+E02015,P2015,Outpatient,12,5,Skilled Nursing
+E02016,P2016,Inpatient,26,5,Home
+E02017,P2017,Inpatient,11,3,Home
+E02018,P2018,Inpatient,3,2,Skilled Nursing
+E02019,P2019,Outpatient,16,3,Home
+E02020,P2020,Outpatient,22,7,Home
+E02021,P2021,Inpatient,11,6,Home
+E02022,P2022,Outpatient,28,5,Home
+E02023,P2023,Inpatient,6,6,Home
+E02024,P2024,Inpatient,9,2,Home
+E02025,P2025,Inpatient,29,2,Home Health
+E02026,P2026,Outpatient,6,3,Home
+E02027,P2027,Inpatient,7,6,Home
+E02028,P2028,Outpatient,28,2,Home
+E02029,P2029,Outpatient,21,1,Home
+E02030,P2030,Outpatient,13,5,Skilled Nursing
+E02031,P2031,Inpatient,8,3,Home
+E02032,P2032,Outpatient,7,3,Home Health
+E02033,P2033,Inpatient,5,1,Home
+E02034,P2034,Outpatient,10,4,Home Health
+E02035,P2035,Outpatient,5,2,Skilled Nursing
+E02036,P2036,Inpatient,16,4,Home Health
+E02037,P2037,Outpatient,29,5,Home
+E02038,P2038,Outpatient,13,6,Home
+E02039,P2039,Inpatient,25,8,Home
+E02040,P2040,Outpatient,16,2,Home Health
+E02041,P2041,Inpatient,26,4,Home
+E02042,P2042,Outpatient,12,3,Home
+E02043,P2043,Inpatient,20,5,Home Health
+E02044,P2044,Outpatient,16,3,Home
+E02045,P2045,Outpatient,23,1,Home
+E02046,P2046,Inpatient,27,6,Home
+E02047,P2047,Inpatient,7,3,Home Health
+E02048,P2048,Inpatient,24,2,Home
+E02049,P2049,Outpatient,7,2,Home
+E02050,P2050,Inpatient,18,5,Home
+E02051,P2051,Outpatient,17,1,Home
+E02052,P2052,Outpatient,13,4,Home
+E02053,P2053,Outpatient,25,1,Home
+E02054,P2054,Outpatient,25,2,Home
+E02055,P2055,Inpatient,7,4,Home
+E02056,P2056,Outpatient,11,1,Home
+E02057,P2057,Inpatient,28,9,Home
+E02058,P2058,Outpatient,26,4,Home
+E02059,P2059,Inpatient,7,6,Home
+E02060,P2060,Outpatient,7,3,Home
+E02061,P2061,Inpatient,26,4,Home Health
+E02062,P2062,Outpatient,9,7,Home
+E02063,P2063,Outpatient,28,2,Home
+E02064,P2064,Outpatient,18,1,Home
+E02065,P2065,Outpatient,12,5,Home
+E02066,P2066,Outpatient,21,4,Skilled Nursing
+E02067,P2067,Inpatient,22,2,Home
+E02068,P2068,Inpatient,27,2,Home
+E02069,P2069,Outpatient,10,3,Skilled Nursing
+E02070,P2070,Inpatient,13,3,Home Health
+E02071,P2071,Outpatient,20,2,Home
+E02072,P2072,Outpatient,13,1,Home
+E02073,P2073,Outpatient,21,7,Home
+E02074,P2074,Outpatient,3,2,Skilled Nursing
+E02075,P2075,Inpatient,29,2,Home
+E02076,P2076,Outpatient,21,2,Home Health
+E02077,P2077,Outpatient,22,2,Home Health
+E02078,P2078,Inpatient,23,3,Home
+E02079,P2079,Inpatient,9,2,Home
+E02080,P2080,Outpatient,2,2,Home
+E02081,P2081,Inpatient,19,4,Home
+E02082,P2082,Outpatient,19,5,Home
+E02083,P2083,Inpatient,2,4,Skilled Nursing
+E02084,P2084,Inpatient,10,1,Skilled Nursing
+E02085,P2085,Inpatient,22,5,Home
+E02086,P2086,Outpatient,22,4,Home
+E02087,P2087,Outpatient,27,4,Home
+E02088,P2088,Inpatient,3,5,Home
+E02089,P2089,Outpatient,22,3,Skilled Nursing
+E02090,P2090,Outpatient,15,6,Home
+E02091,P2091,Outpatient,7,4,Home
+E02092,P2092,Inpatient,26,5,Home
+E02093,P2093,Inpatient,18,6,Home
+E02094,P2094,Outpatient,29,3,Home
+E02095,P2095,Inpatient,15,4,Home Health
+E02096,P2096,Outpatient,22,5,Home
+E02097,P2097,Inpatient,3,2,Home
+E02098,P2098,Outpatient,4,7,Home
+E02099,P2099,Inpatient,13,4,Home
+E02100,P2100,Outpatient,17,4,Home Health
+E02101,P2101,Outpatient,6,5,Home
+E02102,P2102,Outpatient,16,3,Home Health
+E02103,P2103,Inpatient,25,3,Home
+E02104,P2104,Inpatient,15,4,Skilled Nursing
+E02105,P2105,Outpatient,5,3,Skilled Nursing
+E02106,P2106,Inpatient,15,2,Home
+E02107,P2107,Outpatient,16,1,Home
+E02108,P2108,Outpatient,2,4,Home Health
+E02109,P2109,Outpatient,19,1,Home
+E02110,P2110,Outpatient,21,4,Home
+E02111,P2111,Inpatient,20,6,Home
+E02112,P2112,Outpatient,18,1,Home Health
+E02113,P2113,Inpatient,23,3,Home
+E02114,P2114,Outpatient,17,3,Home
+E02115,P2115,Inpatient,7,2,Home
+E02116,P2116,Outpatient,22,6,Home
+E02117,P2117,Outpatient,10,3,Home Health
+E02118,P2118,Outpatient,17,7,Home Health
+E02119,P2119,Inpatient,21,5,Home
+E02120,P2120,Outpatient,13,2,Home
+E02121,P2121,Outpatient,2,4,Home
+E02122,P2122,Outpatient,11,6,Home Health
+E02123,P2123,Inpatient,5,2,Home
+E02124,P2124,Outpatient,13,5,Home Health
+E02125,P2125,Outpatient,8,5,Home
+E02126,P2126,Outpatient,16,7,Home
+E02127,P2127,Outpatient,20,2,Home Health
+E02128,P2128,Outpatient,12,4,Home
+E02129,P2129,Outpatient,16,7,Home
+E02130,P2130,Inpatient,14,1,Home
+E02131,P2131,Inpatient,21,4,Home Health
+E02132,P2132,Outpatient,19,2,Home
+E02133,P2133,Outpatient,26,1,Home
+E02134,P2134,Inpatient,17,3,Home
+E02135,P2135,Outpatient,19,3,Home Health
+E02136,P2136,Outpatient,14,2,Home
+E02137,P2137,Outpatient,3,5,Home
+E02138,P2138,Inpatient,26,2,Home
+E02139,P2139,Inpatient,16,3,Home
+E02140,P2140,Outpatient,11,1,Home
+E02141,P2141,Outpatient,19,3,Home
+E02142,P2142,Outpatient,9,1,Home
+E02143,P2143,Inpatient,23,4,Home
+E02144,P2144,Outpatient,11,3,Home
+E02145,P2145,Outpatient,28,4,Home Health
+E02146,P2146,Inpatient,19,3,Home
+E02147,P2147,Inpatient,16,3,Skilled Nursing
+E02148,P2148,Outpatient,2,4,Home
+E02149,P2149,Inpatient,24,1,Home
+E02150,P2150,Outpatient,12,1,Home
+E02151,P2151,Outpatient,3,3,Home
+E02152,P2152,Outpatient,3,3,Home
+E02153,P2153,Outpatient,13,3,Home
+E02154,P2154,Outpatient,24,3,Home Health
+E02155,P2155,Inpatient,13,4,Home Health
+E02156,P2156,Outpatient,12,4,Home Health
+E02157,P2157,Outpatient,11,4,Home Health
+E02158,P2158,Inpatient,6,1,Home
+E02159,P2159,Outpatient,15,6,Home
+E02160,P2160,Inpatient,15,5,Home
+E02161,P2161,Outpatient,10,3,Home
+E02162,P2162,Outpatient,12,2,Skilled Nursing
+E02163,P2163,Outpatient,23,3,Home
+E02164,P2164,Outpatient,27,1,Home Health
+E02165,P2165,Inpatient,25,2,Home
+E02166,P2166,Outpatient,20,2,Home
+E02167,P2167,Inpatient,4,3,Home
+E02168,P2168,Outpatient,15,4,Home
+E02169,P2169,Outpatient,21,4,Home Health
+E02170,P2170,Outpatient,29,2,Skilled Nursing
+E02171,P2171,Outpatient,21,5,Home
+E02172,P2172,Outpatient,22,9,Home
+E02173,P2173,Inpatient,26,4,Home
+E02174,P2174,Inpatient,7,2,Home
+E02175,P2175,Inpatient,29,5,Home
+E02176,P2176,Inpatient,15,6,Skilled Nursing
+E02177,P2177,Outpatient,27,3,Home
+E02178,P2178,Outpatient,16,6,Home
+E02179,P2179,Outpatient,25,3,Home
+E02180,P2180,Inpatient,27,2,Home
+E02181,P2181,Inpatient,13,2,Home
+E02182,P2182,Inpatient,17,6,Home
+E02183,P2183,Outpatient,11,8,Home
+E02184,P2184,Outpatient,21,2,Home
+E02185,P2185,Inpatient,16,1,Home Health
+E02186,P2186,Outpatient,6,5,Home
+E02187,P2187,Inpatient,17,4,Home Health
+E02188,P2188,Outpatient,13,1,Home Health
+E02189,P2189,Outpatient,26,1,Home
+E02190,P2190,Inpatient,7,3,Home
+E02191,P2191,Outpatient,15,1,Home
+E02192,P2192,Outpatient,14,1,Home Health
+E02193,P2193,Outpatient,15,1,Home Health
+E02194,P2194,Outpatient,26,2,Home
+E02195,P2195,Inpatient,21,1,Skilled Nursing
+E02196,P2196,Outpatient,25,3,Home Health
+E02197,P2197,Inpatient,20,4,Home Health
+E02198,P2198,Outpatient,6,3,Skilled Nursing
+E02199,P2199,Outpatient,4,4,Home
+E02200,P2200,Outpatient,13,2,Home
+E02201,P2201,Outpatient,28,3,Home
+E02202,P2202,Inpatient,28,4,Skilled Nursing
+E02203,P2203,Outpatient,6,3,Home
+E02204,P2204,Inpatient,5,8,Skilled Nursing
+E02205,P2205,Outpatient,14,1,Home
+E02206,P2206,Inpatient,6,3,Home Health
+E02207,P2207,Inpatient,3,3,Home
+E02208,P2208,Outpatient,4,7,Home
+E02209,P2209,Outpatient,13,2,Home
+E02210,P2210,Inpatient,16,2,Home Health
+E02211,P2211,Outpatient,12,3,Home
+E02212,P2212,Inpatient,29,1,Home
+E02213,P2213,Inpatient,24,4,Home Health
+E02214,P2214,Inpatient,26,1,Home
+E02215,P2215,Inpatient,22,4,Home Health
+E02216,P2216,Outpatient,8,4,Home
+E02217,P2217,Inpatient,27,1,Home
+E02218,P2218,Inpatient,24,6,Home
+E02219,P2219,Inpatient,29,1,Skilled Nursing
+E02220,P2220,Outpatient,2,1,Home
+E02221,P2221,Inpatient,20,4,Home
+E02222,P2222,Outpatient,18,2,Home Health
+E02223,P2223,Outpatient,2,4,Home Health
+E02224,P2224,Outpatient,26,1,Home
+E02225,P2225,Inpatient,6,3,Home
+E02226,P2226,Outpatient,11,4,Home Health
+E02227,P2227,Inpatient,5,4,Home Health
+E02228,P2228,Outpatient,12,3,Home
+E02229,P2229,Inpatient,13,3,Home Health
+E02230,P2230,Outpatient,20,3,Home
+E02231,P2231,Outpatient,22,6,Home Health
+E02232,P2232,Outpatient,26,7,Home
+E02233,P2233,Outpatient,7,5,Home
+E02234,P2234,Outpatient,17,4,Home
+E02235,P2235,Outpatient,19,2,Home
+E02236,P2236,Inpatient,28,3,Home Health
+E02237,P2237,Outpatient,16,2,Skilled Nursing
+E02238,P2238,Outpatient,18,2,Home
+E02239,P2239,Inpatient,4,6,Home
+E02240,P2240,Inpatient,11,2,Home
+E02241,P2241,Outpatient,8,4,Home
+E02242,P2242,Outpatient,25,1,Home
+E02243,P2243,Outpatient,4,4,Home Health
+E02244,P2244,Outpatient,24,7,Home
+E02245,P2245,Outpatient,28,4,Home
+E02246,P2246,Outpatient,20,4,Home
+E02247,P2247,Outpatient,7,5,Home
+E02248,P2248,Outpatient,5,3,Home
+E02249,P2249,Inpatient,12,3,Home Health
+E02250,P2250,Outpatient,2,4,Skilled Nursing
+E02251,P2251,Inpatient,26,2,Home
+E02252,P2252,Inpatient,3,4,Home
+E02253,P2253,Outpatient,23,4,Home
+E02254,P2254,Inpatient,9,1,Home
+E02255,P2255,Outpatient,10,3,Home Health
+E02256,P2256,Outpatient,8,3,Home
+E02257,P2257,Outpatient,11,1,Skilled Nursing
+E02258,P2258,Outpatient,19,4,Home
+E02259,P2259,Outpatient,28,5,Home
+E02260,P2260,Outpatient,14,2,Home
+E02261,P2261,Outpatient,16,4,Home
+E02262,P2262,Inpatient,2,1,Home
+E02263,P2263,Outpatient,11,2,Home
+E02264,P2264,Outpatient,26,3,Home
+E02265,P2265,Outpatient,2,5,Home Health
+E02266,P2266,Outpatient,18,6,Home Health
+E02267,P2267,Outpatient,7,6,Home
+E02268,P2268,Outpatient,12,4,Home
+E02269,P2269,Inpatient,15,4,Home
+E02270,P2270,Inpatient,12,3,Home
+E02271,P2271,Inpatient,16,1,Home
+E02272,P2272,Outpatient,4,3,Home
+E02273,P2273,Outpatient,15,3,Home
+E02274,P2274,Inpatient,16,2,Home
+E02275,P2275,Inpatient,12,3,Home
+E02276,P2276,Outpatient,29,2,Home
+E02277,P2277,Inpatient,23,4,Home Health
+E02278,P2278,Outpatient,16,2,Home Health
+E02279,P2279,Inpatient,4,6,Home
+E02280,P2280,Inpatient,2,4,Home Health
+E02281,P2281,Inpatient,18,2,Home
+E02282,P2282,Inpatient,19,4,Home Health
+E02283,P2283,Outpatient,3,5,Home
+E02284,P2284,Outpatient,2,6,Home
+E02285,P2285,Inpatient,26,2,Home Health
+E02286,P2286,Outpatient,27,1,Home
+E02287,P2287,Outpatient,2,3,Home
+E02288,P2288,Outpatient,16,5,Home
+E02289,P2289,Inpatient,17,2,Home
+E02290,P2290,Outpatient,21,6,Home
+E02291,P2291,Outpatient,11,4,Home
+E02292,P2292,Outpatient,26,1,Home Health
+E02293,P2293,Inpatient,20,3,Skilled Nursing
+E02294,P2294,Inpatient,23,6,Home
+E02295,P2295,Inpatient,15,1,Home
+E02296,P2296,Inpatient,17,4,Home Health
+E02297,P2297,Inpatient,28,11,Home
+E02298,P2298,Inpatient,13,5,Home
+E02299,P2299,Inpatient,13,5,Home
+E02300,P2300,Outpatient,27,5,Home
+E02301,P2301,Outpatient,12,3,Home Health
+E02302,P2302,Outpatient,2,7,Home Health
+E02303,P2303,Outpatient,18,6,Home Health
+E02304,P2304,Outpatient,13,5,Home
+E02305,P2305,Outpatient,2,5,Home Health
+E02306,P2306,Inpatient,15,3,Home
+E02307,P2307,Inpatient,17,4,Home
+E02308,P2308,Inpatient,26,3,Home
+E02309,P2309,Inpatient,11,1,Home
+E02310,P2310,Inpatient,6,3,Home Health
+E02311,P2311,Outpatient,13,1,Home
+E02312,P2312,Outpatient,21,2,Home
+E02313,P2313,Outpatient,16,3,Home Health
+E02314,P2314,Inpatient,20,4,Home Health
+E02315,P2315,Outpatient,4,3,Home
+E02316,P2316,Inpatient,28,2,Home
+E02317,P2317,Inpatient,10,2,Home Health
+E02318,P2318,Inpatient,26,3,Home
+E02319,P2319,Outpatient,18,2,Home
+E02320,P2320,Inpatient,15,7,Home
+E02321,P2321,Inpatient,29,4,Home
+E02322,P2322,Inpatient,4,4,Home
+E02323,P2323,Outpatient,29,6,Home
+E02324,P2324,Outpatient,25,8,Home
+E02325,P2325,Outpatient,11,5,Home
+E02326,P2326,Inpatient,8,1,Home
+E02327,P2327,Inpatient,12,3,Home
+E02328,P2328,Outpatient,23,4,Home Health
+E02329,P2329,Outpatient,4,3,Home Health
+E02330,P2330,Outpatient,17,5,Home
+E02331,P2331,Inpatient,4,4,Home
+E02332,P2332,Outpatient,3,3,Home
+E02333,P2333,Inpatient,15,2,Home
+E02334,P2334,Inpatient,2,1,Home
+E02335,P2335,Outpatient,21,1,Home
+E02336,P2336,Inpatient,5,1,Home
+E02337,P2337,Inpatient,26,3,Skilled Nursing
+E02338,P2338,Outpatient,9,1,Home
+E02339,P2339,Outpatient,26,2,Home
+E02340,P2340,Inpatient,9,4,Skilled Nursing
+E02341,P2341,Outpatient,13,2,Home
+E02342,P2342,Outpatient,8,3,Home
+E02343,P2343,Outpatient,22,6,Home
+E02344,P2344,Outpatient,26,3,Home
+E02345,P2345,Outpatient,29,3,Home Health
+E02346,P2346,Outpatient,16,2,Home
+E02347,P2347,Inpatient,7,2,Home
+E02348,P2348,Outpatient,5,3,Home
+E02349,P2349,Inpatient,8,2,Home
+E02350,P2350,Outpatient,4,2,Home
+E02351,P2351,Outpatient,12,7,Home Health
+E02352,P2352,Outpatient,18,1,Home
+E02353,P2353,Inpatient,23,1,Skilled Nursing
+E02354,P2354,Inpatient,20,4,Home
+E02355,P2355,Outpatient,11,2,Home
+E02356,P2356,Outpatient,21,4,Home
+E02357,P2357,Outpatient,2,3,Home
+E02358,P2358,Outpatient,20,6,Home
+E02359,P2359,Outpatient,27,4,Home Health
+E02360,P2360,Outpatient,19,2,Home
+E02361,P2361,Inpatient,25,1,Home Health
+E02362,P2362,Outpatient,23,6,Home
+E02363,P2363,Inpatient,4,1,Home
+E02364,P2364,Inpatient,4,5,Home
+E02365,P2365,Outpatient,22,3,Skilled Nursing
+E02366,P2366,Outpatient,20,6,Home
+E02367,P2367,Outpatient,2,3,Home
+E02368,P2368,Outpatient,7,4,Home Health
+E02369,P2369,Inpatient,8,3,Home
+E02370,P2370,Outpatient,7,5,Home
+E02371,P2371,Outpatient,2,3,Skilled Nursing
+E02372,P2372,Inpatient,23,5,Home
+E02373,P2373,Inpatient,12,3,Home
+E02374,P2374,Inpatient,29,3,Home
+E02375,P2375,Outpatient,10,2,Home
+E02376,P2376,Inpatient,10,2,Home Health
+E02377,P2377,Inpatient,19,3,Home
+E02378,P2378,Inpatient,16,3,Skilled Nursing
+E02379,P2379,Outpatient,6,6,Home
+E02380,P2380,Outpatient,21,2,Home
+E02381,P2381,Outpatient,12,6,Skilled Nursing
+E02382,P2382,Outpatient,28,5,Home Health
+E02383,P2383,Inpatient,2,6,Home
+E02384,P2384,Outpatient,20,1,Skilled Nursing
+E02385,P2385,Outpatient,5,4,Home
+E02386,P2386,Outpatient,21,4,Home
+E02387,P2387,Outpatient,3,5,Home
+E02388,P2388,Outpatient,10,2,Home
+E02389,P2389,Inpatient,22,2,Home
+E02390,P2390,Inpatient,12,3,Home
+E02391,P2391,Outpatient,10,1,Home
+E02392,P2392,Outpatient,27,3,Home
+E02393,P2393,Outpatient,6,8,Home Health
+E02394,P2394,Inpatient,3,4,Home
+E02395,P2395,Inpatient,7,6,Home Health
+E02396,P2396,Inpatient,17,1,Skilled Nursing
+E02397,P2397,Outpatient,16,2,Home
+E02398,P2398,Inpatient,5,3,Home
+E02399,P2399,Outpatient,8,3,Home
+E02400,P2400,Outpatient,3,4,Home
+E02401,P2401,Outpatient,20,3,Home
+E02402,P2402,Outpatient,5,2,Home
+E02403,P2403,Outpatient,26,2,Home
+E02404,P2404,Inpatient,15,4,Home
+E02405,P2405,Inpatient,16,2,Home Health
+E02406,P2406,Outpatient,19,2,Home Health
+E02407,P2407,Outpatient,27,4,Home
+E02408,P2408,Outpatient,6,6,Home
+E02409,P2409,Outpatient,14,9,Home
+E02410,P2410,Outpatient,16,4,Home
+E02411,P2411,Inpatient,27,2,Home
+E02412,P2412,Inpatient,29,2,Home
+E02413,P2413,Inpatient,12,4,Home
+E02414,P2414,Inpatient,17,3,Home
+E02415,P2415,Outpatient,4,4,Home
+E02416,P2416,Outpatient,3,2,Skilled Nursing
+E02417,P2417,Inpatient,28,3,Home
+E02418,P2418,Outpatient,8,7,Home
+E02419,P2419,Inpatient,12,2,Home Health
+E02420,P2420,Outpatient,3,1,Home Health
+E02421,P2421,Inpatient,17,2,Home Health
+E02422,P2422,Outpatient,18,6,Home
+E02423,P2423,Outpatient,10,4,Home
+E02424,P2424,Outpatient,26,1,Home
+E02425,P2425,Inpatient,12,9,Home
+E02426,P2426,Outpatient,23,6,Home
+E02427,P2427,Inpatient,11,2,Home
+E02428,P2428,Inpatient,3,2,Home
+E02429,P2429,Inpatient,25,7,Home
+E02430,P2430,Inpatient,23,6,Home
+E02431,P2431,Inpatient,24,9,Home
+E02432,P2432,Inpatient,16,7,Home
+E02433,P2433,Outpatient,9,5,Skilled Nursing
+E02434,P2434,Inpatient,25,3,Home
+E02435,P2435,Inpatient,21,2,Home
+E02436,P2436,Inpatient,13,1,Home
+E02437,P2437,Outpatient,21,5,Home
+E02438,P2438,Inpatient,13,2,Home Health
+E02439,P2439,Outpatient,21,1,Home
+E02440,P2440,Inpatient,29,5,Home Health
+E02441,P2441,Inpatient,3,7,Home Health
+E02442,P2442,Outpatient,11,3,Home
+E02443,P2443,Inpatient,9,3,Home
+E02444,P2444,Inpatient,7,3,Home
+E02445,P2445,Inpatient,26,3,Skilled Nursing
+E02446,P2446,Outpatient,29,5,Home
+E02447,P2447,Inpatient,5,2,Home Health
+E02448,P2448,Outpatient,27,4,Skilled Nursing
+E02449,P2449,Inpatient,22,4,Home Health
+E02450,P2450,Outpatient,5,1,Home
+E02451,P2451,Inpatient,29,2,Home
+E02452,P2452,Outpatient,8,2,Home
+E02453,P2453,Outpatient,10,2,Home
+E02454,P2454,Inpatient,25,4,Home
+E02455,P2455,Inpatient,17,4,Home
+E02456,P2456,Inpatient,8,5,Home
+E02457,P2457,Outpatient,11,4,Home
+E02458,P2458,Outpatient,10,3,Home
+E02459,P2459,Outpatient,8,6,Home
+E02460,P2460,Outpatient,11,6,Home
+E02461,P2461,Outpatient,21,2,Home
+E02462,P2462,Outpatient,11,1,Home
+E02463,P2463,Outpatient,22,3,Home
+E02464,P2464,Outpatient,8,7,Home
+E02465,P2465,Outpatient,15,2,Home
+E02466,P2466,Inpatient,7,4,Skilled Nursing
+E02467,P2467,Inpatient,22,1,Home
+E02468,P2468,Outpatient,12,2,Home
+E02469,P2469,Inpatient,2,5,Home
+E02470,P2470,Outpatient,16,1,Home
+E02471,P2471,Outpatient,11,1,Home Health
+E02472,P2472,Outpatient,2,3,Home
+E02473,P2473,Outpatient,13,2,Home Health
+E02474,P2474,Outpatient,3,3,Home
+E02475,P2475,Outpatient,13,3,Home
+E02476,P2476,Outpatient,17,3,Home Health
+E02477,P2477,Outpatient,3,5,Home Health
+E02478,P2478,Inpatient,6,2,Home
+E02479,P2479,Inpatient,3,3,Home Health
+E02480,P2480,Inpatient,6,3,Home
+E02481,P2481,Inpatient,24,1,Home
+E02482,P2482,Inpatient,3,4,Home
+E02483,P2483,Outpatient,4,4,Home
+E02484,P2484,Inpatient,24,3,Home
+E02485,P2485,Inpatient,6,3,Home
+E02486,P2486,Outpatient,9,4,Home Health
+E02487,P2487,Outpatient,17,2,Home
+E02488,P2488,Outpatient,16,2,Home
+E02489,P2489,Inpatient,2,2,Home
+E02490,P2490,Outpatient,16,5,Home
+E02491,P2491,Inpatient,26,1,Home
+E02492,P2492,Inpatient,9,3,Home
+E02493,P2493,Outpatient,10,3,Home
+E02494,P2494,Inpatient,24,3,Skilled Nursing
+E02495,P2495,Inpatient,12,2,Home Health
+E02496,P2496,Inpatient,29,6,Home
+E02497,P2497,Inpatient,23,10,Home
+E02498,P2498,Outpatient,14,4,Home
+E02499,P2499,Inpatient,22,3,Home Health
+E02500,P2500,Inpatient,29,2,Home
+E02501,P2501,Outpatient,20,4,Home
+E02502,P2502,Inpatient,7,3,Home
+E02503,P2503,Outpatient,28,1,Home Health
+E02504,P2504,Outpatient,23,3,Home
+E02505,P2505,Outpatient,20,6,Home
+E02506,P2506,Inpatient,16,2,Home
+E02507,P2507,Inpatient,22,1,Home
+E02508,P2508,Outpatient,17,2,Home
+E02509,P2509,Outpatient,16,5,Home Health
+E02510,P2510,Outpatient,27,2,Home
+E02511,P2511,Outpatient,13,4,Home Health
+E02512,P2512,Inpatient,28,1,Home Health
+E02513,P2513,Outpatient,3,4,Home
+E02514,P2514,Inpatient,2,2,Home
+E02515,P2515,Inpatient,8,2,Home
+E02516,P2516,Inpatient,8,1,Home
+E02517,P2517,Outpatient,15,6,Home Health
+E02518,P2518,Inpatient,10,5,Home
+E02519,P2519,Outpatient,8,3,Home
+E02520,P2520,Outpatient,15,6,Home
+E02521,P2521,Inpatient,16,4,Home Health
+E02522,P2522,Inpatient,18,3,Home
+E02523,P2523,Inpatient,13,6,Skilled Nursing
+E02524,P2524,Outpatient,25,4,Home
+E02525,P2525,Outpatient,10,3,Home
+E02526,P2526,Outpatient,29,2,Home
+E02527,P2527,Inpatient,23,4,Home Health
+E02528,P2528,Inpatient,14,3,Home Health
+E02529,P2529,Outpatient,20,1,Home
+E02530,P2530,Inpatient,10,1,Home
+E02531,P2531,Outpatient,22,2,Home
+E02532,P2532,Inpatient,23,4,Skilled Nursing
+E02533,P2533,Outpatient,19,3,Home
+E02534,P2534,Inpatient,21,6,Home
+E02535,P2535,Inpatient,6,2,Home
+E02536,P2536,Inpatient,5,2,Skilled Nursing
+E02537,P2537,Inpatient,4,3,Home Health
+E02538,P2538,Inpatient,20,2,Home
+E02539,P2539,Inpatient,16,5,Home
+E02540,P2540,Outpatient,25,3,Home Health
+E02541,P2541,Inpatient,11,7,Home
+E02542,P2542,Outpatient,3,4,Home Health
+E02543,P2543,Inpatient,20,2,Skilled Nursing
+E02544,P2544,Inpatient,17,5,Home
+E02545,P2545,Outpatient,2,4,Home
+E02546,P2546,Inpatient,2,2,Home
+E02547,P2547,Outpatient,21,2,Home
+E02548,P2548,Outpatient,9,2,Home
+E02549,P2549,Outpatient,13,5,Home
+E02550,P2550,Outpatient,3,1,Home Health
+E02551,P2551,Inpatient,27,2,Home
+E02552,P2552,Inpatient,29,1,Home
+E02553,P2553,Inpatient,14,7,Home
+E02554,P2554,Inpatient,18,4,Home
+E02555,P2555,Inpatient,7,4,Home Health
+E02556,P2556,Outpatient,29,1,Home
+E02557,P2557,Inpatient,29,5,Home
+E02558,P2558,Outpatient,26,7,Home Health
+E02559,P2559,Inpatient,9,2,Home
+E02560,P2560,Inpatient,13,5,Home Health
+E02561,P2561,Inpatient,14,1,Home
+E02562,P2562,Inpatient,16,5,Home
+E02563,P2563,Inpatient,8,5,Home
+E02564,P2564,Outpatient,22,2,Home
+E02565,P2565,Inpatient,11,4,Home
+E02566,P2566,Outpatient,8,2,Skilled Nursing
+E02567,P2567,Inpatient,12,3,Home
+E02568,P2568,Outpatient,3,3,Home
+E02569,P2569,Inpatient,5,4,Home
+E02570,P2570,Outpatient,25,3,Skilled Nursing
+E02571,P2571,Outpatient,13,3,Home
+E02572,P2572,Inpatient,19,4,Home
+E02573,P2573,Outpatient,7,2,Home
+E02574,P2574,Outpatient,28,4,Home Health
+E02575,P2575,Outpatient,14,5,Home
+E02576,P2576,Inpatient,21,2,Skilled Nursing
+E02577,P2577,Inpatient,4,3,Home
+E02578,P2578,Outpatient,9,4,Home
+E02579,P2579,Inpatient,24,1,Home
+E02580,P2580,Outpatient,9,2,Home Health
+E02581,P2581,Inpatient,6,2,Home
+E02582,P2582,Inpatient,11,2,Home
+E02583,P2583,Outpatient,2,4,Home Health
+E02584,P2584,Inpatient,7,3,Home Health
+E02585,P2585,Outpatient,20,3,Skilled Nursing
+E02586,P2586,Outpatient,15,7,Home
+E02587,P2587,Inpatient,3,3,Home
+E02588,P2588,Inpatient,9,4,Home
+E02589,P2589,Inpatient,22,3,Home
+E02590,P2590,Outpatient,26,2,Home
+E02591,P2591,Inpatient,5,6,Home
+E02592,P2592,Inpatient,23,1,Home
+E02593,P2593,Inpatient,23,3,Home
+E02594,P2594,Outpatient,7,2,Home
+E02595,P2595,Outpatient,19,2,Home
+E02596,P2596,Outpatient,16,1,Home
+E02597,P2597,Outpatient,29,4,Home Health
+E02598,P2598,Inpatient,27,3,Home Health
+E02599,P2599,Outpatient,19,3,Home
+E02600,P2600,Inpatient,5,1,Home
+E02601,P2601,Outpatient,22,6,Skilled Nursing
+E02602,P2602,Inpatient,24,3,Home Health
+E02603,P2603,Outpatient,18,3,Home
+E02604,P2604,Inpatient,8,2,Home Health
+E02605,P2605,Outpatient,24,2,Home
+E02606,P2606,Inpatient,11,2,Home
+E02607,P2607,Outpatient,23,4,Home Health
+E02608,P2608,Inpatient,17,4,Home Health
+E02609,P2609,Outpatient,13,5,Home
+E02610,P2610,Inpatient,24,5,Home
+E02611,P2611,Outpatient,11,2,Home Health
+E02612,P2612,Outpatient,7,2,Home Health
+E02613,P2613,Outpatient,27,1,Home Health
+E02614,P2614,Outpatient,27,2,Skilled Nursing
+E02615,P2615,Inpatient,3,4,Home
+E02616,P2616,Outpatient,14,3,Home
+E02617,P2617,Inpatient,20,3,Skilled Nursing
+E02618,P2618,Outpatient,10,1,Home
+E02619,P2619,Inpatient,5,3,Home Health
+E02620,P2620,Inpatient,8,4,Home
+E02621,P2621,Outpatient,27,5,Home
+E02622,P2622,Inpatient,10,5,Skilled Nursing
+E02623,P2623,Outpatient,4,4,Home Health
+E02624,P2624,Outpatient,10,1,Home Health
+E02625,P2625,Inpatient,10,1,Home
+E02626,P2626,Outpatient,24,4,Home
+E02627,P2627,Inpatient,2,2,Skilled Nursing
+E02628,P2628,Inpatient,13,3,Home
+E02629,P2629,Inpatient,23,1,Home Health
+E02630,P2630,Outpatient,11,5,Home
+E02631,P2631,Inpatient,13,3,Skilled Nursing
+E02632,P2632,Outpatient,6,3,Home
+E02633,P2633,Outpatient,25,1,Home
+E02634,P2634,Outpatient,19,3,Home
+E02635,P2635,Outpatient,18,3,Home
+E02636,P2636,Outpatient,12,2,Home Health
+E02637,P2637,Outpatient,7,4,Home
+E02638,P2638,Inpatient,25,1,Home
+E02639,P2639,Inpatient,9,3,Home
+E02640,P2640,Inpatient,6,5,Home
+E02641,P2641,Outpatient,9,3,Skilled Nursing
+E02642,P2642,Inpatient,18,1,Home
+E02643,P2643,Outpatient,12,4,Home Health
+E02644,P2644,Inpatient,3,5,Home
+E02645,P2645,Inpatient,2,1,Skilled Nursing
+E02646,P2646,Outpatient,5,5,Home
+E02647,P2647,Outpatient,28,9,Home
+E02648,P2648,Outpatient,29,2,Home
+E02649,P2649,Outpatient,19,5,Home
+E02650,P2650,Inpatient,21,3,Home Health
+E02651,P2651,Outpatient,24,2,Skilled Nursing
+E02652,P2652,Inpatient,16,3,Home
+E02653,P2653,Outpatient,20,4,Home Health
+E02654,P2654,Inpatient,4,6,Home
+E02655,P2655,Inpatient,4,5,Home
+E02656,P2656,Outpatient,2,2,Home
+E02657,P2657,Outpatient,26,2,Home
+E02658,P2658,Inpatient,9,3,Home
+E02659,P2659,Inpatient,6,2,Home
+E02660,P2660,Outpatient,15,4,Home
+E02661,P2661,Inpatient,3,5,Home
+E02662,P2662,Inpatient,4,2,Home
+E02663,P2663,Inpatient,5,4,Home
+E02664,P2664,Inpatient,11,1,Home Health
+E02665,P2665,Inpatient,7,2,Home
+E02666,P2666,Outpatient,9,2,Home Health
+E02667,P2667,Inpatient,29,4,Home Health
+E02668,P2668,Outpatient,27,1,Home
+E02669,P2669,Inpatient,6,6,Home
+E02670,P2670,Outpatient,19,5,Home
+E02671,P2671,Outpatient,8,1,Home
+E02672,P2672,Inpatient,17,2,Home Health
+E02673,P2673,Outpatient,12,5,Home
+E02674,P2674,Inpatient,15,1,Home
+E02675,P2675,Outpatient,11,2,Home
+E02676,P2676,Inpatient,6,2,Skilled Nursing
+E02677,P2677,Inpatient,3,3,Home
+E02678,P2678,Inpatient,12,6,Skilled Nursing
+E02679,P2679,Inpatient,10,3,Home
+E02680,P2680,Outpatient,19,2,Home
+E02681,P2681,Outpatient,11,5,Home
+E02682,P2682,Outpatient,25,1,Home Health
+E02683,P2683,Outpatient,14,3,Home
+E02684,P2684,Outpatient,28,5,Home
+E02685,P2685,Outpatient,15,1,Home Health
+E02686,P2686,Inpatient,20,6,Skilled Nursing
+E02687,P2687,Outpatient,18,4,Home
+E02688,P2688,Outpatient,23,2,Home
+E02689,P2689,Inpatient,24,5,Home
+E02690,P2690,Outpatient,16,3,Skilled Nursing
+E02691,P2691,Outpatient,18,1,Home
+E02692,P2692,Outpatient,7,5,Home
+E02693,P2693,Inpatient,13,1,Home
+E02694,P2694,Outpatient,21,3,Skilled Nursing
+E02695,P2695,Outpatient,28,3,Home Health
+E02696,P2696,Inpatient,22,3,Home
+E02697,P2697,Outpatient,20,2,Home
+E02698,P2698,Inpatient,8,9,Home
+E02699,P2699,Outpatient,15,3,Home
+E02700,P2700,Inpatient,26,3,Home
+E02701,P2701,Outpatient,10,2,Home
+E02702,P2702,Outpatient,16,6,Skilled Nursing
+E02703,P2703,Outpatient,2,5,Home
+E02704,P2704,Outpatient,21,1,Home
+E02705,P2705,Outpatient,13,3,Home
+E02706,P2706,Outpatient,16,2,Home Health
+E02707,P2707,Inpatient,5,2,Skilled Nursing
+E02708,P2708,Inpatient,18,4,Home Health
+E02709,P2709,Outpatient,17,1,Home Health
+E02710,P2710,Inpatient,22,6,Home
+E02711,P2711,Outpatient,28,3,Home
+E02712,P2712,Outpatient,8,4,Home Health
+E02713,P2713,Inpatient,25,1,Home
+E02714,P2714,Outpatient,24,2,Home
+E02715,P2715,Outpatient,13,1,Home
+E02716,P2716,Outpatient,11,2,Skilled Nursing
+E02717,P2717,Outpatient,23,4,Home Health
+E02718,P2718,Inpatient,17,3,Home
+E02719,P2719,Outpatient,15,5,Home
+E02720,P2720,Outpatient,18,3,Home
+E02721,P2721,Outpatient,14,1,Home
+E02722,P2722,Inpatient,28,5,Home
+E02723,P2723,Outpatient,21,2,Home
+E02724,P2724,Inpatient,6,8,Skilled Nursing
+E02725,P2725,Inpatient,21,3,Home Health
+E02726,P2726,Outpatient,13,2,Home
+E02727,P2727,Outpatient,11,2,Home
+E02728,P2728,Outpatient,4,7,Home
+E02729,P2729,Outpatient,12,4,Home
+E02730,P2730,Outpatient,13,2,Skilled Nursing
+E02731,P2731,Inpatient,29,4,Home
+E02732,P2732,Inpatient,22,4,Home
+E02733,P2733,Outpatient,20,1,Skilled Nursing
+E02734,P2734,Outpatient,10,1,Home
+E02735,P2735,Inpatient,15,4,Home
+E02736,P2736,Inpatient,19,3,Home
+E02737,P2737,Outpatient,18,3,Home
+E02738,P2738,Inpatient,22,5,Home Health
+E02739,P2739,Outpatient,20,2,Home Health
+E02740,P2740,Inpatient,17,4,Skilled Nursing
+E02741,P2741,Outpatient,13,5,Home
+E02742,P2742,Outpatient,25,5,Home
+E02743,P2743,Outpatient,4,4,Home
+E02744,P2744,Inpatient,3,6,Home
+E02745,P2745,Inpatient,16,4,Skilled Nursing
+E02746,P2746,Outpatient,22,2,Home
+E02747,P2747,Inpatient,24,5,Skilled Nursing
+E02748,P2748,Outpatient,26,6,Home
+E02749,P2749,Outpatient,24,8,Home Health
+E02750,P2750,Outpatient,23,1,Home
+E02751,P2751,Inpatient,26,3,Home
+E02752,P2752,Outpatient,13,1,Home
+E02753,P2753,Inpatient,12,6,Home
+E02754,P2754,Outpatient,10,1,Home
+E02755,P2755,Outpatient,10,4,Home
+E02756,P2756,Inpatient,6,1,Home
+E02757,P2757,Outpatient,7,1,Skilled Nursing
+E02758,P2758,Inpatient,13,4,Home
+E02759,P2759,Outpatient,20,2,Home Health
+E02760,P2760,Outpatient,10,5,Home Health
+E02761,P2761,Inpatient,17,1,Home
+E02762,P2762,Inpatient,20,3,Skilled Nursing
+E02763,P2763,Outpatient,3,5,Home
+E02764,P2764,Inpatient,7,3,Home
+E02765,P2765,Outpatient,2,5,Home Health
+E02766,P2766,Inpatient,2,3,Home
+E02767,P2767,Inpatient,4,7,Home Health
+E02768,P2768,Outpatient,23,3,Home
+E02769,P2769,Outpatient,28,4,Home
+E02770,P2770,Outpatient,23,7,Home
+E02771,P2771,Outpatient,2,2,Home
+E02772,P2772,Outpatient,8,2,Skilled Nursing
+E02773,P2773,Inpatient,23,4,Home Health
+E02774,P2774,Inpatient,20,1,Home
+E02775,P2775,Outpatient,12,3,Home
+E02776,P2776,Outpatient,24,5,Home
+E02777,P2777,Outpatient,4,3,Home
+E02778,P2778,Outpatient,11,3,Home
+E02779,P2779,Outpatient,17,1,Home
+E02780,P2780,Outpatient,16,7,Home
+E02781,P2781,Outpatient,17,1,Home Health
+E02782,P2782,Inpatient,9,2,Skilled Nursing
+E02783,P2783,Outpatient,27,6,Home Health
+E02784,P2784,Outpatient,10,6,Home
+E02785,P2785,Outpatient,18,4,Skilled Nursing
+E02786,P2786,Inpatient,13,1,Skilled Nursing
+E02787,P2787,Outpatient,18,4,Home
+E02788,P2788,Outpatient,17,3,Home
+E02789,P2789,Outpatient,17,1,Home
+E02790,P2790,Inpatient,22,5,Home Health
+E02791,P2791,Inpatient,21,3,Home
+E02792,P2792,Outpatient,10,4,Home
+E02793,P2793,Inpatient,24,3,Home
+E02794,P2794,Outpatient,14,1,Home
+E02795,P2795,Outpatient,4,1,Home Health
+E02796,P2796,Outpatient,28,4,Skilled Nursing
+E02797,P2797,Outpatient,5,4,Skilled Nursing
+E02798,P2798,Outpatient,27,6,Home Health
+E02799,P2799,Outpatient,3,2,Home
+E02800,P2800,Inpatient,5,6,Home
+E02801,P2801,Inpatient,28,1,Home
+E02802,P2802,Inpatient,22,3,Home
+E02803,P2803,Inpatient,18,3,Home
+E02804,P2804,Inpatient,19,5,Skilled Nursing
+E02805,P2805,Outpatient,29,4,Home
+E02806,P2806,Inpatient,19,3,Home
+E02807,P2807,Inpatient,6,4,Home
+E02808,P2808,Inpatient,19,2,Home
+E02809,P2809,Inpatient,22,1,Home
+E02810,P2810,Outpatient,14,1,Home
+E02811,P2811,Inpatient,10,5,Home Health
+E02812,P2812,Outpatient,25,3,Home
+E02813,P2813,Outpatient,7,4,Home
+E02814,P2814,Inpatient,20,3,Home Health
+E02815,P2815,Inpatient,24,3,Home
+E02816,P2816,Outpatient,22,3,Skilled Nursing
+E02817,P2817,Inpatient,6,4,Home
+E02818,P2818,Inpatient,25,3,Home
+E02819,P2819,Outpatient,18,4,Home
+E02820,P2820,Outpatient,14,5,Home
+E02821,P2821,Outpatient,7,3,Home
+E02822,P2822,Outpatient,5,3,Home
+E02823,P2823,Outpatient,11,3,Home Health
+E02824,P2824,Inpatient,4,4,Home Health
+E02825,P2825,Outpatient,4,5,Home Health
+E02826,P2826,Outpatient,20,5,Home
+E02827,P2827,Outpatient,28,4,Home
+E02828,P2828,Inpatient,15,4,Home
+E02829,P2829,Inpatient,29,1,Skilled Nursing
+E02830,P2830,Inpatient,24,3,Home
+E02831,P2831,Outpatient,6,2,Home Health
+E02832,P2832,Outpatient,3,6,Home Health
+E02833,P2833,Inpatient,12,1,Home
+E02834,P2834,Inpatient,3,1,Home
+E02835,P2835,Inpatient,5,4,Home Health
+E02836,P2836,Outpatient,23,7,Home
+E02837,P2837,Outpatient,5,7,Home
+E02838,P2838,Inpatient,29,1,Home
+E02839,P2839,Outpatient,8,4,Home
+E02840,P2840,Outpatient,25,1,Home
+E02841,P2841,Outpatient,4,1,Home
+E02842,P2842,Outpatient,13,4,Home Health
+E02843,P2843,Outpatient,5,2,Home Health
+E02844,P2844,Outpatient,26,4,Home
+E02845,P2845,Inpatient,3,7,Home Health
+E02846,P2846,Inpatient,3,1,Skilled Nursing
+E02847,P2847,Inpatient,29,3,Home
+E02848,P2848,Inpatient,22,2,Home Health
+E02849,P2849,Outpatient,24,1,Home Health
+E02850,P2850,Outpatient,6,4,Home
+E02851,P2851,Inpatient,17,1,Home Health
+E02852,P2852,Inpatient,9,3,Home
+E02853,P2853,Outpatient,2,3,Home
+E02854,P2854,Outpatient,11,4,Home
+E02855,P2855,Outpatient,18,1,Home
+E02856,P2856,Inpatient,6,4,Home
+E02857,P2857,Outpatient,26,2,Home
+E02858,P2858,Outpatient,16,4,Home
+E02859,P2859,Inpatient,29,3,Home
+E02860,P2860,Outpatient,13,6,Home
+E02861,P2861,Outpatient,11,2,Home
+E02862,P2862,Outpatient,16,7,Home Health
+E02863,P2863,Outpatient,8,2,Home
+E02864,P2864,Outpatient,12,4,Home
+E02865,P2865,Inpatient,6,2,Home
+E02866,P2866,Inpatient,4,5,Home
+E02867,P2867,Outpatient,29,2,Home
+E02868,P2868,Outpatient,24,3,Home
+E02869,P2869,Outpatient,23,1,Home
+E02870,P2870,Inpatient,24,4,Home
+E02871,P2871,Inpatient,21,2,Skilled Nursing
+E02872,P2872,Inpatient,22,7,Home Health
+E02873,P2873,Inpatient,6,2,Home Health
+E02874,P2874,Outpatient,20,4,Skilled Nursing
+E02875,P2875,Outpatient,15,6,Home
+E02876,P2876,Inpatient,15,1,Home
+E02877,P2877,Inpatient,23,1,Home
+E02878,P2878,Outpatient,22,4,Skilled Nursing
+E02879,P2879,Inpatient,18,4,Home Health
+E02880,P2880,Outpatient,26,3,Home
+E02881,P2881,Inpatient,2,6,Skilled Nursing
+E02882,P2882,Inpatient,23,3,Home
+E02883,P2883,Inpatient,25,5,Home Health
+E02884,P2884,Inpatient,9,4,Home
+E02885,P2885,Outpatient,12,4,Home Health
+E02886,P2886,Outpatient,7,2,Home Health
+E02887,P2887,Inpatient,9,1,Home
+E02888,P2888,Inpatient,17,3,Home
+E02889,P2889,Outpatient,21,3,Home
+E02890,P2890,Outpatient,13,2,Home
+E02891,P2891,Outpatient,14,3,Home
+E02892,P2892,Inpatient,11,1,Home Health
+E02893,P2893,Inpatient,4,2,Home
+E02894,P2894,Inpatient,28,7,Home
+E02895,P2895,Inpatient,10,4,Home
+E02896,P2896,Inpatient,22,3,Home
+E02897,P2897,Outpatient,25,4,Home
+E02898,P2898,Inpatient,16,4,Home
+E02899,P2899,Inpatient,14,4,Home
+E02900,P2900,Outpatient,11,6,Home Health
+E02901,P2901,Outpatient,23,4,Home
+E02902,P2902,Inpatient,9,1,Home
+E02903,P2903,Inpatient,6,4,Home
+E02904,P2904,Inpatient,29,5,Home
+E02905,P2905,Inpatient,17,3,Home
+E02906,P2906,Outpatient,10,2,Home
+E02907,P2907,Outpatient,2,2,Home
+E02908,P2908,Inpatient,25,3,Home
+E02909,P2909,Outpatient,7,3,Skilled Nursing
+E02910,P2910,Outpatient,5,3,Home Health
+E02911,P2911,Outpatient,4,4,Home Health
+E02912,P2912,Outpatient,23,1,Home
+E02913,P2913,Outpatient,25,1,Home
+E02914,P2914,Outpatient,15,5,Home
+E02915,P2915,Inpatient,20,2,Home Health
+E02916,P2916,Inpatient,14,7,Home
+E02917,P2917,Outpatient,11,9,Home
+E02918,P2918,Outpatient,24,2,Skilled Nursing
+E02919,P2919,Outpatient,29,2,Skilled Nursing
+E02920,P2920,Outpatient,3,5,Home Health
+E02921,P2921,Inpatient,18,1,Home
+E02922,P2922,Inpatient,2,4,Home
+E02923,P2923,Inpatient,4,3,Home
+E02924,P2924,Outpatient,4,5,Home
+E02925,P2925,Inpatient,11,5,Skilled Nursing
+E02926,P2926,Outpatient,3,5,Home
+E02927,P2927,Inpatient,8,6,Home
+E02928,P2928,Inpatient,28,3,Home
+E02929,P2929,Outpatient,10,1,Home
+E02930,P2930,Inpatient,5,4,Home
+E02931,P2931,Outpatient,12,4,Home Health
+E02932,P2932,Outpatient,24,5,Home
+E02933,P2933,Inpatient,22,5,Skilled Nursing
+E02934,P2934,Inpatient,23,5,Home Health
+E02935,P2935,Outpatient,7,4,Home
+E02936,P2936,Inpatient,2,3,Home
+E02937,P2937,Outpatient,9,3,Home
+E02938,P2938,Outpatient,9,4,Home Health
+E02939,P2939,Outpatient,26,5,Home
+E02940,P2940,Inpatient,24,2,Home
+E02941,P2941,Inpatient,25,4,Home
+E02942,P2942,Inpatient,20,3,Home Health
+E02943,P2943,Inpatient,19,3,Home
+E02944,P2944,Outpatient,23,7,Home Health
+E02945,P2945,Outpatient,27,7,Home
+E02946,P2946,Outpatient,25,1,Home Health
+E02947,P2947,Outpatient,10,4,Home
+E02948,P2948,Outpatient,2,3,Home
+E02949,P2949,Outpatient,17,4,Home
+E02950,P2950,Inpatient,20,6,Home
+E02951,P2951,Inpatient,3,3,Home
+E02952,P2952,Inpatient,2,3,Home
+E02953,P2953,Inpatient,26,4,Home
+E02954,P2954,Inpatient,27,1,Skilled Nursing
+E02955,P2955,Inpatient,23,4,Home Health
+E02956,P2956,Outpatient,13,3,Home Health
+E02957,P2957,Inpatient,3,5,Home
+E02958,P2958,Outpatient,10,2,Home Health
+E02959,P2959,Outpatient,27,10,Home
+E02960,P2960,Inpatient,6,5,Home
+E02961,P2961,Inpatient,14,1,Home
+E02962,P2962,Inpatient,20,3,Home
+E02963,P2963,Outpatient,28,7,Skilled Nursing
+E02964,P2964,Inpatient,24,4,Home Health
+E02965,P2965,Outpatient,5,1,Home
+E02966,P2966,Inpatient,5,3,Home Health
+E02967,P2967,Outpatient,16,1,Home
+E02968,P2968,Inpatient,29,2,Home
+E02969,P2969,Outpatient,13,1,Home
+E02970,P2970,Outpatient,4,2,Home
+E02971,P2971,Outpatient,29,3,Home
+E02972,P2972,Outpatient,23,2,Home
+E02973,P2973,Inpatient,15,3,Home
+E02974,P2974,Outpatient,3,3,Home
+E02975,P2975,Outpatient,8,3,Home
+E02976,P2976,Outpatient,7,4,Home
+E02977,P2977,Outpatient,5,6,Home
+E02978,P2978,Outpatient,6,4,Home
+E02979,P2979,Inpatient,10,5,Skilled Nursing
+E02980,P2980,Inpatient,6,6,Home
+E02981,P2981,Inpatient,7,4,Home Health
+E02982,P2982,Outpatient,26,1,Home Health
+E02983,P2983,Outpatient,16,2,Home Health
+E02984,P2984,Inpatient,20,5,Home
+E02985,P2985,Inpatient,15,3,Home Health
+E02986,P2986,Outpatient,29,2,Home
+E02987,P2987,Outpatient,23,3,Home
+E02988,P2988,Inpatient,8,3,Home
+E02989,P2989,Outpatient,6,5,Home
+E02990,P2990,Outpatient,7,1,Home
+E02991,P2991,Outpatient,17,3,Home
+E02992,P2992,Inpatient,6,3,Home
+E02993,P2993,Outpatient,9,5,Home
+E02994,P2994,Inpatient,25,3,Home
+E02995,P2995,Outpatient,22,3,Home
+E02996,P2996,Outpatient,11,3,Home Health
+E02997,P2997,Inpatient,25,5,Home Health
+E02998,P2998,Inpatient,18,2,Skilled Nursing
+E02999,P2999,Inpatient,24,2,Skilled Nursing
+E03000,P3000,Outpatient,11,3,Home
+E03001,P3001,Outpatient,17,3,Home Health
+E03002,P3002,Inpatient,17,2,Skilled Nursing
+E03003,P3003,Outpatient,9,4,Skilled Nursing
+E03004,P3004,Inpatient,21,5,Home
+E03005,P3005,Inpatient,11,1,Home
+E03006,P3006,Inpatient,5,3,Home
+E03007,P3007,Inpatient,21,1,Home
+E03008,P3008,Outpatient,27,1,Home
+E03009,P3009,Inpatient,26,2,Home
+E03010,P3010,Outpatient,10,3,Home Health
+E03011,P3011,Inpatient,17,3,Home Health
+E03012,P3012,Outpatient,6,4,Home
+E03013,P3013,Outpatient,17,5,Home
+E03014,P3014,Outpatient,24,6,Home
+E03015,P3015,Outpatient,25,4,Home
+E03016,P3016,Inpatient,29,6,Home
+E03017,P3017,Outpatient,21,4,Home
+E03018,P3018,Outpatient,11,3,Home
+E03019,P3019,Outpatient,6,4,Home
+E03020,P3020,Outpatient,13,3,Home
+E03021,P3021,Outpatient,15,7,Skilled Nursing
+E03022,P3022,Inpatient,7,3,Home
+E03023,P3023,Outpatient,19,5,Home
+E03024,P3024,Outpatient,2,1,Home
+E03025,P3025,Inpatient,7,5,Home
+E03026,P3026,Inpatient,5,4,Home
+E03027,P3027,Outpatient,8,1,Home Health
+E03028,P3028,Outpatient,28,4,Home
+E03029,P3029,Outpatient,29,2,Home
+E03030,P3030,Outpatient,26,1,Home
+E03031,P3031,Inpatient,29,6,Home
+E03032,P3032,Inpatient,24,2,Home
+E03033,P3033,Outpatient,9,1,Home
+E03034,P3034,Outpatient,28,1,Home
+E03035,P3035,Inpatient,29,4,Home
+E03036,P3036,Outpatient,19,5,Home
+E03037,P3037,Inpatient,14,3,Home Health
+E03038,P3038,Outpatient,13,1,Home
+E03039,P3039,Outpatient,5,3,Home
+E03040,P3040,Outpatient,9,5,Skilled Nursing
+E03041,P3041,Inpatient,6,1,Home
+E03042,P3042,Outpatient,23,1,Skilled Nursing
+E03043,P3043,Outpatient,3,4,Home
+E03044,P3044,Inpatient,21,2,Home Health
+E03045,P3045,Inpatient,19,4,Home
+E03046,P3046,Inpatient,15,5,Skilled Nursing
+E03047,P3047,Inpatient,7,4,Home
+E03048,P3048,Inpatient,19,5,Home
+E03049,P3049,Outpatient,17,3,Home
+E03050,P3050,Outpatient,20,7,Home
+E03051,P3051,Inpatient,9,3,Home
+E03052,P3052,Outpatient,14,3,Home
+E03053,P3053,Outpatient,18,4,Home
+E03054,P3054,Inpatient,7,5,Home
+E03055,P3055,Inpatient,29,4,Home
+E03056,P3056,Inpatient,8,6,Home
+E03057,P3057,Inpatient,5,5,Home Health
+E03058,P3058,Inpatient,5,2,Home
+E03059,P3059,Inpatient,3,1,Home
+E03060,P3060,Inpatient,5,6,Home
+E03061,P3061,Outpatient,26,2,Home Health
+E03062,P3062,Outpatient,13,2,Home
+E03063,P3063,Inpatient,16,4,Home
+E03064,P3064,Inpatient,8,11,Home
+E03065,P3065,Outpatient,18,3,Home
+E03066,P3066,Inpatient,3,1,Home
+E03067,P3067,Outpatient,10,2,Home
+E03068,P3068,Inpatient,11,2,Home
+E03069,P3069,Inpatient,15,1,Home
+E03070,P3070,Inpatient,5,4,Home
+E03071,P3071,Inpatient,15,1,Home
+E03072,P3072,Inpatient,21,4,Home
+E03073,P3073,Outpatient,29,1,Home
+E03074,P3074,Outpatient,16,3,Home Health
+E03075,P3075,Outpatient,23,1,Home
+E03076,P3076,Outpatient,2,3,Home Health
+E03077,P3077,Outpatient,5,5,Home Health
+E03078,P3078,Inpatient,6,5,Home
+E03079,P3079,Inpatient,5,1,Home
+E03080,P3080,Inpatient,2,7,Home Health
+E03081,P3081,Outpatient,25,1,Home
+E03082,P3082,Outpatient,9,1,Home
+E03083,P3083,Outpatient,6,6,Home
+E03084,P3084,Inpatient,6,1,Home Health
+E03085,P3085,Outpatient,28,2,Home
+E03086,P3086,Inpatient,4,2,Home Health
+E03087,P3087,Inpatient,3,6,Home
+E03088,P3088,Outpatient,7,4,Home Health
+E03089,P3089,Inpatient,21,2,Home
+E03090,P3090,Inpatient,21,3,Home Health
+E03091,P3091,Inpatient,7,3,Home
+E03092,P3092,Outpatient,2,1,Home
+E03093,P3093,Inpatient,17,7,Home
+E03094,P3094,Outpatient,6,2,Home
+E03095,P3095,Outpatient,12,5,Home Health
+E03096,P3096,Inpatient,17,7,Skilled Nursing
+E03097,P3097,Inpatient,26,5,Home
+E03098,P3098,Outpatient,10,4,Home
+E03099,P3099,Inpatient,4,3,Home
+E03100,P3100,Inpatient,15,6,Home
+E03101,P3101,Outpatient,11,4,Home
+E03102,P3102,Outpatient,29,2,Home
+E03103,P3103,Inpatient,10,4,Home
+E03104,P3104,Inpatient,9,3,Home
+E03105,P3105,Inpatient,7,3,Home
+E03106,P3106,Inpatient,26,1,Home
+E03107,P3107,Outpatient,2,4,Home Health
+E03108,P3108,Inpatient,2,3,Home Health
+E03109,P3109,Inpatient,3,5,Home Health
+E03110,P3110,Outpatient,12,2,Home
+E03111,P3111,Outpatient,18,2,Skilled Nursing
+E03112,P3112,Outpatient,9,8,Home
+E03113,P3113,Outpatient,20,5,Home Health
+E03114,P3114,Outpatient,20,4,Home
+E03115,P3115,Outpatient,2,1,Home
+E03116,P3116,Inpatient,29,4,Home Health
+E03117,P3117,Outpatient,5,4,Home
+E03118,P3118,Inpatient,18,2,Home Health
+E03119,P3119,Outpatient,8,1,Home
+E03120,P3120,Inpatient,16,3,Home
+E03121,P3121,Outpatient,10,3,Skilled Nursing
+E03122,P3122,Outpatient,22,2,Home
+E03123,P3123,Inpatient,27,3,Home
+E03124,P3124,Outpatient,2,3,Home
+E03125,P3125,Inpatient,25,2,Home
+E03126,P3126,Inpatient,23,2,Home
+E03127,P3127,Outpatient,17,6,Home Health
+E03128,P3128,Outpatient,4,1,Home
+E03129,P3129,Outpatient,21,7,Home
+E03130,P3130,Outpatient,27,1,Home
+E03131,P3131,Outpatient,20,5,Home
+E03132,P3132,Inpatient,27,5,Home
+E03133,P3133,Outpatient,29,1,Home Health
+E03134,P3134,Inpatient,12,2,Skilled Nursing
+E03135,P3135,Inpatient,28,6,Home
+E03136,P3136,Outpatient,2,4,Home
+E03137,P3137,Outpatient,23,4,Home
+E03138,P3138,Inpatient,9,3,Home
+E03139,P3139,Inpatient,8,4,Home
+E03140,P3140,Inpatient,24,5,Skilled Nursing
+E03141,P3141,Outpatient,27,4,Home
+E03142,P3142,Inpatient,11,1,Home Health
+E03143,P3143,Outpatient,9,1,Home
+E03144,P3144,Inpatient,13,6,Home Health
+E03145,P3145,Inpatient,15,2,Home
+E03146,P3146,Outpatient,20,2,Home Health
+E03147,P3147,Outpatient,18,4,Home
+E03148,P3148,Outpatient,9,1,Skilled Nursing
+E03149,P3149,Inpatient,20,4,Home Health
+E03150,P3150,Inpatient,19,6,Home Health
+E03151,P3151,Outpatient,21,1,Home
+E03152,P3152,Outpatient,14,4,Home
+E03153,P3153,Outpatient,17,4,Home
+E03154,P3154,Inpatient,29,2,Home
+E03155,P3155,Inpatient,16,3,Home
+E03156,P3156,Inpatient,29,4,Skilled Nursing
+E03157,P3157,Inpatient,13,4,Home
+E03158,P3158,Outpatient,16,6,Home
+E03159,P3159,Inpatient,3,6,Skilled Nursing
+E03160,P3160,Inpatient,13,5,Home
+E03161,P3161,Outpatient,5,2,Home Health
+E03162,P3162,Outpatient,2,4,Home
+E03163,P3163,Inpatient,12,2,Home
+E03164,P3164,Outpatient,11,2,Home Health
+E03165,P3165,Inpatient,11,2,Home
+E03166,P3166,Outpatient,22,1,Home
+E03167,P3167,Outpatient,4,7,Home
+E03168,P3168,Outpatient,23,1,Home
+E03169,P3169,Outpatient,13,3,Home
+E03170,P3170,Outpatient,6,3,Home
+E03171,P3171,Outpatient,5,3,Home Health
+E03172,P3172,Outpatient,27,2,Home
+E03173,P3173,Inpatient,10,1,Home
+E03174,P3174,Inpatient,6,4,Home Health
+E03175,P3175,Outpatient,12,5,Home Health
+E03176,P3176,Inpatient,26,8,Home
+E03177,P3177,Outpatient,12,2,Home
+E03178,P3178,Inpatient,13,2,Home
+E03179,P3179,Inpatient,26,4,Home Health
+E03180,P3180,Inpatient,8,4,Home
+E03181,P3181,Outpatient,28,2,Home
+E03182,P3182,Outpatient,21,5,Home
+E03183,P3183,Inpatient,3,1,Home
+E03184,P3184,Inpatient,26,3,Home Health
+E03185,P3185,Outpatient,19,3,Home
+E03186,P3186,Inpatient,28,2,Home
+E03187,P3187,Outpatient,17,2,Home
+E03188,P3188,Outpatient,23,2,Home
+E03189,P3189,Outpatient,14,4,Home Health
+E03190,P3190,Outpatient,28,6,Skilled Nursing
+E03191,P3191,Outpatient,2,5,Home
+E03192,P3192,Outpatient,13,4,Home
+E03193,P3193,Outpatient,6,4,Home Health
+E03194,P3194,Outpatient,27,6,Home
+E03195,P3195,Inpatient,27,1,Home
+E03196,P3196,Inpatient,15,1,Home
+E03197,P3197,Inpatient,21,1,Home
+E03198,P3198,Outpatient,5,4,Home
+E03199,P3199,Outpatient,15,5,Home
+E03200,P3200,Outpatient,29,2,Home
+E03201,P3201,Outpatient,6,6,Home Health
+E03202,P3202,Outpatient,6,5,Home
+E03203,P3203,Inpatient,29,4,Home
+E03204,P3204,Outpatient,4,2,Home
+E03205,P3205,Outpatient,17,4,Skilled Nursing
+E03206,P3206,Outpatient,10,5,Home Health
+E03207,P3207,Inpatient,29,3,Home
+E03208,P3208,Inpatient,17,2,Home
+E03209,P3209,Outpatient,28,1,Home
+E03210,P3210,Outpatient,10,1,Skilled Nursing
+E03211,P3211,Outpatient,18,1,Home
+E03212,P3212,Outpatient,18,2,Home Health
+E03213,P3213,Outpatient,16,3,Home Health
+E03214,P3214,Outpatient,18,1,Home
+E03215,P3215,Outpatient,7,2,Home
+E03216,P3216,Inpatient,22,6,Skilled Nursing
+E03217,P3217,Inpatient,13,4,Skilled Nursing
+E03218,P3218,Inpatient,29,4,Home
+E03219,P3219,Outpatient,14,3,Home
+E03220,P3220,Inpatient,19,2,Home
+E03221,P3221,Outpatient,7,2,Home
+E03222,P3222,Inpatient,8,4,Home Health
+E03223,P3223,Inpatient,29,1,Home
+E03224,P3224,Inpatient,2,4,Home
+E03225,P3225,Outpatient,23,5,Home
+E03226,P3226,Outpatient,19,3,Home Health
+E03227,P3227,Outpatient,4,4,Home
+E03228,P3228,Inpatient,12,4,Home
+E03229,P3229,Inpatient,3,3,Home
+E03230,P3230,Outpatient,12,4,Home
+E03231,P3231,Outpatient,6,5,Home
+E03232,P3232,Inpatient,11,3,Home
+E03233,P3233,Outpatient,29,7,Home
+E03234,P3234,Outpatient,13,2,Home
+E03235,P3235,Outpatient,7,4,Home
+E03236,P3236,Outpatient,15,3,Home
+E03237,P3237,Inpatient,24,2,Home
+E03238,P3238,Outpatient,20,4,Home
+E03239,P3239,Inpatient,4,2,Home Health
+E03240,P3240,Outpatient,23,4,Home Health
+E03241,P3241,Inpatient,3,3,Home
+E03242,P3242,Outpatient,14,3,Home
+E03243,P3243,Outpatient,29,8,Home
+E03244,P3244,Outpatient,4,1,Skilled Nursing
+E03245,P3245,Inpatient,25,3,Home
+E03246,P3246,Inpatient,14,6,Skilled Nursing
+E03247,P3247,Inpatient,26,2,Home
+E03248,P3248,Inpatient,27,3,Home
+E03249,P3249,Outpatient,24,3,Home
+E03250,P3250,Inpatient,27,3,Home
+E03251,P3251,Inpatient,23,2,Home
+E03252,P3252,Inpatient,29,2,Home Health
+E03253,P3253,Inpatient,9,4,Home
+E03254,P3254,Inpatient,24,5,Home Health
+E03255,P3255,Outpatient,18,4,Home Health
+E03256,P3256,Outpatient,21,3,Home
+E03257,P3257,Outpatient,2,5,Home
+E03258,P3258,Outpatient,17,3,Home Health
+E03259,P3259,Inpatient,17,4,Home
+E03260,P3260,Inpatient,11,1,Home
+E03261,P3261,Inpatient,13,3,Home
+E03262,P3262,Outpatient,24,7,Skilled Nursing
+E03263,P3263,Outpatient,7,2,Skilled Nursing
+E03264,P3264,Outpatient,6,3,Home
+E03265,P3265,Inpatient,11,1,Home
+E03266,P3266,Inpatient,22,5,Home
+E03267,P3267,Inpatient,27,3,Home
+E03268,P3268,Outpatient,17,1,Home Health
+E03269,P3269,Inpatient,20,6,Home
+E03270,P3270,Inpatient,18,5,Home
+E03271,P3271,Inpatient,7,3,Home
+E03272,P3272,Inpatient,12,6,Home
+E03273,P3273,Inpatient,20,4,Home
+E03274,P3274,Inpatient,17,3,Home Health
+E03275,P3275,Inpatient,24,3,Home Health
+E03276,P3276,Outpatient,23,4,Home
+E03277,P3277,Inpatient,14,6,Skilled Nursing
+E03278,P3278,Inpatient,15,6,Home Health
+E03279,P3279,Inpatient,14,6,Home
+E03280,P3280,Outpatient,24,1,Home
+E03281,P3281,Outpatient,7,1,Home
+E03282,P3282,Inpatient,2,1,Home
+E03283,P3283,Outpatient,28,4,Home
+E03284,P3284,Outpatient,24,5,Home
+E03285,P3285,Outpatient,26,2,Skilled Nursing
+E03286,P3286,Outpatient,26,3,Home
+E03287,P3287,Outpatient,12,7,Home Health
+E03288,P3288,Inpatient,27,3,Home
+E03289,P3289,Outpatient,8,6,Home
+E03290,P3290,Inpatient,14,4,Home
+E03291,P3291,Inpatient,5,1,Home Health
+E03292,P3292,Outpatient,14,5,Home Health
+E03293,P3293,Inpatient,17,1,Home Health
+E03294,P3294,Outpatient,12,2,Skilled Nursing
+E03295,P3295,Inpatient,26,3,Home
+E03296,P3296,Outpatient,4,4,Home
+E03297,P3297,Outpatient,6,5,Home
+E03298,P3298,Outpatient,26,1,Home Health
+E03299,P3299,Inpatient,17,2,Home
+E03300,P3300,Outpatient,9,1,Home Health
+E03301,P3301,Outpatient,22,2,Skilled Nursing
+E03302,P3302,Inpatient,6,4,Home
+E03303,P3303,Inpatient,26,6,Home
+E03304,P3304,Outpatient,23,1,Home
+E03305,P3305,Outpatient,8,6,Home
+E03306,P3306,Outpatient,5,1,Home
+E03307,P3307,Inpatient,9,2,Skilled Nursing
+E03308,P3308,Inpatient,23,2,Home Health
+E03309,P3309,Inpatient,16,3,Skilled Nursing
+E03310,P3310,Outpatient,25,3,Skilled Nursing
+E03311,P3311,Inpatient,22,3,Home Health
+E03312,P3312,Outpatient,9,3,Home
+E03313,P3313,Outpatient,11,1,Home
+E03314,P3314,Outpatient,4,2,Home
+E03315,P3315,Inpatient,23,6,Skilled Nursing
+E03316,P3316,Outpatient,12,2,Home
+E03317,P3317,Outpatient,9,4,Home
+E03318,P3318,Inpatient,5,1,Home
+E03319,P3319,Inpatient,26,2,Home Health
+E03320,P3320,Inpatient,18,1,Home Health
+E03321,P3321,Inpatient,4,4,Home
+E03322,P3322,Outpatient,27,1,Home
+E03323,P3323,Outpatient,21,3,Home
+E03324,P3324,Inpatient,16,5,Skilled Nursing
+E03325,P3325,Outpatient,27,2,Home Health
+E03326,P3326,Inpatient,8,6,Home
+E03327,P3327,Inpatient,8,1,Home
+E03328,P3328,Outpatient,18,2,Skilled Nursing
+E03329,P3329,Outpatient,11,4,Home
+E03330,P3330,Outpatient,4,3,Home
+E03331,P3331,Inpatient,21,4,Skilled Nursing
+E03332,P3332,Outpatient,10,6,Home Health
+E03333,P3333,Outpatient,28,1,Home
+E03334,P3334,Outpatient,27,2,Home
+E03335,P3335,Outpatient,11,4,Home Health
+E03336,P3336,Inpatient,25,4,Home Health
+E03337,P3337,Outpatient,20,1,Home
+E03338,P3338,Inpatient,23,4,Home
+E03339,P3339,Outpatient,29,4,Home
+E03340,P3340,Inpatient,21,4,Skilled Nursing
+E03341,P3341,Inpatient,23,1,Home
+E03342,P3342,Outpatient,22,3,Skilled Nursing
+E03343,P3343,Inpatient,29,4,Home
+E03344,P3344,Outpatient,19,2,Home
+E03345,P3345,Inpatient,17,1,Home
+E03346,P3346,Outpatient,17,3,Home
+E03347,P3347,Inpatient,16,2,Home Health
+E03348,P3348,Outpatient,3,5,Home
+E03349,P3349,Inpatient,15,3,Home
+E03350,P3350,Inpatient,4,1,Home
+E03351,P3351,Inpatient,9,3,Home Health
+E03352,P3352,Outpatient,8,4,Home
+E03353,P3353,Outpatient,25,2,Home Health
+E03354,P3354,Outpatient,17,6,Skilled Nursing
+E03355,P3355,Inpatient,14,3,Skilled Nursing
+E03356,P3356,Inpatient,8,1,Home
+E03357,P3357,Inpatient,27,2,Home
+E03358,P3358,Outpatient,15,4,Home
+E03359,P3359,Outpatient,24,2,Home Health
+E03360,P3360,Inpatient,18,2,Home
+E03361,P3361,Outpatient,18,1,Home
+E03362,P3362,Outpatient,22,1,Home
+E03363,P3363,Outpatient,19,1,Home
+E03364,P3364,Inpatient,17,5,Skilled Nursing
+E03365,P3365,Inpatient,16,1,Home
+E03366,P3366,Outpatient,20,6,Home
+E03367,P3367,Inpatient,4,4,Home
+E03368,P3368,Inpatient,14,1,Home
+E03369,P3369,Outpatient,7,4,Home
+E03370,P3370,Inpatient,27,1,Home
+E03371,P3371,Outpatient,23,3,Home
+E03372,P3372,Outpatient,23,1,Home Health
+E03373,P3373,Outpatient,8,4,Home
+E03374,P3374,Inpatient,14,5,Home
+E03375,P3375,Outpatient,4,6,Home
+E03376,P3376,Outpatient,7,2,Home
+E03377,P3377,Outpatient,16,5,Home
+E03378,P3378,Inpatient,21,5,Home
+E03379,P3379,Outpatient,26,3,Home
+E03380,P3380,Outpatient,14,6,Home
+E03381,P3381,Outpatient,21,2,Home Health
+E03382,P3382,Inpatient,8,4,Home
+E03383,P3383,Inpatient,12,1,Home Health
+E03384,P3384,Inpatient,18,2,Home
+E03385,P3385,Outpatient,16,3,Home
+E03386,P3386,Outpatient,12,1,Home Health
+E03387,P3387,Inpatient,14,4,Home
+E03388,P3388,Outpatient,23,2,Home Health
+E03389,P3389,Outpatient,14,1,Home
+E03390,P3390,Inpatient,9,3,Home
+E03391,P3391,Inpatient,4,3,Home
+E03392,P3392,Inpatient,15,2,Home Health
+E03393,P3393,Outpatient,11,4,Home
+E03394,P3394,Inpatient,11,4,Home
+E03395,P3395,Outpatient,11,5,Home
+E03396,P3396,Outpatient,25,5,Home
+E03397,P3397,Outpatient,26,1,Home Health
+E03398,P3398,Inpatient,13,2,Home
+E03399,P3399,Outpatient,16,6,Home
+E03400,P3400,Outpatient,8,4,Skilled Nursing
+E03401,P3401,Outpatient,3,2,Home Health
+E03402,P3402,Outpatient,26,2,Home Health
+E03403,P3403,Outpatient,10,3,Home
+E03404,P3404,Inpatient,27,3,Home
+E03405,P3405,Outpatient,9,3,Home
+E03406,P3406,Inpatient,12,1,Home
+E03407,P3407,Outpatient,14,1,Home
+E03408,P3408,Inpatient,26,4,Home
+E03409,P3409,Inpatient,10,3,Home
+E03410,P3410,Outpatient,15,1,Home
+E03411,P3411,Outpatient,24,4,Home
+E03412,P3412,Outpatient,22,2,Home
+E03413,P3413,Outpatient,10,2,Skilled Nursing
+E03414,P3414,Inpatient,9,3,Home
+E03415,P3415,Outpatient,10,3,Home
+E03416,P3416,Inpatient,6,2,Home Health
+E03417,P3417,Inpatient,15,9,Home Health
+E03418,P3418,Outpatient,16,1,Home Health
+E03419,P3419,Outpatient,27,4,Home Health
+E03420,P3420,Outpatient,13,1,Home
+E03421,P3421,Outpatient,9,3,Home
+E03422,P3422,Inpatient,2,5,Home Health
+E03423,P3423,Inpatient,29,2,Home
+E03424,P3424,Outpatient,3,5,Home
+E03425,P3425,Outpatient,2,6,Home
+E03426,P3426,Inpatient,19,1,Skilled Nursing
+E03427,P3427,Inpatient,19,2,Home Health
+E03428,P3428,Inpatient,11,2,Home
+E03429,P3429,Outpatient,16,1,Home
+E03430,P3430,Outpatient,2,1,Home
+E03431,P3431,Inpatient,19,4,Skilled Nursing
+E03432,P3432,Outpatient,14,4,Home
+E03433,P3433,Outpatient,28,1,Home
+E03434,P3434,Inpatient,5,1,Skilled Nursing
+E03435,P3435,Inpatient,27,5,Home
+E03436,P3436,Inpatient,6,2,Home
+E03437,P3437,Inpatient,4,4,Home
+E03438,P3438,Inpatient,23,2,Home
+E03439,P3439,Inpatient,3,2,Home
+E03440,P3440,Outpatient,4,5,Home Health
+E03441,P3441,Inpatient,19,4,Home
+E03442,P3442,Outpatient,14,2,Home
+E03443,P3443,Outpatient,12,4,Skilled Nursing
+E03444,P3444,Inpatient,11,3,Home Health
+E03445,P3445,Inpatient,24,3,Home
+E03446,P3446,Outpatient,29,3,Home
+E03447,P3447,Outpatient,23,2,Skilled Nursing
+E03448,P3448,Outpatient,2,2,Home Health
+E03449,P3449,Inpatient,17,3,Home
+E03450,P3450,Inpatient,14,1,Home Health
+E03451,P3451,Outpatient,11,6,Home Health
+E03452,P3452,Inpatient,21,3,Home
+E03453,P3453,Inpatient,15,4,Home
+E03454,P3454,Inpatient,28,5,Home Health
+E03455,P3455,Inpatient,17,5,Home
+E03456,P3456,Inpatient,10,1,Home
+E03457,P3457,Inpatient,28,4,Home
+E03458,P3458,Outpatient,19,6,Home
+E03459,P3459,Outpatient,22,2,Home
+E03460,P3460,Outpatient,9,4,Home
+E03461,P3461,Outpatient,8,2,Home
+E03462,P3462,Outpatient,19,1,Home
+E03463,P3463,Outpatient,9,3,Home
+E03464,P3464,Outpatient,4,1,Home
+E03465,P3465,Outpatient,13,3,Home
+E03466,P3466,Inpatient,10,1,Home
+E03467,P3467,Outpatient,28,1,Home
+E03468,P3468,Outpatient,14,2,Home
+E03469,P3469,Inpatient,12,4,Home Health
+E03470,P3470,Outpatient,3,1,Home
+E03471,P3471,Outpatient,19,2,Home
+E03472,P3472,Outpatient,7,1,Home
+E03473,P3473,Outpatient,21,2,Home
+E03474,P3474,Inpatient,4,3,Home
+E03475,P3475,Outpatient,21,3,Home
+E03476,P3476,Inpatient,28,2,Home
+E03477,P3477,Outpatient,28,5,Home Health
+E03478,P3478,Inpatient,16,1,Home
+E03479,P3479,Outpatient,10,4,Home
+E03480,P3480,Outpatient,18,3,Home
+E03481,P3481,Outpatient,23,1,Home
+E03482,P3482,Outpatient,24,2,Home
+E03483,P3483,Inpatient,3,2,Home
+E03484,P3484,Outpatient,11,3,Home
+E03485,P3485,Outpatient,16,1,Home
+E03486,P3486,Outpatient,4,6,Home
+E03487,P3487,Inpatient,18,4,Home
+E03488,P3488,Outpatient,6,4,Home Health
+E03489,P3489,Outpatient,6,4,Home
+E03490,P3490,Inpatient,21,2,Skilled Nursing
+E03491,P3491,Outpatient,20,2,Home
+E03492,P3492,Outpatient,28,2,Home Health
+E03493,P3493,Inpatient,29,3,Home
+E03494,P3494,Inpatient,14,9,Home Health
+E03495,P3495,Outpatient,21,2,Home
+E03496,P3496,Outpatient,10,4,Home
+E03497,P3497,Outpatient,16,3,Home
+E03498,P3498,Inpatient,26,2,Home
+E03499,P3499,Inpatient,10,2,Home
+E03500,P3500,Inpatient,13,6,Home
+E03501,P3501,Outpatient,5,4,Home
+E03502,P3502,Inpatient,5,2,Home
+E03503,P3503,Outpatient,24,3,Home Health
+E03504,P3504,Outpatient,9,5,Home
+E03505,P3505,Outpatient,18,3,Home Health
+E03506,P3506,Outpatient,23,4,Home
+E03507,P3507,Inpatient,12,1,Home Health
+E03508,P3508,Inpatient,26,4,Home
+E03509,P3509,Inpatient,26,4,Home
+E03510,P3510,Inpatient,24,4,Home
+E03511,P3511,Outpatient,17,5,Home
+E03512,P3512,Outpatient,29,1,Home Health
+E03513,P3513,Inpatient,22,5,Home
+E03514,P3514,Inpatient,5,4,Home
+E03515,P3515,Outpatient,20,6,Home Health
+E03516,P3516,Outpatient,15,3,Home
+E03517,P3517,Outpatient,7,5,Home Health
+E03518,P3518,Outpatient,20,4,Home
+E03519,P3519,Inpatient,29,3,Skilled Nursing
+E03520,P3520,Inpatient,29,3,Home Health
+E03521,P3521,Outpatient,20,2,Home
+E03522,P3522,Inpatient,28,1,Home
+E03523,P3523,Inpatient,13,3,Home
+E03524,P3524,Inpatient,11,4,Home
+E03525,P3525,Outpatient,19,3,Home
+E03526,P3526,Inpatient,26,5,Home
+E03527,P3527,Outpatient,6,5,Home Health
+E03528,P3528,Outpatient,16,1,Home
+E03529,P3529,Inpatient,26,3,Home
+E03530,P3530,Inpatient,4,5,Home
+E03531,P3531,Inpatient,5,7,Home
+E03532,P3532,Inpatient,3,4,Home
+E03533,P3533,Outpatient,23,3,Home
+E03534,P3534,Inpatient,29,5,Home
+E03535,P3535,Inpatient,16,3,Home Health
+E03536,P3536,Outpatient,28,1,Home
+E03537,P3537,Inpatient,28,2,Home
+E03538,P3538,Inpatient,19,6,Home
+E03539,P3539,Outpatient,24,4,Skilled Nursing
+E03540,P3540,Inpatient,21,6,Skilled Nursing
+E03541,P3541,Outpatient,10,2,Home
+E03542,P3542,Inpatient,18,2,Home
+E03543,P3543,Inpatient,2,4,Home
+E03544,P3544,Inpatient,24,3,Home Health
+E03545,P3545,Inpatient,2,3,Home
+E03546,P3546,Inpatient,9,3,Home
+E03547,P3547,Outpatient,6,3,Home Health
+E03548,P3548,Inpatient,8,5,Home
+E03549,P3549,Outpatient,4,3,Home
+E03550,P3550,Inpatient,16,3,Home
+E03551,P3551,Inpatient,4,3,Home
+E03552,P3552,Outpatient,7,10,Skilled Nursing
+E03553,P3553,Outpatient,13,4,Home
+E03554,P3554,Outpatient,16,5,Home
+E03555,P3555,Inpatient,26,7,Home
+E03556,P3556,Inpatient,28,8,Home
+E03557,P3557,Outpatient,19,1,Home
+E03558,P3558,Inpatient,10,3,Skilled Nursing
+E03559,P3559,Outpatient,3,2,Home
+E03560,P3560,Inpatient,18,2,Skilled Nursing
+E03561,P3561,Outpatient,24,4,Home
+E03562,P3562,Inpatient,27,3,Home
+E03563,P3563,Inpatient,15,5,Home
+E03564,P3564,Inpatient,18,1,Home
+E03565,P3565,Outpatient,22,11,Home
+E03566,P3566,Outpatient,4,4,Home
+E03567,P3567,Inpatient,15,1,Home
+E03568,P3568,Inpatient,19,1,Home Health
+E03569,P3569,Inpatient,19,3,Home
+E03570,P3570,Inpatient,18,1,Home
+E03571,P3571,Inpatient,10,3,Home
+E03572,P3572,Inpatient,10,2,Home
+E03573,P3573,Inpatient,28,4,Home Health
+E03574,P3574,Outpatient,19,2,Home
+E03575,P3575,Outpatient,2,4,Home
+E03576,P3576,Inpatient,23,4,Home
+E03577,P3577,Inpatient,17,2,Home Health
+E03578,P3578,Inpatient,24,2,Home
+E03579,P3579,Inpatient,9,1,Home
+E03580,P3580,Outpatient,23,1,Skilled Nursing
+E03581,P3581,Outpatient,8,2,Home
+E03582,P3582,Outpatient,16,3,Home
+E03583,P3583,Outpatient,26,3,Home
+E03584,P3584,Outpatient,23,2,Home
+E03585,P3585,Inpatient,22,2,Home
+E03586,P3586,Inpatient,3,2,Home
+E03587,P3587,Inpatient,12,1,Home
+E03588,P3588,Outpatient,22,3,Home
+E03589,P3589,Outpatient,24,3,Home
+E03590,P3590,Outpatient,9,4,Home
+E03591,P3591,Outpatient,27,3,Home
+E03592,P3592,Outpatient,4,4,Home
+E03593,P3593,Inpatient,15,7,Home
+E03594,P3594,Inpatient,15,3,Skilled Nursing
+E03595,P3595,Inpatient,7,4,Home
+E03596,P3596,Inpatient,7,5,Home Health
+E03597,P3597,Inpatient,14,6,Home
+E03598,P3598,Inpatient,29,1,Home
+E03599,P3599,Outpatient,20,6,Home
+E03600,P3600,Outpatient,7,4,Home
+E03601,P3601,Inpatient,19,5,Home Health
+E03602,P3602,Outpatient,28,3,Home
+E03603,P3603,Outpatient,11,4,Home
+E03604,P3604,Outpatient,25,2,Home
+E03605,P3605,Outpatient,18,7,Home Health
+E03606,P3606,Outpatient,25,4,Home
+E03607,P3607,Outpatient,15,5,Home
+E03608,P3608,Inpatient,14,1,Home
+E03609,P3609,Outpatient,3,4,Home
+E03610,P3610,Inpatient,9,2,Skilled Nursing
+E03611,P3611,Inpatient,6,5,Skilled Nursing
+E03612,P3612,Outpatient,15,6,Home
+E03613,P3613,Inpatient,16,3,Home Health
+E03614,P3614,Inpatient,28,5,Home
+E03615,P3615,Inpatient,8,2,Home
+E03616,P3616,Inpatient,10,6,Home
+E03617,P3617,Inpatient,15,5,Home
+E03618,P3618,Inpatient,5,6,Skilled Nursing
+E03619,P3619,Outpatient,14,4,Skilled Nursing
+E03620,P3620,Inpatient,23,3,Skilled Nursing
+E03621,P3621,Outpatient,11,3,Home Health
+E03622,P3622,Outpatient,15,5,Home
+E03623,P3623,Outpatient,28,1,Home
+E03624,P3624,Inpatient,8,2,Home
+E03625,P3625,Inpatient,27,5,Home
+E03626,P3626,Outpatient,3,5,Skilled Nursing
+E03627,P3627,Inpatient,18,4,Home Health
+E03628,P3628,Inpatient,24,3,Home Health
+E03629,P3629,Outpatient,5,3,Home Health
+E03630,P3630,Inpatient,9,3,Skilled Nursing
+E03631,P3631,Inpatient,17,3,Home Health
+E03632,P3632,Outpatient,2,5,Skilled Nursing
+E03633,P3633,Outpatient,13,3,Skilled Nursing
+E03634,P3634,Inpatient,29,1,Home
+E03635,P3635,Outpatient,14,6,Home
+E03636,P3636,Outpatient,25,1,Home
+E03637,P3637,Outpatient,3,2,Skilled Nursing
+E03638,P3638,Inpatient,19,1,Home
+E03639,P3639,Outpatient,29,4,Home
+E03640,P3640,Outpatient,18,8,Home
+E03641,P3641,Outpatient,11,2,Home
+E03642,P3642,Outpatient,7,8,Home Health
+E03643,P3643,Inpatient,5,4,Home
+E03644,P3644,Outpatient,13,4,Home Health
+E03645,P3645,Outpatient,20,3,Home
+E03646,P3646,Outpatient,19,3,Home
+E03647,P3647,Inpatient,28,5,Home
+E03648,P3648,Inpatient,10,2,Home
+E03649,P3649,Outpatient,16,2,Home
+E03650,P3650,Inpatient,21,3,Home Health
+E03651,P3651,Inpatient,20,3,Home
+E03652,P3652,Outpatient,19,4,Home
+E03653,P3653,Inpatient,19,10,Home
+E03654,P3654,Outpatient,27,3,Home Health
+E03655,P3655,Inpatient,11,6,Skilled Nursing
+E03656,P3656,Outpatient,4,1,Home
+E03657,P3657,Outpatient,29,5,Home
+E03658,P3658,Outpatient,3,3,Home Health
+E03659,P3659,Outpatient,29,2,Home
+E03660,P3660,Inpatient,2,2,Home
+E03661,P3661,Outpatient,23,6,Skilled Nursing
+E03662,P3662,Outpatient,29,4,Home
+E03663,P3663,Outpatient,11,3,Home
+E03664,P3664,Outpatient,18,4,Home
+E03665,P3665,Outpatient,29,3,Home
+E03666,P3666,Outpatient,23,2,Home Health
+E03667,P3667,Inpatient,24,1,Skilled Nursing
+E03668,P3668,Outpatient,20,4,Home
+E03669,P3669,Outpatient,11,3,Home
+E03670,P3670,Outpatient,8,3,Home
+E03671,P3671,Inpatient,4,5,Home
+E03672,P3672,Inpatient,20,3,Home Health
+E03673,P3673,Inpatient,9,1,Home
+E03674,P3674,Outpatient,20,2,Home
+E03675,P3675,Inpatient,22,6,Home
+E03676,P3676,Outpatient,27,5,Home
+E03677,P3677,Outpatient,25,1,Home
+E03678,P3678,Outpatient,11,1,Skilled Nursing
+E03679,P3679,Inpatient,3,3,Home
+E03680,P3680,Inpatient,19,5,Skilled Nursing
+E03681,P3681,Outpatient,22,2,Home
+E03682,P3682,Inpatient,12,2,Home
+E03683,P3683,Outpatient,20,2,Home
+E03684,P3684,Outpatient,6,5,Home
+E03685,P3685,Outpatient,6,4,Home Health
+E03686,P3686,Inpatient,23,1,Home
+E03687,P3687,Inpatient,6,5,Home
+E03688,P3688,Inpatient,15,6,Home
+E03689,P3689,Outpatient,9,1,Home
+E03690,P3690,Inpatient,13,2,Home
+E03691,P3691,Outpatient,3,1,Home
+E03692,P3692,Inpatient,14,1,Home Health
+E03693,P3693,Outpatient,27,3,Home
+E03694,P3694,Inpatient,27,1,Home
+E03695,P3695,Outpatient,14,2,Home
+E03696,P3696,Outpatient,18,2,Home Health
+E03697,P3697,Inpatient,4,3,Skilled Nursing
+E03698,P3698,Outpatient,8,1,Home
+E03699,P3699,Outpatient,18,2,Home
+E03700,P3700,Inpatient,13,2,Home
+E03701,P3701,Outpatient,10,1,Home
+E03702,P3702,Outpatient,4,3,Home
+E03703,P3703,Outpatient,10,5,Home Health
+E03704,P3704,Outpatient,10,4,Home Health
+E03705,P3705,Outpatient,7,3,Skilled Nursing
+E03706,P3706,Inpatient,11,2,Home Health
+E03707,P3707,Outpatient,15,3,Home
+E03708,P3708,Inpatient,5,3,Skilled Nursing
+E03709,P3709,Inpatient,3,6,Home
+E03710,P3710,Outpatient,26,4,Home
+E03711,P3711,Outpatient,17,5,Home
+E03712,P3712,Inpatient,19,2,Home
+E03713,P3713,Inpatient,8,2,Home
+E03714,P3714,Outpatient,2,6,Home
+E03715,P3715,Outpatient,25,1,Home
+E03716,P3716,Inpatient,4,2,Home Health
+E03717,P3717,Outpatient,24,4,Home
+E03718,P3718,Outpatient,29,4,Home Health
+E03719,P3719,Outpatient,4,3,Home Health
+E03720,P3720,Outpatient,4,6,Home
+E03721,P3721,Inpatient,2,4,Home Health
+E03722,P3722,Inpatient,21,5,Skilled Nursing
+E03723,P3723,Outpatient,9,4,Home Health
+E03724,P3724,Inpatient,23,6,Home
+E03725,P3725,Inpatient,16,4,Home Health
+E03726,P3726,Outpatient,26,1,Home
+E03727,P3727,Inpatient,29,2,Home
+E03728,P3728,Inpatient,26,6,Home
+E03729,P3729,Outpatient,11,5,Home
+E03730,P3730,Outpatient,20,3,Home
+E03731,P3731,Outpatient,13,4,Home
+E03732,P3732,Inpatient,20,3,Home
+E03733,P3733,Outpatient,25,5,Home
+E03734,P3734,Outpatient,15,4,Skilled Nursing
+E03735,P3735,Inpatient,22,6,Skilled Nursing
+E03736,P3736,Outpatient,3,4,Home
+E03737,P3737,Outpatient,22,3,Home Health
+E03738,P3738,Inpatient,18,1,Home Health
+E03739,P3739,Outpatient,23,7,Home
+E03740,P3740,Outpatient,12,5,Home
+E03741,P3741,Outpatient,25,4,Home
+E03742,P3742,Inpatient,15,6,Home
+E03743,P3743,Outpatient,12,4,Home
+E03744,P3744,Inpatient,20,3,Home Health
+E03745,P3745,Outpatient,8,3,Home Health
+E03746,P3746,Inpatient,19,5,Home
+E03747,P3747,Outpatient,19,3,Home
+E03748,P3748,Outpatient,23,4,Home Health
+E03749,P3749,Inpatient,6,4,Home Health
+E03750,P3750,Outpatient,21,2,Skilled Nursing
+E03751,P3751,Outpatient,10,3,Home
+E03752,P3752,Inpatient,25,1,Home Health
+E03753,P3753,Inpatient,10,8,Home
+E03754,P3754,Inpatient,29,1,Home
+E03755,P3755,Outpatient,5,3,Home
+E03756,P3756,Outpatient,12,5,Home Health
+E03757,P3757,Outpatient,19,4,Home
+E03758,P3758,Outpatient,16,3,Home
+E03759,P3759,Outpatient,7,2,Home Health
+E03760,P3760,Inpatient,2,6,Home Health
+E03761,P3761,Outpatient,26,3,Home Health
+E03762,P3762,Inpatient,9,2,Home
+E03763,P3763,Outpatient,11,3,Home
+E03764,P3764,Inpatient,16,3,Home
+E03765,P3765,Outpatient,7,3,Home Health
+E03766,P3766,Outpatient,12,6,Skilled Nursing
+E03767,P3767,Inpatient,23,6,Home
+E03768,P3768,Inpatient,14,6,Home
+E03769,P3769,Inpatient,29,1,Home Health
+E03770,P3770,Inpatient,16,3,Home
+E03771,P3771,Outpatient,23,4,Home
+E03772,P3772,Inpatient,25,2,Home
+E03773,P3773,Inpatient,21,3,Home
+E03774,P3774,Outpatient,3,4,Home
+E03775,P3775,Outpatient,12,4,Skilled Nursing
+E03776,P3776,Outpatient,19,1,Home
+E03777,P3777,Outpatient,25,1,Home Health
+E03778,P3778,Inpatient,18,7,Home
+E03779,P3779,Inpatient,25,1,Home Health
+E03780,P3780,Inpatient,12,1,Home
+E03781,P3781,Outpatient,22,3,Home
+E03782,P3782,Outpatient,23,2,Home
+E03783,P3783,Inpatient,5,1,Skilled Nursing
+E03784,P3784,Outpatient,29,2,Home
+E03785,P3785,Inpatient,23,2,Home
+E03786,P3786,Inpatient,20,3,Home
+E03787,P3787,Outpatient,15,4,Skilled Nursing
+E03788,P3788,Outpatient,20,1,Home
+E03789,P3789,Inpatient,26,3,Home
+E03790,P3790,Inpatient,8,3,Home
+E03791,P3791,Inpatient,29,4,Home
+E03792,P3792,Outpatient,26,6,Home Health
+E03793,P3793,Outpatient,9,5,Home
+E03794,P3794,Inpatient,5,2,Home
+E03795,P3795,Outpatient,13,1,Home
+E03796,P3796,Outpatient,23,3,Home Health
+E03797,P3797,Inpatient,21,6,Home
+E03798,P3798,Outpatient,27,5,Home
+E03799,P3799,Inpatient,19,2,Home Health
+E03800,P3800,Inpatient,22,1,Skilled Nursing
+E03801,P3801,Outpatient,27,1,Skilled Nursing
+E03802,P3802,Inpatient,10,3,Home
+E03803,P3803,Outpatient,19,1,Home
+E03804,P3804,Outpatient,16,3,Home
+E03805,P3805,Outpatient,21,6,Home
+E03806,P3806,Inpatient,26,6,Home Health
+E03807,P3807,Outpatient,6,4,Home Health
+E03808,P3808,Outpatient,4,1,Home Health
+E03809,P3809,Inpatient,7,5,Home
+E03810,P3810,Inpatient,8,6,Home Health
+E03811,P3811,Inpatient,4,4,Home Health
+E03812,P3812,Outpatient,7,2,Home
+E03813,P3813,Inpatient,29,2,Home Health
+E03814,P3814,Inpatient,19,4,Home
+E03815,P3815,Inpatient,14,2,Home
+E03816,P3816,Outpatient,5,5,Home Health
+E03817,P3817,Outpatient,19,2,Home
+E03818,P3818,Inpatient,9,5,Home Health
+E03819,P3819,Inpatient,22,2,Home
+E03820,P3820,Inpatient,25,5,Skilled Nursing
+E03821,P3821,Outpatient,11,3,Home
+E03822,P3822,Outpatient,19,7,Home
+E03823,P3823,Inpatient,27,1,Home
+E03824,P3824,Outpatient,16,2,Home
+E03825,P3825,Inpatient,7,7,Home
+E03826,P3826,Inpatient,4,1,Home Health
+E03827,P3827,Outpatient,9,4,Home
+E03828,P3828,Outpatient,6,3,Home Health
+E03829,P3829,Outpatient,15,4,Home
+E03830,P3830,Inpatient,5,8,Home Health
+E03831,P3831,Inpatient,3,5,Home
+E03832,P3832,Inpatient,7,4,Home
+E03833,P3833,Outpatient,5,3,Home
+E03834,P3834,Outpatient,8,2,Home
+E03835,P3835,Inpatient,21,8,Home
+E03836,P3836,Inpatient,14,1,Skilled Nursing
+E03837,P3837,Inpatient,7,3,Home
+E03838,P3838,Inpatient,11,3,Home
+E03839,P3839,Outpatient,12,5,Home Health
+E03840,P3840,Outpatient,2,4,Home
+E03841,P3841,Outpatient,24,5,Skilled Nursing
+E03842,P3842,Inpatient,25,2,Home Health
+E03843,P3843,Outpatient,24,4,Home
+E03844,P3844,Outpatient,25,3,Home Health
+E03845,P3845,Inpatient,26,3,Home
+E03846,P3846,Inpatient,12,2,Home
+E03847,P3847,Outpatient,23,3,Home
+E03848,P3848,Outpatient,27,1,Home
+E03849,P3849,Inpatient,16,5,Home Health
+E03850,P3850,Outpatient,29,3,Home Health
+E03851,P3851,Outpatient,28,5,Home
+E03852,P3852,Outpatient,12,1,Home
+E03853,P3853,Outpatient,2,4,Home Health
+E03854,P3854,Inpatient,20,4,Home
+E03855,P3855,Outpatient,22,4,Home
+E03856,P3856,Outpatient,26,5,Home
+E03857,P3857,Outpatient,13,4,Home Health
+E03858,P3858,Inpatient,23,8,Home
+E03859,P3859,Outpatient,5,6,Skilled Nursing
+E03860,P3860,Outpatient,8,2,Skilled Nursing
+E03861,P3861,Outpatient,25,3,Home
+E03862,P3862,Inpatient,17,5,Home Health
+E03863,P3863,Inpatient,5,4,Home
+E03864,P3864,Inpatient,13,2,Skilled Nursing
+E03865,P3865,Inpatient,8,6,Home
+E03866,P3866,Inpatient,9,5,Home
+E03867,P3867,Outpatient,8,3,Home Health
+E03868,P3868,Inpatient,19,1,Home
+E03869,P3869,Inpatient,22,1,Home
+E03870,P3870,Inpatient,2,2,Home
+E03871,P3871,Inpatient,7,2,Home
+E03872,P3872,Outpatient,6,5,Home Health
+E03873,P3873,Outpatient,5,3,Home
+E03874,P3874,Inpatient,4,2,Skilled Nursing
+E03875,P3875,Outpatient,19,4,Home
+E03876,P3876,Inpatient,29,1,Home
+E03877,P3877,Inpatient,16,7,Home Health
+E03878,P3878,Outpatient,6,1,Home
+E03879,P3879,Outpatient,25,2,Home
+E03880,P3880,Outpatient,25,1,Home Health
+E03881,P3881,Outpatient,28,8,Home
+E03882,P3882,Outpatient,26,3,Skilled Nursing
+E03883,P3883,Inpatient,10,4,Home Health
+E03884,P3884,Outpatient,16,4,Home Health
+E03885,P3885,Outpatient,26,3,Home
+E03886,P3886,Outpatient,3,5,Home
+E03887,P3887,Inpatient,14,4,Home
+E03888,P3888,Outpatient,23,2,Home
+E03889,P3889,Outpatient,21,2,Home Health
+E03890,P3890,Outpatient,18,5,Home
+E03891,P3891,Inpatient,23,5,Home
+E03892,P3892,Inpatient,19,1,Home
+E03893,P3893,Inpatient,19,4,Home
+E03894,P3894,Inpatient,17,7,Home Health
+E03895,P3895,Inpatient,21,3,Home Health
+E03896,P3896,Outpatient,11,5,Home
+E03897,P3897,Outpatient,9,6,Home Health
+E03898,P3898,Outpatient,29,3,Home
+E03899,P3899,Outpatient,12,2,Home
+E03900,P3900,Outpatient,21,3,Home
+E03901,P3901,Outpatient,13,5,Home
+E03902,P3902,Inpatient,21,6,Home
+E03903,P3903,Inpatient,9,3,Home
+E03904,P3904,Inpatient,17,5,Home
+E03905,P3905,Inpatient,14,5,Home
+E03906,P3906,Outpatient,3,6,Skilled Nursing
+E03907,P3907,Inpatient,14,3,Home
+E03908,P3908,Outpatient,18,5,Home
+E03909,P3909,Outpatient,13,2,Skilled Nursing
+E03910,P3910,Outpatient,15,2,Home
+E03911,P3911,Outpatient,16,5,Home Health
+E03912,P3912,Inpatient,13,3,Home
+E03913,P3913,Outpatient,12,2,Home
+E03914,P3914,Outpatient,15,5,Home
+E03915,P3915,Inpatient,5,6,Home Health
+E03916,P3916,Outpatient,25,2,Home
+E03917,P3917,Outpatient,17,1,Home Health
+E03918,P3918,Inpatient,26,3,Home
+E03919,P3919,Inpatient,7,6,Home
+E03920,P3920,Outpatient,26,11,Home
+E03921,P3921,Inpatient,29,1,Home
+E03922,P3922,Outpatient,17,3,Home
+E03923,P3923,Inpatient,20,3,Home Health
+E03924,P3924,Inpatient,22,2,Home Health
+E03925,P3925,Outpatient,11,3,Home
+E03926,P3926,Inpatient,9,1,Skilled Nursing
+E03927,P3927,Inpatient,13,6,Skilled Nursing
+E03928,P3928,Inpatient,6,8,Home
+E03929,P3929,Inpatient,8,4,Skilled Nursing
+E03930,P3930,Outpatient,19,1,Home
+E03931,P3931,Inpatient,16,2,Home Health
+E03932,P3932,Inpatient,27,5,Home
+E03933,P3933,Outpatient,11,1,Home
+E03934,P3934,Inpatient,20,1,Home Health
+E03935,P3935,Inpatient,12,3,Home
+E03936,P3936,Outpatient,27,3,Home
+E03937,P3937,Outpatient,23,2,Home Health
+E03938,P3938,Inpatient,14,7,Home
+E03939,P3939,Inpatient,22,3,Home
+E03940,P3940,Inpatient,13,3,Home
+E03941,P3941,Outpatient,28,5,Home
+E03942,P3942,Inpatient,26,6,Home
+E03943,P3943,Outpatient,10,3,Home
+E03944,P3944,Outpatient,17,2,Home
+E03945,P3945,Inpatient,5,1,Home
+E03946,P3946,Outpatient,8,3,Home
+E03947,P3947,Outpatient,19,6,Home
+E03948,P3948,Outpatient,2,2,Home
+E03949,P3949,Inpatient,9,4,Home
+E03950,P3950,Outpatient,9,2,Home Health
+E03951,P3951,Outpatient,25,6,Home Health
+E03952,P3952,Inpatient,2,5,Home
+E03953,P3953,Inpatient,25,5,Home Health
+E03954,P3954,Outpatient,29,5,Home
+E03955,P3955,Inpatient,21,5,Home
+E03956,P3956,Outpatient,6,7,Home
+E03957,P3957,Inpatient,8,5,Home
+E03958,P3958,Outpatient,6,4,Home
+E03959,P3959,Outpatient,25,3,Home
+E03960,P3960,Outpatient,22,3,Home
+E03961,P3961,Outpatient,5,2,Home
+E03962,P3962,Outpatient,28,2,Home
+E03963,P3963,Outpatient,3,3,Home
+E03964,P3964,Inpatient,6,5,Home
+E03965,P3965,Outpatient,29,5,Home
+E03966,P3966,Inpatient,8,6,Home
+E03967,P3967,Outpatient,22,3,Home
+E03968,P3968,Outpatient,11,8,Home
+E03969,P3969,Inpatient,13,4,Home
+E03970,P3970,Inpatient,15,5,Home
+E03971,P3971,Inpatient,15,2,Skilled Nursing
+E03972,P3972,Outpatient,4,2,Home
+E03973,P3973,Outpatient,6,2,Home Health
+E03974,P3974,Inpatient,3,3,Skilled Nursing
+E03975,P3975,Outpatient,25,4,Home
+E03976,P3976,Inpatient,2,6,Home
+E03977,P3977,Inpatient,25,1,Home
+E03978,P3978,Outpatient,29,4,Home
+E03979,P3979,Outpatient,10,3,Home
+E03980,P3980,Inpatient,20,4,Home
+E03981,P3981,Outpatient,20,1,Home Health
+E03982,P3982,Inpatient,27,1,Skilled Nursing
+E03983,P3983,Outpatient,2,1,Home Health
+E03984,P3984,Inpatient,23,4,Home
+E03985,P3985,Outpatient,26,5,Home
+E03986,P3986,Inpatient,27,4,Skilled Nursing
+E03987,P3987,Outpatient,3,5,Home
+E03988,P3988,Inpatient,13,5,Home
+E03989,P3989,Inpatient,24,3,Home
+E03990,P3990,Outpatient,24,3,Home Health
+E03991,P3991,Outpatient,10,6,Home Health
+E03992,P3992,Outpatient,29,4,Home
+E03993,P3993,Inpatient,15,3,Home
+E03994,P3994,Outpatient,16,1,Home
+E03995,P3995,Inpatient,18,4,Home Health
+E03996,P3996,Outpatient,24,2,Home
+E03997,P3997,Outpatient,10,7,Skilled Nursing
+E03998,P3998,Inpatient,28,1,Skilled Nursing
+E03999,P3999,Inpatient,17,3,Skilled Nursing
+E04000,P4000,Outpatient,22,1,Home
+E04001,P4001,Inpatient,20,2,Home Health
+E04002,P4002,Outpatient,2,1,Home
+E04003,P4003,Inpatient,25,5,Skilled Nursing
+E04004,P4004,Outpatient,24,3,Home
+E04005,P4005,Inpatient,26,4,Home
+E04006,P4006,Inpatient,5,5,Skilled Nursing
+E04007,P4007,Outpatient,7,5,Home
+E04008,P4008,Outpatient,28,2,Home Health
+E04009,P4009,Outpatient,25,6,Home
+E04010,P4010,Inpatient,26,3,Home
+E04011,P4011,Inpatient,14,2,Home
+E04012,P4012,Outpatient,11,6,Home
+E04013,P4013,Inpatient,8,3,Home
+E04014,P4014,Inpatient,19,6,Home
+E04015,P4015,Outpatient,9,1,Home Health
+E04016,P4016,Outpatient,29,1,Home
+E04017,P4017,Inpatient,29,6,Home Health
+E04018,P4018,Outpatient,11,5,Home
+E04019,P4019,Inpatient,3,2,Home
+E04020,P4020,Outpatient,23,9,Home Health
+E04021,P4021,Inpatient,22,1,Home Health
+E04022,P4022,Outpatient,11,5,Home
+E04023,P4023,Outpatient,3,2,Home
+E04024,P4024,Inpatient,16,1,Home
+E04025,P4025,Inpatient,28,3,Home Health
+E04026,P4026,Outpatient,28,2,Home
+E04027,P4027,Inpatient,9,5,Home
+E04028,P4028,Outpatient,14,1,Home
+E04029,P4029,Inpatient,12,3,Home
+E04030,P4030,Inpatient,2,3,Home
+E04031,P4031,Outpatient,20,1,Home
+E04032,P4032,Inpatient,16,4,Home
+E04033,P4033,Outpatient,9,2,Home
+E04034,P4034,Inpatient,11,3,Home
+E04035,P4035,Inpatient,8,1,Home Health
+E04036,P4036,Inpatient,25,2,Home
+E04037,P4037,Inpatient,15,5,Home Health
+E04038,P4038,Inpatient,24,1,Home
+E04039,P4039,Inpatient,8,2,Home
+E04040,P4040,Outpatient,23,1,Home
+E04041,P4041,Outpatient,22,4,Home
+E04042,P4042,Inpatient,21,3,Home
+E04043,P4043,Outpatient,22,5,Home
+E04044,P4044,Inpatient,29,6,Home Health
+E04045,P4045,Inpatient,23,5,Home
+E04046,P4046,Outpatient,10,1,Home
+E04047,P4047,Outpatient,11,7,Skilled Nursing
+E04048,P4048,Inpatient,4,2,Home
+E04049,P4049,Inpatient,21,3,Home
+E04050,P4050,Inpatient,21,3,Home Health
+E04051,P4051,Outpatient,9,4,Skilled Nursing
+E04052,P4052,Inpatient,19,3,Home
+E04053,P4053,Inpatient,29,5,Home
+E04054,P4054,Outpatient,12,6,Home
+E04055,P4055,Inpatient,29,1,Home
+E04056,P4056,Outpatient,2,8,Home
+E04057,P4057,Outpatient,4,2,Home
+E04058,P4058,Inpatient,12,6,Home
+E04059,P4059,Outpatient,22,1,Home
+E04060,P4060,Outpatient,6,4,Home
+E04061,P4061,Outpatient,9,3,Home
+E04062,P4062,Inpatient,6,3,Home
+E04063,P4063,Outpatient,5,7,Home
+E04064,P4064,Outpatient,26,4,Home
+E04065,P4065,Inpatient,7,7,Home
+E04066,P4066,Outpatient,16,1,Home Health
+E04067,P4067,Outpatient,22,1,Home
+E04068,P4068,Inpatient,16,7,Home
+E04069,P4069,Outpatient,12,2,Home Health
+E04070,P4070,Outpatient,6,3,Skilled Nursing
+E04071,P4071,Outpatient,27,3,Home
+E04072,P4072,Outpatient,28,5,Home
+E04073,P4073,Inpatient,14,4,Home
+E04074,P4074,Outpatient,12,1,Home
+E04075,P4075,Inpatient,19,1,Home
+E04076,P4076,Outpatient,18,7,Home
+E04077,P4077,Outpatient,3,3,Home
+E04078,P4078,Inpatient,4,3,Home
+E04079,P4079,Outpatient,4,7,Home
+E04080,P4080,Outpatient,17,4,Home Health
+E04081,P4081,Outpatient,23,2,Home
+E04082,P4082,Outpatient,4,2,Home
+E04083,P4083,Inpatient,18,3,Home Health
+E04084,P4084,Outpatient,14,7,Home Health
+E04085,P4085,Outpatient,6,1,Home
+E04086,P4086,Inpatient,26,1,Home
+E04087,P4087,Inpatient,10,3,Home
+E04088,P4088,Inpatient,3,2,Home
+E04089,P4089,Outpatient,11,1,Home
+E04090,P4090,Outpatient,13,1,Home
+E04091,P4091,Inpatient,3,3,Home
+E04092,P4092,Outpatient,9,2,Home
+E04093,P4093,Outpatient,7,3,Home
+E04094,P4094,Inpatient,7,1,Home Health
+E04095,P4095,Inpatient,28,5,Home
+E04096,P4096,Outpatient,13,7,Home
+E04097,P4097,Inpatient,15,3,Home
+E04098,P4098,Outpatient,27,2,Home
+E04099,P4099,Outpatient,6,1,Home Health
+E04100,P4100,Inpatient,14,4,Home
+E04101,P4101,Outpatient,8,1,Home
+E04102,P4102,Inpatient,19,3,Home
+E04103,P4103,Inpatient,2,2,Home Health
+E04104,P4104,Inpatient,25,4,Home
+E04105,P4105,Outpatient,18,5,Home
+E04106,P4106,Inpatient,5,1,Home
+E04107,P4107,Outpatient,3,3,Home
+E04108,P4108,Inpatient,11,3,Home
+E04109,P4109,Outpatient,17,3,Home
+E04110,P4110,Outpatient,3,5,Home Health
+E04111,P4111,Inpatient,24,5,Home
+E04112,P4112,Outpatient,4,2,Home
+E04113,P4113,Inpatient,5,3,Home
+E04114,P4114,Outpatient,9,1,Home
+E04115,P4115,Outpatient,17,3,Home
+E04116,P4116,Inpatient,19,2,Home
+E04117,P4117,Inpatient,2,4,Home
+E04118,P4118,Outpatient,14,4,Skilled Nursing
+E04119,P4119,Inpatient,28,1,Home
+E04120,P4120,Outpatient,7,5,Skilled Nursing
+E04121,P4121,Outpatient,28,2,Home Health
+E04122,P4122,Inpatient,3,3,Home
+E04123,P4123,Inpatient,20,4,Home
+E04124,P4124,Outpatient,15,3,Home Health
+E04125,P4125,Inpatient,16,3,Home
+E04126,P4126,Outpatient,3,2,Home
+E04127,P4127,Outpatient,15,4,Home Health
+E04128,P4128,Outpatient,7,3,Home
+E04129,P4129,Outpatient,8,1,Home
+E04130,P4130,Outpatient,3,4,Home
+E04131,P4131,Inpatient,7,4,Home
+E04132,P4132,Inpatient,18,4,Home Health
+E04133,P4133,Inpatient,4,4,Home
+E04134,P4134,Outpatient,6,3,Home Health
+E04135,P4135,Inpatient,4,5,Skilled Nursing
+E04136,P4136,Inpatient,12,1,Home
+E04137,P4137,Inpatient,16,4,Home
+E04138,P4138,Outpatient,8,3,Home
+E04139,P4139,Outpatient,17,1,Home
+E04140,P4140,Outpatient,27,3,Home
+E04141,P4141,Inpatient,20,6,Home
+E04142,P4142,Outpatient,19,3,Home
+E04143,P4143,Inpatient,9,2,Home
+E04144,P4144,Inpatient,13,6,Home
+E04145,P4145,Inpatient,17,2,Home
+E04146,P4146,Outpatient,24,8,Home
+E04147,P4147,Outpatient,9,1,Home
+E04148,P4148,Outpatient,24,1,Home
+E04149,P4149,Outpatient,5,2,Home
+E04150,P4150,Inpatient,21,6,Home
+E04151,P4151,Outpatient,25,2,Home Health
+E04152,P4152,Outpatient,16,2,Skilled Nursing
+E04153,P4153,Inpatient,15,4,Home Health
+E04154,P4154,Outpatient,16,4,Home
+E04155,P4155,Inpatient,16,1,Home
+E04156,P4156,Inpatient,24,1,Home
+E04157,P4157,Outpatient,24,3,Home Health
+E04158,P4158,Outpatient,6,6,Home
+E04159,P4159,Outpatient,4,6,Home
+E04160,P4160,Inpatient,17,4,Home
+E04161,P4161,Outpatient,13,2,Home
+E04162,P4162,Outpatient,27,5,Home
+E04163,P4163,Outpatient,8,4,Home
+E04164,P4164,Outpatient,25,4,Home
+E04165,P4165,Outpatient,24,4,Home
+E04166,P4166,Inpatient,14,3,Home Health
+E04167,P4167,Outpatient,25,4,Home
+E04168,P4168,Inpatient,23,3,Home
+E04169,P4169,Outpatient,5,2,Home
+E04170,P4170,Outpatient,6,2,Home
+E04171,P4171,Outpatient,11,4,Home
+E04172,P4172,Outpatient,27,2,Home
+E04173,P4173,Outpatient,14,4,Home Health
+E04174,P4174,Outpatient,16,5,Skilled Nursing
+E04175,P4175,Outpatient,18,3,Skilled Nursing
+E04176,P4176,Inpatient,24,3,Home
+E04177,P4177,Outpatient,22,6,Home
+E04178,P4178,Outpatient,16,1,Home
+E04179,P4179,Outpatient,13,2,Home
+E04180,P4180,Outpatient,19,2,Home Health
+E04181,P4181,Outpatient,11,5,Home Health
+E04182,P4182,Outpatient,12,4,Home
+E04183,P4183,Outpatient,18,3,Home Health
+E04184,P4184,Inpatient,6,3,Home
+E04185,P4185,Outpatient,14,9,Home Health
+E04186,P4186,Outpatient,16,5,Home
+E04187,P4187,Inpatient,29,5,Home
+E04188,P4188,Outpatient,29,1,Home
+E04189,P4189,Inpatient,5,7,Home
+E04190,P4190,Outpatient,2,1,Home
+E04191,P4191,Inpatient,24,2,Home
+E04192,P4192,Inpatient,11,7,Home
+E04193,P4193,Outpatient,8,2,Home
+E04194,P4194,Inpatient,4,6,Home
+E04195,P4195,Inpatient,2,3,Home
+E04196,P4196,Outpatient,21,2,Skilled Nursing
+E04197,P4197,Outpatient,12,3,Home Health
+E04198,P4198,Outpatient,11,4,Home
+E04199,P4199,Outpatient,17,2,Home
+E04200,P4200,Outpatient,29,2,Home
+E04201,P4201,Outpatient,4,3,Home Health
+E04202,P4202,Outpatient,6,7,Home
+E04203,P4203,Outpatient,7,7,Home
+E04204,P4204,Outpatient,15,4,Home
+E04205,P4205,Outpatient,22,1,Home
+E04206,P4206,Inpatient,29,3,Home
+E04207,P4207,Outpatient,20,5,Skilled Nursing
+E04208,P4208,Outpatient,7,3,Home
+E04209,P4209,Outpatient,22,8,Skilled Nursing
+E04210,P4210,Outpatient,5,5,Home
+E04211,P4211,Inpatient,19,7,Home
+E04212,P4212,Outpatient,20,4,Home
+E04213,P4213,Inpatient,8,2,Skilled Nursing
+E04214,P4214,Outpatient,4,2,Home
+E04215,P4215,Outpatient,8,3,Home Health
+E04216,P4216,Inpatient,13,6,Home
+E04217,P4217,Outpatient,15,1,Home
+E04218,P4218,Inpatient,9,4,Home
+E04219,P4219,Inpatient,26,1,Home Health
+E04220,P4220,Inpatient,15,2,Home
+E04221,P4221,Outpatient,11,4,Home
+E04222,P4222,Outpatient,4,3,Home
+E04223,P4223,Inpatient,18,5,Skilled Nursing
+E04224,P4224,Inpatient,26,2,Home
+E04225,P4225,Inpatient,20,4,Skilled Nursing
+E04226,P4226,Outpatient,4,5,Home
+E04227,P4227,Outpatient,3,1,Home
+E04228,P4228,Inpatient,27,3,Home
+E04229,P4229,Outpatient,7,1,Home
+E04230,P4230,Outpatient,24,2,Home
+E04231,P4231,Outpatient,2,5,Home
+E04232,P4232,Outpatient,25,1,Home
+E04233,P4233,Outpatient,3,4,Home
+E04234,P4234,Inpatient,22,5,Home Health
+E04235,P4235,Outpatient,25,4,Home
+E04236,P4236,Outpatient,29,2,Home Health
+E04237,P4237,Outpatient,8,3,Home
+E04238,P4238,Inpatient,24,6,Home
+E04239,P4239,Outpatient,5,3,Home
+E04240,P4240,Inpatient,13,1,Home
+E04241,P4241,Inpatient,15,6,Home
+E04242,P4242,Outpatient,25,3,Home Health
+E04243,P4243,Inpatient,8,5,Skilled Nursing
+E04244,P4244,Outpatient,28,4,Home
+E04245,P4245,Outpatient,12,3,Home
+E04246,P4246,Outpatient,26,2,Home
+E04247,P4247,Outpatient,25,5,Home Health
+E04248,P4248,Inpatient,19,1,Home Health
+E04249,P4249,Outpatient,13,1,Home
+E04250,P4250,Inpatient,27,1,Home
+E04251,P4251,Inpatient,29,4,Skilled Nursing
+E04252,P4252,Inpatient,17,3,Home
+E04253,P4253,Inpatient,7,6,Home
+E04254,P4254,Inpatient,8,6,Home Health
+E04255,P4255,Inpatient,16,2,Home
+E04256,P4256,Inpatient,6,5,Home
+E04257,P4257,Outpatient,12,3,Skilled Nursing
+E04258,P4258,Inpatient,21,1,Home
+E04259,P4259,Inpatient,27,7,Home
+E04260,P4260,Outpatient,11,3,Home Health
+E04261,P4261,Outpatient,23,5,Home Health
+E04262,P4262,Inpatient,4,1,Home
+E04263,P4263,Inpatient,8,5,Home Health
+E04264,P4264,Inpatient,3,1,Home
+E04265,P4265,Inpatient,13,2,Home
+E04266,P4266,Outpatient,5,2,Home
+E04267,P4267,Inpatient,26,1,Home Health
+E04268,P4268,Inpatient,23,5,Home
+E04269,P4269,Outpatient,25,2,Home
+E04270,P4270,Outpatient,3,2,Home
+E04271,P4271,Outpatient,4,5,Home
+E04272,P4272,Outpatient,23,4,Home
+E04273,P4273,Outpatient,26,6,Skilled Nursing
+E04274,P4274,Outpatient,2,3,Home Health
+E04275,P4275,Outpatient,18,3,Home
+E04276,P4276,Outpatient,4,6,Home Health
+E04277,P4277,Inpatient,4,6,Home
+E04278,P4278,Outpatient,26,5,Home
+E04279,P4279,Outpatient,18,6,Home
+E04280,P4280,Outpatient,25,2,Home
+E04281,P4281,Inpatient,29,3,Skilled Nursing
+E04282,P4282,Inpatient,18,3,Home
+E04283,P4283,Outpatient,2,1,Home
+E04284,P4284,Outpatient,8,3,Home
+E04285,P4285,Outpatient,24,1,Home
+E04286,P4286,Outpatient,3,2,Home
+E04287,P4287,Inpatient,19,4,Home
+E04288,P4288,Inpatient,12,1,Home
+E04289,P4289,Inpatient,22,3,Home
+E04290,P4290,Inpatient,23,5,Home
+E04291,P4291,Inpatient,13,1,Home
+E04292,P4292,Inpatient,17,2,Home
+E04293,P4293,Outpatient,14,3,Home Health
+E04294,P4294,Outpatient,24,4,Home
+E04295,P4295,Inpatient,25,1,Home
+E04296,P4296,Inpatient,20,2,Home
+E04297,P4297,Inpatient,5,3,Home
+E04298,P4298,Outpatient,27,1,Skilled Nursing
+E04299,P4299,Inpatient,21,3,Home
+E04300,P4300,Outpatient,23,2,Skilled Nursing
+E04301,P4301,Inpatient,7,3,Home Health
+E04302,P4302,Inpatient,6,5,Home
+E04303,P4303,Inpatient,23,2,Home
+E04304,P4304,Outpatient,8,1,Home Health
+E04305,P4305,Inpatient,24,9,Home Health
+E04306,P4306,Outpatient,10,4,Home Health
+E04307,P4307,Inpatient,29,2,Home
+E04308,P4308,Inpatient,9,3,Home
+E04309,P4309,Outpatient,14,3,Home
+E04310,P4310,Outpatient,5,2,Home
+E04311,P4311,Outpatient,12,1,Home Health
+E04312,P4312,Inpatient,24,7,Skilled Nursing
+E04313,P4313,Inpatient,26,7,Home
+E04314,P4314,Outpatient,10,8,Home
+E04315,P4315,Outpatient,20,7,Home
+E04316,P4316,Outpatient,16,5,Home
+E04317,P4317,Outpatient,5,7,Home
+E04318,P4318,Outpatient,28,3,Home
+E04319,P4319,Outpatient,5,3,Skilled Nursing
+E04320,P4320,Outpatient,10,3,Home
+E04321,P4321,Outpatient,6,3,Home
+E04322,P4322,Inpatient,18,2,Home
+E04323,P4323,Inpatient,28,1,Home
+E04324,P4324,Outpatient,16,1,Home Health
+E04325,P4325,Outpatient,10,3,Home
+E04326,P4326,Outpatient,27,1,Home Health
+E04327,P4327,Outpatient,27,4,Home
+E04328,P4328,Outpatient,28,1,Home Health
+E04329,P4329,Inpatient,17,1,Home
+E04330,P4330,Outpatient,29,3,Home
+E04331,P4331,Outpatient,4,1,Home
+E04332,P4332,Inpatient,8,2,Home
+E04333,P4333,Inpatient,27,1,Home
+E04334,P4334,Outpatient,28,4,Home Health
+E04335,P4335,Outpatient,28,2,Home
+E04336,P4336,Inpatient,25,4,Skilled Nursing
+E04337,P4337,Inpatient,9,2,Home
+E04338,P4338,Outpatient,16,3,Home
+E04339,P4339,Outpatient,3,1,Home
+E04340,P4340,Outpatient,18,3,Home
+E04341,P4341,Inpatient,20,4,Skilled Nursing
+E04342,P4342,Outpatient,2,3,Skilled Nursing
+E04343,P4343,Outpatient,23,7,Home
+E04344,P4344,Inpatient,26,2,Home
+E04345,P4345,Outpatient,13,1,Home Health
+E04346,P4346,Outpatient,8,4,Home
+E04347,P4347,Outpatient,11,5,Home
+E04348,P4348,Outpatient,16,1,Home
+E04349,P4349,Inpatient,2,1,Home
+E04350,P4350,Outpatient,20,4,Skilled Nursing
+E04351,P4351,Outpatient,19,2,Home
+E04352,P4352,Inpatient,24,1,Home
+E04353,P4353,Outpatient,25,4,Home
+E04354,P4354,Inpatient,24,3,Home Health
+E04355,P4355,Outpatient,19,4,Home
+E04356,P4356,Inpatient,19,5,Home
+E04357,P4357,Outpatient,10,3,Home
+E04358,P4358,Inpatient,10,1,Home
+E04359,P4359,Outpatient,22,4,Skilled Nursing
+E04360,P4360,Inpatient,25,1,Skilled Nursing
+E04361,P4361,Outpatient,18,6,Home
+E04362,P4362,Outpatient,10,4,Home
+E04363,P4363,Inpatient,13,6,Home
+E04364,P4364,Inpatient,25,3,Skilled Nursing
+E04365,P4365,Inpatient,21,4,Home
+E04366,P4366,Outpatient,9,6,Skilled Nursing
+E04367,P4367,Inpatient,14,5,Home
+E04368,P4368,Inpatient,13,4,Home
+E04369,P4369,Inpatient,2,7,Home
+E04370,P4370,Inpatient,12,4,Home
+E04371,P4371,Inpatient,18,6,Home
+E04372,P4372,Outpatient,21,3,Home
+E04373,P4373,Inpatient,22,5,Home
+E04374,P4374,Inpatient,20,5,Skilled Nursing
+E04375,P4375,Inpatient,24,2,Home
+E04376,P4376,Outpatient,8,4,Home
+E04377,P4377,Outpatient,2,2,Home Health
+E04378,P4378,Inpatient,10,1,Home
+E04379,P4379,Outpatient,18,3,Skilled Nursing
+E04380,P4380,Inpatient,22,1,Home Health
+E04381,P4381,Outpatient,10,2,Skilled Nursing
+E04382,P4382,Outpatient,4,5,Home Health
+E04383,P4383,Inpatient,4,2,Home Health
+E04384,P4384,Outpatient,27,3,Home Health
+E04385,P4385,Inpatient,16,3,Home
+E04386,P4386,Outpatient,26,4,Home
+E04387,P4387,Inpatient,7,4,Home
+E04388,P4388,Outpatient,2,1,Home Health
+E04389,P4389,Outpatient,20,1,Home
+E04390,P4390,Inpatient,23,4,Skilled Nursing
+E04391,P4391,Outpatient,15,9,Skilled Nursing
+E04392,P4392,Outpatient,2,6,Home
+E04393,P4393,Inpatient,22,4,Home
+E04394,P4394,Inpatient,10,5,Home
+E04395,P4395,Inpatient,6,8,Home
+E04396,P4396,Outpatient,9,2,Home
+E04397,P4397,Inpatient,2,1,Home
+E04398,P4398,Outpatient,24,1,Skilled Nursing
+E04399,P4399,Inpatient,14,1,Home
+E04400,P4400,Outpatient,5,4,Home
+E04401,P4401,Inpatient,25,3,Home
+E04402,P4402,Inpatient,10,3,Home
+E04403,P4403,Inpatient,15,3,Home Health
+E04404,P4404,Inpatient,22,8,Home
+E04405,P4405,Inpatient,18,3,Home
+E04406,P4406,Outpatient,2,2,Home
+E04407,P4407,Inpatient,15,3,Home Health
+E04408,P4408,Outpatient,9,6,Home
+E04409,P4409,Inpatient,26,3,Home Health
+E04410,P4410,Outpatient,29,6,Home Health
+E04411,P4411,Outpatient,18,4,Home
+E04412,P4412,Inpatient,25,4,Home
+E04413,P4413,Outpatient,18,7,Home
+E04414,P4414,Inpatient,20,3,Skilled Nursing
+E04415,P4415,Inpatient,9,6,Home
+E04416,P4416,Outpatient,14,2,Skilled Nursing
+E04417,P4417,Inpatient,8,1,Home
+E04418,P4418,Outpatient,22,5,Home
+E04419,P4419,Outpatient,23,1,Skilled Nursing
+E04420,P4420,Inpatient,13,6,Home
+E04421,P4421,Outpatient,10,2,Home Health
+E04422,P4422,Inpatient,4,4,Skilled Nursing
+E04423,P4423,Inpatient,9,1,Home
+E04424,P4424,Outpatient,16,5,Home
+E04425,P4425,Outpatient,26,1,Home Health
+E04426,P4426,Inpatient,20,2,Home
+E04427,P4427,Inpatient,16,4,Home
+E04428,P4428,Outpatient,18,6,Home
+E04429,P4429,Inpatient,12,3,Home
+E04430,P4430,Inpatient,16,6,Home Health
+E04431,P4431,Outpatient,27,2,Home
+E04432,P4432,Inpatient,29,5,Home
+E04433,P4433,Inpatient,9,1,Home
+E04434,P4434,Inpatient,2,6,Home Health
+E04435,P4435,Outpatient,9,2,Skilled Nursing
+E04436,P4436,Outpatient,13,1,Home
+E04437,P4437,Inpatient,29,5,Home
+E04438,P4438,Outpatient,6,5,Home
+E04439,P4439,Outpatient,26,2,Home Health
+E04440,P4440,Outpatient,12,3,Home
+E04441,P4441,Outpatient,23,4,Home
+E04442,P4442,Outpatient,11,3,Home
+E04443,P4443,Inpatient,22,2,Home
+E04444,P4444,Outpatient,3,4,Skilled Nursing
+E04445,P4445,Inpatient,8,6,Home Health
+E04446,P4446,Outpatient,5,2,Home Health
+E04447,P4447,Outpatient,23,2,Home
+E04448,P4448,Outpatient,23,5,Skilled Nursing
+E04449,P4449,Inpatient,4,6,Home
+E04450,P4450,Inpatient,13,4,Home
+E04451,P4451,Inpatient,19,5,Home Health
+E04452,P4452,Outpatient,27,5,Home Health
+E04453,P4453,Outpatient,16,5,Home
+E04454,P4454,Inpatient,29,2,Home
+E04455,P4455,Outpatient,23,3,Home
+E04456,P4456,Inpatient,26,4,Home Health
+E04457,P4457,Outpatient,29,2,Home
+E04458,P4458,Inpatient,20,5,Home
+E04459,P4459,Outpatient,21,2,Home Health
+E04460,P4460,Inpatient,17,3,Home
+E04461,P4461,Inpatient,25,5,Home
+E04462,P4462,Outpatient,22,5,Home
+E04463,P4463,Outpatient,13,3,Home
+E04464,P4464,Inpatient,2,4,Home
+E04465,P4465,Inpatient,27,1,Home Health
+E04466,P4466,Inpatient,5,3,Home
+E04467,P4467,Outpatient,24,7,Home
+E04468,P4468,Outpatient,3,1,Home Health
+E04469,P4469,Outpatient,21,8,Home
+E04470,P4470,Outpatient,24,2,Home
+E04471,P4471,Outpatient,8,6,Home
+E04472,P4472,Outpatient,6,3,Home Health
+E04473,P4473,Outpatient,21,2,Home Health
+E04474,P4474,Outpatient,27,2,Home
+E04475,P4475,Outpatient,8,2,Home
+E04476,P4476,Inpatient,18,4,Home
+E04477,P4477,Outpatient,29,1,Home
+E04478,P4478,Inpatient,29,2,Home
+E04479,P4479,Inpatient,19,2,Home
+E04480,P4480,Outpatient,22,5,Home
+E04481,P4481,Outpatient,15,5,Home
+E04482,P4482,Outpatient,4,3,Home
+E04483,P4483,Inpatient,19,7,Home Health
+E04484,P4484,Inpatient,15,1,Home Health
+E04485,P4485,Inpatient,8,4,Home
+E04486,P4486,Inpatient,6,5,Home
+E04487,P4487,Outpatient,25,4,Home
+E04488,P4488,Outpatient,4,3,Home
+E04489,P4489,Outpatient,23,5,Home
+E04490,P4490,Inpatient,18,3,Home
+E04491,P4491,Outpatient,7,1,Home
+E04492,P4492,Outpatient,12,7,Home
+E04493,P4493,Outpatient,4,4,Home
+E04494,P4494,Outpatient,14,2,Home
+E04495,P4495,Outpatient,18,3,Skilled Nursing
+E04496,P4496,Outpatient,14,5,Home
+E04497,P4497,Outpatient,17,3,Home
+E04498,P4498,Outpatient,5,3,Skilled Nursing
+E04499,P4499,Inpatient,14,1,Home
+E04500,P4500,Outpatient,2,3,Home
+E04501,P4501,Inpatient,23,7,Home Health
+E04502,P4502,Inpatient,27,8,Home Health
+E04503,P4503,Inpatient,2,2,Home
+E04504,P4504,Inpatient,11,6,Home
+E04505,P4505,Outpatient,15,3,Home
+E04506,P4506,Outpatient,3,2,Home Health
+E04507,P4507,Outpatient,24,4,Home
+E04508,P4508,Outpatient,12,5,Home Health
+E04509,P4509,Inpatient,19,3,Home
+E04510,P4510,Inpatient,21,2,Home Health
+E04511,P4511,Inpatient,15,2,Home
+E04512,P4512,Outpatient,17,5,Home
+E04513,P4513,Inpatient,3,4,Home Health
+E04514,P4514,Inpatient,10,7,Home
+E04515,P4515,Outpatient,11,3,Home
+E04516,P4516,Inpatient,9,4,Skilled Nursing
+E04517,P4517,Inpatient,17,3,Home
+E04518,P4518,Inpatient,19,3,Home
+E04519,P4519,Outpatient,18,4,Home
+E04520,P4520,Outpatient,12,1,Home
+E04521,P4521,Inpatient,10,1,Home
+E04522,P4522,Inpatient,18,4,Home
+E04523,P4523,Outpatient,26,5,Home Health
+E04524,P4524,Inpatient,8,4,Home
+E04525,P4525,Inpatient,5,3,Home Health
+E04526,P4526,Inpatient,11,5,Home
+E04527,P4527,Outpatient,8,2,Home
+E04528,P4528,Outpatient,25,1,Home
+E04529,P4529,Outpatient,25,2,Home
+E04530,P4530,Outpatient,17,1,Home
+E04531,P4531,Outpatient,13,2,Home
+E04532,P4532,Inpatient,13,3,Home
+E04533,P4533,Inpatient,9,7,Skilled Nursing
+E04534,P4534,Inpatient,7,3,Home
+E04535,P4535,Outpatient,17,3,Home
+E04536,P4536,Inpatient,18,1,Home Health
+E04537,P4537,Outpatient,18,3,Home
+E04538,P4538,Outpatient,13,5,Home
+E04539,P4539,Inpatient,24,5,Home
+E04540,P4540,Inpatient,11,2,Home
+E04541,P4541,Outpatient,22,5,Home
+E04542,P4542,Outpatient,19,6,Home
+E04543,P4543,Outpatient,12,2,Home Health
+E04544,P4544,Outpatient,18,2,Home
+E04545,P4545,Outpatient,8,1,Home
+E04546,P4546,Outpatient,7,2,Home Health
+E04547,P4547,Inpatient,12,3,Home Health
+E04548,P4548,Outpatient,23,7,Home
+E04549,P4549,Outpatient,23,4,Skilled Nursing
+E04550,P4550,Outpatient,23,3,Skilled Nursing
+E04551,P4551,Outpatient,12,6,Home
+E04552,P4552,Inpatient,19,1,Home
+E04553,P4553,Outpatient,29,3,Home
+E04554,P4554,Outpatient,19,1,Skilled Nursing
+E04555,P4555,Inpatient,23,4,Home
+E04556,P4556,Inpatient,10,1,Home
+E04557,P4557,Outpatient,19,1,Home
+E04558,P4558,Outpatient,13,4,Home
+E04559,P4559,Inpatient,26,4,Home
+E04560,P4560,Outpatient,26,2,Home Health
+E04561,P4561,Inpatient,24,3,Home Health
+E04562,P4562,Outpatient,25,3,Home
+E04563,P4563,Outpatient,17,6,Home
+E04564,P4564,Inpatient,26,2,Home Health
+E04565,P4565,Outpatient,3,3,Home
+E04566,P4566,Outpatient,25,3,Home Health
+E04567,P4567,Inpatient,18,4,Home
+E04568,P4568,Inpatient,25,4,Home
+E04569,P4569,Outpatient,22,2,Home
+E04570,P4570,Outpatient,15,4,Home
+E04571,P4571,Outpatient,24,5,Home Health
+E04572,P4572,Inpatient,11,5,Home
+E04573,P4573,Inpatient,14,5,Home
+E04574,P4574,Outpatient,28,5,Home Health
+E04575,P4575,Outpatient,17,4,Home
+E04576,P4576,Outpatient,23,5,Home
+E04577,P4577,Inpatient,13,3,Home
+E04578,P4578,Inpatient,2,3,Home
+E04579,P4579,Outpatient,29,1,Home
+E04580,P4580,Inpatient,6,4,Home Health
+E04581,P4581,Inpatient,17,5,Home Health
+E04582,P4582,Inpatient,21,3,Home
+E04583,P4583,Outpatient,25,2,Home
+E04584,P4584,Outpatient,23,5,Home
+E04585,P4585,Inpatient,24,5,Home
+E04586,P4586,Outpatient,5,7,Home
+E04587,P4587,Outpatient,11,6,Home Health
+E04588,P4588,Inpatient,17,3,Home
+E04589,P4589,Inpatient,25,3,Home
+E04590,P4590,Outpatient,17,4,Home
+E04591,P4591,Inpatient,28,2,Home
+E04592,P4592,Outpatient,13,4,Home
+E04593,P4593,Outpatient,12,3,Home
+E04594,P4594,Inpatient,17,4,Home
+E04595,P4595,Outpatient,5,4,Home Health
+E04596,P4596,Inpatient,3,1,Home
+E04597,P4597,Inpatient,10,4,Skilled Nursing
+E04598,P4598,Inpatient,13,3,Home
+E04599,P4599,Inpatient,12,3,Home
+E04600,P4600,Outpatient,6,4,Home
+E04601,P4601,Outpatient,25,5,Home
+E04602,P4602,Outpatient,19,5,Home
+E04603,P4603,Inpatient,14,5,Home Health
+E04604,P4604,Inpatient,17,1,Home Health
+E04605,P4605,Inpatient,20,2,Home
+E04606,P4606,Outpatient,2,5,Home
+E04607,P4607,Inpatient,27,5,Home
+E04608,P4608,Outpatient,28,3,Home
+E04609,P4609,Outpatient,5,4,Home
+E04610,P4610,Inpatient,13,3,Home
+E04611,P4611,Inpatient,25,1,Skilled Nursing
+E04612,P4612,Outpatient,8,5,Home Health
+E04613,P4613,Outpatient,16,5,Home
+E04614,P4614,Outpatient,15,4,Home
+E04615,P4615,Outpatient,22,1,Home
+E04616,P4616,Inpatient,19,5,Home Health
+E04617,P4617,Outpatient,3,4,Skilled Nursing
+E04618,P4618,Outpatient,28,8,Home
+E04619,P4619,Outpatient,25,1,Skilled Nursing
+E04620,P4620,Outpatient,28,2,Home
+E04621,P4621,Inpatient,3,1,Home
+E04622,P4622,Outpatient,22,2,Home
+E04623,P4623,Outpatient,15,3,Home Health
+E04624,P4624,Outpatient,23,4,Home
+E04625,P4625,Outpatient,12,1,Home
+E04626,P4626,Inpatient,11,6,Home
+E04627,P4627,Outpatient,14,5,Home Health
+E04628,P4628,Inpatient,11,1,Skilled Nursing
+E04629,P4629,Outpatient,27,5,Home
+E04630,P4630,Outpatient,12,1,Home Health
+E04631,P4631,Outpatient,10,3,Home
+E04632,P4632,Inpatient,12,5,Home Health
+E04633,P4633,Outpatient,10,3,Skilled Nursing
+E04634,P4634,Outpatient,18,4,Home
+E04635,P4635,Outpatient,2,2,Home
+E04636,P4636,Outpatient,16,5,Home
+E04637,P4637,Outpatient,23,4,Home
+E04638,P4638,Outpatient,11,2,Home Health
+E04639,P4639,Inpatient,10,2,Home Health
+E04640,P4640,Outpatient,23,2,Home Health
+E04641,P4641,Inpatient,7,3,Home
+E04642,P4642,Inpatient,29,3,Home
+E04643,P4643,Inpatient,27,3,Home Health
+E04644,P4644,Outpatient,17,2,Home
+E04645,P4645,Outpatient,2,6,Home
+E04646,P4646,Outpatient,11,4,Home Health
+E04647,P4647,Outpatient,22,5,Home
+E04648,P4648,Inpatient,23,2,Home
+E04649,P4649,Outpatient,2,1,Home Health
+E04650,P4650,Outpatient,7,2,Home
+E04651,P4651,Outpatient,19,5,Home
+E04652,P4652,Outpatient,18,2,Home Health
+E04653,P4653,Inpatient,4,3,Home
+E04654,P4654,Outpatient,9,1,Home
+E04655,P4655,Outpatient,13,3,Skilled Nursing
+E04656,P4656,Outpatient,7,6,Skilled Nursing
+E04657,P4657,Inpatient,18,7,Home
+E04658,P4658,Outpatient,16,2,Home
+E04659,P4659,Outpatient,20,1,Home
+E04660,P4660,Outpatient,5,2,Home Health
+E04661,P4661,Inpatient,18,4,Home
+E04662,P4662,Outpatient,17,7,Home
+E04663,P4663,Inpatient,20,1,Home Health
+E04664,P4664,Outpatient,26,8,Skilled Nursing
+E04665,P4665,Outpatient,25,3,Home
+E04666,P4666,Inpatient,22,3,Home
+E04667,P4667,Outpatient,9,3,Home Health
+E04668,P4668,Outpatient,19,3,Home Health
+E04669,P4669,Outpatient,5,4,Home
+E04670,P4670,Outpatient,4,3,Home
+E04671,P4671,Inpatient,15,1,Home
+E04672,P4672,Inpatient,4,5,Home Health
+E04673,P4673,Inpatient,18,1,Home
+E04674,P4674,Inpatient,25,4,Home
+E04675,P4675,Inpatient,8,3,Home
+E04676,P4676,Inpatient,24,2,Home
+E04677,P4677,Inpatient,5,3,Home
+E04678,P4678,Inpatient,6,3,Home
+E04679,P4679,Outpatient,6,2,Home
+E04680,P4680,Inpatient,15,3,Home
+E04681,P4681,Outpatient,13,1,Home
+E04682,P4682,Inpatient,28,4,Home Health
+E04683,P4683,Inpatient,18,4,Home
+E04684,P4684,Outpatient,24,7,Home
+E04685,P4685,Outpatient,6,2,Home Health
+E04686,P4686,Outpatient,14,2,Skilled Nursing
+E04687,P4687,Outpatient,3,6,Home
+E04688,P4688,Outpatient,13,2,Home Health
+E04689,P4689,Inpatient,14,5,Home
+E04690,P4690,Outpatient,15,2,Skilled Nursing
+E04691,P4691,Outpatient,29,2,Home
+E04692,P4692,Outpatient,2,2,Home Health
+E04693,P4693,Outpatient,20,6,Home
+E04694,P4694,Outpatient,20,4,Home
+E04695,P4695,Outpatient,27,3,Skilled Nursing
+E04696,P4696,Outpatient,14,3,Home Health
+E04697,P4697,Outpatient,27,6,Home Health
+E04698,P4698,Inpatient,5,7,Home
+E04699,P4699,Outpatient,26,2,Home
+E04700,P4700,Outpatient,2,3,Home
+E04701,P4701,Outpatient,5,3,Home Health
+E04702,P4702,Outpatient,19,4,Home
+E04703,P4703,Outpatient,15,2,Home
+E04704,P4704,Outpatient,18,2,Home
+E04705,P4705,Inpatient,13,3,Home Health
+E04706,P4706,Inpatient,23,3,Home
+E04707,P4707,Outpatient,22,3,Home
+E04708,P4708,Outpatient,5,3,Home Health
+E04709,P4709,Outpatient,20,4,Home
+E04710,P4710,Inpatient,3,4,Home
+E04711,P4711,Inpatient,27,2,Home
+E04712,P4712,Outpatient,25,1,Home
+E04713,P4713,Outpatient,7,8,Home Health
+E04714,P4714,Inpatient,5,4,Home
+E04715,P4715,Outpatient,2,6,Home Health
+E04716,P4716,Outpatient,5,2,Home
+E04717,P4717,Inpatient,24,6,Home
+E04718,P4718,Inpatient,28,4,Home
+E04719,P4719,Outpatient,18,3,Home Health
+E04720,P4720,Inpatient,5,1,Skilled Nursing
+E04721,P4721,Inpatient,16,3,Home Health
+E04722,P4722,Outpatient,14,2,Home
+E04723,P4723,Outpatient,25,3,Home
+E04724,P4724,Outpatient,26,2,Skilled Nursing
+E04725,P4725,Inpatient,20,3,Home
+E04726,P4726,Inpatient,9,4,Home
+E04727,P4727,Outpatient,26,2,Home
+E04728,P4728,Inpatient,14,2,Home Health
+E04729,P4729,Inpatient,17,1,Home
+E04730,P4730,Inpatient,29,5,Home
+E04731,P4731,Outpatient,20,7,Home
+E04732,P4732,Outpatient,10,1,Home
+E04733,P4733,Outpatient,19,1,Home
+E04734,P4734,Inpatient,23,2,Home Health
+E04735,P4735,Outpatient,10,4,Skilled Nursing
+E04736,P4736,Outpatient,19,3,Home
+E04737,P4737,Outpatient,29,5,Home
+E04738,P4738,Inpatient,22,3,Home Health
+E04739,P4739,Outpatient,12,4,Home
+E04740,P4740,Inpatient,12,4,Home
+E04741,P4741,Inpatient,8,3,Home
+E04742,P4742,Outpatient,22,1,Home
+E04743,P4743,Inpatient,28,1,Home Health
+E04744,P4744,Outpatient,18,6,Skilled Nursing
+E04745,P4745,Outpatient,7,4,Home
+E04746,P4746,Outpatient,26,1,Home
+E04747,P4747,Outpatient,2,3,Home
+E04748,P4748,Inpatient,9,2,Home
+E04749,P4749,Outpatient,15,3,Home
+E04750,P4750,Outpatient,4,5,Home
+E04751,P4751,Outpatient,26,3,Home
+E04752,P4752,Inpatient,11,4,Home
+E04753,P4753,Outpatient,9,3,Home
+E04754,P4754,Inpatient,22,1,Home
+E04755,P4755,Outpatient,23,4,Skilled Nursing
+E04756,P4756,Outpatient,16,2,Home
+E04757,P4757,Outpatient,15,4,Home Health
+E04758,P4758,Inpatient,16,4,Skilled Nursing
+E04759,P4759,Outpatient,17,5,Home Health
+E04760,P4760,Inpatient,6,1,Home
+E04761,P4761,Inpatient,4,4,Home
+E04762,P4762,Outpatient,6,2,Home
+E04763,P4763,Outpatient,11,2,Home Health
+E04764,P4764,Outpatient,6,1,Home
+E04765,P4765,Outpatient,26,6,Home
+E04766,P4766,Inpatient,14,3,Home
+E04767,P4767,Outpatient,28,1,Home
+E04768,P4768,Outpatient,16,1,Home
+E04769,P4769,Outpatient,22,2,Home
+E04770,P4770,Inpatient,28,4,Home Health
+E04771,P4771,Inpatient,2,1,Home
+E04772,P4772,Inpatient,10,4,Home
+E04773,P4773,Outpatient,18,2,Home Health
+E04774,P4774,Outpatient,4,1,Home
+E04775,P4775,Outpatient,2,3,Home Health
+E04776,P4776,Outpatient,14,3,Home Health
+E04777,P4777,Outpatient,6,1,Home
+E04778,P4778,Inpatient,16,1,Skilled Nursing
+E04779,P4779,Outpatient,14,2,Skilled Nursing
+E04780,P4780,Outpatient,18,4,Home Health
+E04781,P4781,Inpatient,17,4,Home
+E04782,P4782,Outpatient,26,4,Skilled Nursing
+E04783,P4783,Inpatient,8,4,Home Health
+E04784,P4784,Outpatient,14,2,Home
+E04785,P4785,Inpatient,25,7,Home Health
+E04786,P4786,Outpatient,3,2,Home Health
+E04787,P4787,Inpatient,15,1,Home Health
+E04788,P4788,Outpatient,26,6,Home
+E04789,P4789,Outpatient,28,5,Home
+E04790,P4790,Outpatient,13,2,Home
+E04791,P4791,Outpatient,23,3,Home Health
+E04792,P4792,Outpatient,2,7,Home Health
+E04793,P4793,Inpatient,2,6,Home
+E04794,P4794,Inpatient,10,3,Home
+E04795,P4795,Inpatient,7,3,Home Health
+E04796,P4796,Outpatient,14,2,Home
+E04797,P4797,Outpatient,17,4,Home
+E04798,P4798,Outpatient,28,2,Home
+E04799,P4799,Inpatient,2,4,Home
+E04800,P4800,Outpatient,3,4,Home
+E04801,P4801,Inpatient,3,5,Skilled Nursing
+E04802,P4802,Inpatient,26,3,Home Health
+E04803,P4803,Outpatient,8,1,Home
+E04804,P4804,Inpatient,4,4,Home
+E04805,P4805,Outpatient,10,3,Home
+E04806,P4806,Outpatient,20,5,Home
+E04807,P4807,Outpatient,10,5,Home
+E04808,P4808,Outpatient,6,4,Home
+E04809,P4809,Inpatient,13,4,Home Health
+E04810,P4810,Inpatient,11,2,Home
+E04811,P4811,Inpatient,8,7,Home
+E04812,P4812,Inpatient,26,3,Home Health
+E04813,P4813,Inpatient,15,2,Home
+E04814,P4814,Outpatient,18,4,Home
+E04815,P4815,Inpatient,8,6,Home
+E04816,P4816,Outpatient,25,3,Skilled Nursing
+E04817,P4817,Outpatient,27,2,Home
+E04818,P4818,Outpatient,9,5,Home
+E04819,P4819,Outpatient,21,1,Home
+E04820,P4820,Inpatient,15,2,Home
+E04821,P4821,Inpatient,19,4,Home
+E04822,P4822,Outpatient,7,3,Home
+E04823,P4823,Outpatient,29,1,Home
+E04824,P4824,Outpatient,25,3,Home
+E04825,P4825,Outpatient,14,1,Home
+E04826,P4826,Outpatient,17,1,Home
+E04827,P4827,Outpatient,15,4,Home Health
+E04828,P4828,Inpatient,16,3,Home
+E04829,P4829,Inpatient,10,3,Home Health
+E04830,P4830,Inpatient,9,7,Home
+E04831,P4831,Inpatient,6,6,Skilled Nursing
+E04832,P4832,Outpatient,4,5,Home
+E04833,P4833,Outpatient,28,4,Home
+E04834,P4834,Outpatient,16,4,Home Health
+E04835,P4835,Inpatient,17,2,Home
+E04836,P4836,Outpatient,6,6,Home Health
+E04837,P4837,Inpatient,17,6,Home
+E04838,P4838,Outpatient,4,4,Home
+E04839,P4839,Inpatient,18,3,Home
+E04840,P4840,Outpatient,22,5,Skilled Nursing
+E04841,P4841,Outpatient,20,3,Home Health
+E04842,P4842,Inpatient,21,7,Home Health
+E04843,P4843,Outpatient,7,1,Home
+E04844,P4844,Outpatient,3,2,Home
+E04845,P4845,Inpatient,20,3,Home
+E04846,P4846,Inpatient,24,1,Skilled Nursing
+E04847,P4847,Inpatient,3,1,Home Health
+E04848,P4848,Inpatient,27,5,Home
+E04849,P4849,Inpatient,20,2,Skilled Nursing
+E04850,P4850,Outpatient,26,5,Home
+E04851,P4851,Inpatient,16,1,Home
+E04852,P4852,Inpatient,7,3,Home
+E04853,P4853,Inpatient,16,4,Home
+E04854,P4854,Inpatient,23,4,Home
+E04855,P4855,Outpatient,27,3,Home
+E04856,P4856,Outpatient,21,1,Home
+E04857,P4857,Outpatient,13,3,Home
+E04858,P4858,Outpatient,20,2,Home
+E04859,P4859,Outpatient,13,4,Home Health
+E04860,P4860,Outpatient,4,4,Home
+E04861,P4861,Outpatient,11,2,Home
+E04862,P4862,Inpatient,13,1,Home
+E04863,P4863,Inpatient,13,4,Home
+E04864,P4864,Inpatient,2,3,Home
+E04865,P4865,Outpatient,9,4,Home
+E04866,P4866,Outpatient,29,2,Home
+E04867,P4867,Inpatient,29,3,Home
+E04868,P4868,Outpatient,8,4,Home
+E04869,P4869,Outpatient,11,2,Home
+E04870,P4870,Outpatient,28,2,Home Health
+E04871,P4871,Outpatient,7,3,Home
+E04872,P4872,Outpatient,23,3,Home
+E04873,P4873,Outpatient,17,2,Home Health
+E04874,P4874,Outpatient,7,4,Home
+E04875,P4875,Outpatient,25,4,Home
+E04876,P4876,Outpatient,13,6,Home Health
+E04877,P4877,Inpatient,10,4,Home
+E04878,P4878,Inpatient,18,3,Home
+E04879,P4879,Outpatient,16,3,Home
+E04880,P4880,Outpatient,3,3,Home
+E04881,P4881,Inpatient,6,1,Home
+E04882,P4882,Outpatient,17,3,Home
+E04883,P4883,Outpatient,23,2,Home
+E04884,P4884,Inpatient,11,4,Home
+E04885,P4885,Inpatient,27,3,Home Health
+E04886,P4886,Outpatient,4,1,Skilled Nursing
+E04887,P4887,Inpatient,13,1,Home Health
+E04888,P4888,Outpatient,21,1,Home Health
+E04889,P4889,Inpatient,6,2,Home
+E04890,P4890,Inpatient,17,2,Home
+E04891,P4891,Inpatient,29,5,Home
+E04892,P4892,Outpatient,24,2,Home
+E04893,P4893,Outpatient,12,3,Home
+E04894,P4894,Outpatient,27,5,Home
+E04895,P4895,Outpatient,24,3,Home
+E04896,P4896,Inpatient,7,4,Home Health
+E04897,P4897,Outpatient,20,1,Home
+E04898,P4898,Inpatient,20,9,Skilled Nursing
+E04899,P4899,Inpatient,11,3,Home
+E04900,P4900,Inpatient,10,1,Home Health
+E04901,P4901,Outpatient,8,2,Home
+E04902,P4902,Inpatient,17,5,Home
+E04903,P4903,Outpatient,5,6,Home Health
+E04904,P4904,Inpatient,6,3,Home
+E04905,P4905,Inpatient,24,2,Home
+E04906,P4906,Inpatient,8,5,Skilled Nursing
+E04907,P4907,Outpatient,19,3,Home
+E04908,P4908,Inpatient,24,3,Home
+E04909,P4909,Outpatient,2,4,Home
+E04910,P4910,Inpatient,7,4,Home
+E04911,P4911,Inpatient,3,3,Home Health
+E04912,P4912,Outpatient,12,4,Home Health
+E04913,P4913,Outpatient,10,2,Home
+E04914,P4914,Inpatient,25,2,Home
+E04915,P4915,Inpatient,25,4,Home
+E04916,P4916,Outpatient,9,4,Home Health
+E04917,P4917,Outpatient,10,6,Home
+E04918,P4918,Outpatient,16,2,Home
+E04919,P4919,Outpatient,17,2,Home
+E04920,P4920,Inpatient,6,7,Home
+E04921,P4921,Outpatient,21,5,Home
+E04922,P4922,Outpatient,7,2,Home Health
+E04923,P4923,Outpatient,27,6,Home
+E04924,P4924,Outpatient,8,2,Home Health
+E04925,P4925,Outpatient,29,3,Home
+E04926,P4926,Inpatient,9,3,Home
+E04927,P4927,Outpatient,10,3,Skilled Nursing
+E04928,P4928,Inpatient,5,4,Home
+E04929,P4929,Inpatient,2,6,Skilled Nursing
+E04930,P4930,Inpatient,18,5,Home Health
+E04931,P4931,Inpatient,25,1,Home
+E04932,P4932,Inpatient,14,1,Home Health
+E04933,P4933,Outpatient,4,3,Home Health
+E04934,P4934,Inpatient,2,6,Home
+E04935,P4935,Inpatient,20,4,Home
+E04936,P4936,Inpatient,2,4,Home
+E04937,P4937,Outpatient,2,2,Home
+E04938,P4938,Outpatient,23,3,Home Health
+E04939,P4939,Inpatient,21,3,Home
+E04940,P4940,Inpatient,25,1,Skilled Nursing
+E04941,P4941,Inpatient,15,3,Home
+E04942,P4942,Outpatient,29,1,Home
+E04943,P4943,Inpatient,3,3,Home
+E04944,P4944,Inpatient,3,5,Home Health
+E04945,P4945,Inpatient,14,1,Home
+E04946,P4946,Outpatient,15,5,Home
+E04947,P4947,Inpatient,28,5,Home Health
+E04948,P4948,Inpatient,4,2,Home Health
+E04949,P4949,Outpatient,26,5,Home
+E04950,P4950,Inpatient,17,2,Home Health
+E04951,P4951,Outpatient,22,1,Home
+E04952,P4952,Outpatient,19,2,Home Health
+E04953,P4953,Inpatient,20,6,Home
+E04954,P4954,Inpatient,16,9,Home
+E04955,P4955,Outpatient,18,4,Home
+E04956,P4956,Outpatient,8,5,Home
+E04957,P4957,Outpatient,19,4,Home Health
+E04958,P4958,Outpatient,14,3,Home
+E04959,P4959,Outpatient,25,5,Home Health
+E04960,P4960,Outpatient,14,4,Home
+E04961,P4961,Outpatient,9,3,Home
+E04962,P4962,Outpatient,27,5,Home
+E04963,P4963,Outpatient,14,3,Skilled Nursing
+E04964,P4964,Inpatient,8,4,Home Health
+E04965,P4965,Inpatient,11,4,Home Health
+E04966,P4966,Inpatient,16,2,Home
+E04967,P4967,Inpatient,12,3,Skilled Nursing
+E04968,P4968,Inpatient,26,3,Home
+E04969,P4969,Inpatient,7,6,Skilled Nursing
+E04970,P4970,Inpatient,12,4,Home
+E04971,P4971,Outpatient,4,2,Skilled Nursing
+E04972,P4972,Outpatient,13,6,Home
+E04973,P4973,Inpatient,17,7,Home
+E04974,P4974,Outpatient,8,2,Home
+E04975,P4975,Inpatient,18,5,Home Health
+E04976,P4976,Inpatient,19,4,Home
+E04977,P4977,Inpatient,24,6,Home
+E04978,P4978,Outpatient,13,3,Home
+E04979,P4979,Outpatient,12,3,Home Health
+E04980,P4980,Outpatient,24,4,Home Health
+E04981,P4981,Outpatient,14,1,Home
+E04982,P4982,Outpatient,19,1,Home Health
+E04983,P4983,Inpatient,27,6,Home
+E04984,P4984,Outpatient,18,5,Home
+E04985,P4985,Inpatient,26,6,Home
+E04986,P4986,Inpatient,21,4,Home
+E04987,P4987,Inpatient,9,3,Home
+E04988,P4988,Outpatient,3,3,Home
+E04989,P4989,Outpatient,29,1,Home
+E04990,P4990,Inpatient,8,2,Home
+E04991,P4991,Outpatient,27,1,Home
+E04992,P4992,Outpatient,12,4,Home
+E04993,P4993,Outpatient,4,4,Home
+E04994,P4994,Inpatient,24,2,Home
+E04995,P4995,Outpatient,20,2,Home
+E04996,P4996,Inpatient,3,6,Home Health
+E04997,P4997,Outpatient,9,2,Home
+E04998,P4998,Outpatient,11,6,Skilled Nursing
+E04999,P4999,Inpatient,20,4,Skilled Nursing
+E05000,P5000,Outpatient,21,5,Home
