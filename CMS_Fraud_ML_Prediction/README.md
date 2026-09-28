@@ -18,9 +18,6 @@ Five models are compared: Logistic Regression, Random Forest, XGBoost, KNN, and 
 | KNN | 87.4% | 41.7% | 86.6% | 0.563 | 0.495 |
 | SVM | 90.8% | 50.5% | 86.6% | 0.638 | 0.603 |
 
-- **Logistic Regression** achieved the highest average precision (0.758), with 86.6% recall.
-- **XGBoost** achieved the highest accuracy (93.3%), precision (61.6%), and F1 score (0.685).
-
-Precision, recall, and F1 refer to the positive class at a 0.5 threshold. Predictions flag providers for review; they do not establish fraud. Independent labeled data is needed for final evaluation.
+Precision, recall, and F1 refer to the positive class at a 0.5 threshold.
 
 Note: All the data from Kaggle.
