@@ -26,6 +26,7 @@ Projects utilize a blend of structured and unstructured healthcare datasets, suc
 - Public health and demographic surveys (e.g., BMI datasets)  
 - Unstructured clinical notes and medical text corpora
 - Public CMS Datasets
+- Kaggle
 
 ---
 
