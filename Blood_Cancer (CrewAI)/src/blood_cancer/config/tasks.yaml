@@ -1,0 +1,62 @@
+collect_publications:
+  description: >
+    For {topic} as of {current_date}, search PubMed for up to 5 key publications.
+    Report PMID, title, year, URL, design, main finding and limitations when available.
+    Distinguish actual retrieved abstracts from inference; do not invent citations.
+  expected_output: "Publication evidence table with verifiable PubMed links and gaps."
+  agent: publication_researcher
+collect_guidelines:
+  description: >
+    Identify authoritative clinical sources for {topic}, including NCI PDQ and relevant FDA/ASH material.
+    If web search is unavailable, explicitly state sources were not verified live.
+    Never pretend to have accessed paywalled NCCN guidance.
+  expected_output: "Guideline/source summary, URLs when verified, dates, and access limitations."
+  agent: clinical_guideline_researcher
+analyze_symptoms:
+  description: >
+    Explain typical and atypical symptom patterns for {topic} and nonspecific differentials.
+    Flag emergencies such as uncontrolled bleeding, severe breathing difficulty, or fever with suspected neutropenia.
+    Do not diagnose or triage a real patient from this research prompt.
+  expected_output: "Educational symptom matrix and urgent warning signs."
+  agent: symptom_analyst
+  context: [collect_publications, collect_guidelines]
+review_diagnostics:
+  description: >
+    Summarize the diagnostic pathway and disease classification for {topic}; distinguish
+    suspicion, confirmation, subtype and prognostic risk stratification.
+    Include flow cytometry, morphology, cytogenetics and molecular studies where relevant.
+  expected_output: "Diagnostic workflow, uncertainties and tests requiring specialists."
+  agent: diagnostic_analyst
+  context: [collect_publications, collect_guidelines]
+review_laboratory_tests:
+  description: >
+    Explain common laboratory tests for {topic}, including why ordered, what they can and cannot establish,
+    and major confounders. Do not interpret patient-specific lab results or invent thresholds.
+  expected_output: "Laboratory test matrix with indications and limitations."
+  agent: laboratory_analyst
+  context: [collect_publications, collect_guidelines, review_diagnostics]
+review_treatments:
+  description: >
+    Research evidence-based treatment categories for {topic}, separating standard-of-care,
+    biomarker-dependent choices, emerging therapies and trials. Cite verifiable sources.
+    Describe important risks without prescribing regimens or doses.
+  expected_output: "Treatment evidence table with citations, patient-selection factors and limitations."
+  agent: treatment_researcher
+  context: [collect_publications, collect_guidelines, review_diagnostics]
+audit_evidence:
+  description: >
+    Audit all preceding outputs for unsupported medical claims, fabricated references,
+    conflicting dates, overconfident conclusions, clinical safety issues, and missing evidence.
+    Explicitly mark not verified rather than silently accepting it.
+  expected_output: "Evidence and safety audit: supported, uncertain, unverified and corrections."
+  agent: evidence_auditor
+  context: [collect_publications, collect_guidelines, analyze_symptoms, review_diagnostics, review_laboratory_tests, review_treatments]
+synthesize_report:
+  description: >
+    Answer the research question '{question}' about {topic}, using preceding evidence and the audit.
+    Sections: overview, publications, symptoms/red flags, diagnosis, labs, treatment evidence,
+    unresolved questions, references and clinician-review disclaimer. Clearly label unverified claims.
+  expected_output: "A concise, cited educational report in Markdown."
+  agent: report_manager
+  context: [collect_publications, collect_guidelines, analyze_symptoms, review_diagnostics, review_laboratory_tests, review_treatments, audit_evidence]
+  output_file: output/blood_cancer_report.md
